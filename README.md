@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="AnubisX Framework Logo" width="200"/>
+</p>
+
 # AnubisX Framework
 
 **A scientific methodology for behavioral identity attribution.**
