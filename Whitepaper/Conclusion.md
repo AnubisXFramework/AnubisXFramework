@@ -15,6 +15,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Summary
 
 The AnubisX Framework presents a complete scientific methodology for digital identity attribution based on invariant human cognitive signatures. It transforms digital attribution from an intuition-dependent craft into a reproducible, mathematically rigorous science.

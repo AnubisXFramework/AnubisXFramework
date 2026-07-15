@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Introduction
 
 This guide provides a comprehensive walkthrough of the AnubisX Framework architecture, pipeline, workflows, fusion strategies, decision framework, configuration parameters, and API interfaces. It is intended for engineers and researchers implementing or integrating the framework.

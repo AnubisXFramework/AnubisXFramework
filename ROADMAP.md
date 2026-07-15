@@ -6,6 +6,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## Current Status
 
 The AnubisX Framework has completed its **theoretical specification** and achieved **partial prototype validation**. 22 content layers are complete. The prototype (Anubis Twitter v2.5) implements stylometric fingerprinting with 15 executed experiments producing verified results across 31 Egyptian Twitter accounts.

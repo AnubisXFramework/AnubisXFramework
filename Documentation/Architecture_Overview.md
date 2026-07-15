@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Framework Architecture
 
 The AnubisX Framework defines a five-stage pipeline for behavioral identity attribution:

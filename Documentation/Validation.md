@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Introduction
 
 This document defines the AnubisX Framework's validation methodology, hierarchy, criteria, metrics, experimental results, and current validation status. The framework employs a rigorous four-tier validation hierarchy adapted from established forensic science standards.

@@ -4,6 +4,16 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1.0.0 (Foundational Release)
 
 **Release Date**: 2026-07-15

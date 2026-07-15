@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Introduction
 
 This guide presents the theoretical foundations of the AnubisX Framework. It covers the Cognitive Centroid theory, the 31 formal axioms, the 46 assumptions, Identity Intelligence (IdINT) as a proposed discipline, the five tracking modalities and their theoretical basis, the signal decomposition model, and the Likelihood Ratio framework.

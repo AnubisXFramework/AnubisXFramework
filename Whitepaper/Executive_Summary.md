@@ -15,6 +15,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## The Challenge
 
 Digital attribution — determining the human operator behind online activity — relies on transient technical indicators that sophisticated adversaries can easily change. When IP addresses are routed through VPNs, device fingerprints are randomized, and network artifacts are scrubbed, traditional attribution fails.

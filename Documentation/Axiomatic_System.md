@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## Overview
 
 The axiomatic system establishes the logical foundations of Identity Intelligence as a formal scientific discipline. The 31 axioms are organized into 6 groups, each addressing a distinct aspect of behavioral identity attribution.

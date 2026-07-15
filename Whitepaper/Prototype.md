@@ -15,6 +15,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Overview
 
 The Anubis Twitter Intelligence Prototype v2.5 is the first software implementation of the AnubisX Framework. It implements the stylometric modality end-to-end: data collection, feature extraction, fingerprint construction, similarity search, demographic filtering, and visualization. The prototype comprises 47 Python files organized into 5 packages.

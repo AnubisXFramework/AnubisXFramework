@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Overview
 
 The AnubisX Framework implements a six-layer architecture for behavioral identity attribution. This document provides the complete architectural specification, covering layers, components, data flow, pipelines, workflows, fusion, and decision logic.

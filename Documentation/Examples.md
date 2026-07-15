@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Introduction
 
 This document provides concrete code examples for working with the AnubisX Framework's stylometric fingerprinting capabilities. Examples are based on the Anubis Twitter Intelligence v2.5 prototype.

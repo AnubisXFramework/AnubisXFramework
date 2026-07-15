@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Overview
 
 This document defines the validation methodology for the AnubisX Framework v1.0 — a structured, tiered approach to establishing that every concept, equation, function, algorithm, and pipeline meets empirically grounded standards of scientific validity. The methodology is built on six core principles defined in the Validation Framework (VLD-001): Empirical Grounding, Reproducibility, Honesty, Transparency, Falsifiability, and Uncertainty Decomposition.

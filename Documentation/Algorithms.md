@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Overview
 
 This catalog documents all 37 algorithms in the AnubisX Framework, organized by domain. Each entry specifies the algorithm ID, name, purpose, inputs, outputs, and equation reference.

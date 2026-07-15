@@ -8,6 +8,11 @@
 **Classification**: PUBLIC (C0)  
 **Last Updated**: 2026-07-14
 
+**Official DOI**: 10.5281/zenodo.21374132  
+**Persistent URL**: https://doi.org/10.5281/zenodo.21374132  
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
 ---
 
 ## Abstract

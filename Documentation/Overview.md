@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. What is AnubisX?
 
 AnubisX is a scientific framework for digital identity attribution based on the principle that human operators leave persistent, measurable cognitive signatures in their digital interactions. Unlike traditional attribution methods that track technical artifacts (IP addresses, device fingerprints, browser cookies), AnubisX analyzes involuntary behavioral patterns — the unconscious habits of language, timing, interaction, and organization that are unique to each individual.

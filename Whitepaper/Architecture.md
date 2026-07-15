@@ -6,6 +6,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Overview
 
 The AnubisX Framework architecture is organized as a six-layer, six-stage pipeline supporting three distinct workflows across five behavioral modalities. This document provides a high-level architectural overview; a comprehensive treatment is available in the Framework/ directory.

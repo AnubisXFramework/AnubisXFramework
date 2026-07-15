@@ -7,7 +7,15 @@
 [![Axioms](https://img.shields.io/badge/Axioms-31-8A2BE2)](Axioms/Core_Axioms.md)
 [![Algorithms](https://img.shields.io/badge/Algorithms-37-success)](Algorithms/Algorithm_Catalog.md)
 [![Experiments](https://img.shields.io/badge/Experiments-15%20Executed-brightgreen)](Anubis%20Twitter/reports/experimental_results/Executed_Experiments.md)
-[![DOI](https://img.shields.io/badge/DOI-Pending-orange)](CITATION.cff)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21374132-blue)](CITATION.cff)
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
 
 ---
 
@@ -136,7 +144,7 @@ If you use the AnubisX Framework in your research, please cite:
   title = {AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution},
   year = {2026},
   url = {https://github.com/anubisx/framework},
-  doi = {10.xxxx/xxxxxx}
+  doi = {10.5281/zenodo.21374132}
 }
 ```
 

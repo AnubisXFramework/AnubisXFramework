@@ -4,6 +4,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## Overview
 
 The AnubisX Framework API provides programmatic access to the core attribution pipeline: feature extraction, profile construction, comparison, evidence fusion, and decision. The API is organized by domain.

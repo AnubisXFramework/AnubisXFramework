@@ -15,6 +15,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Overview
 
 This document catalogs the capabilities of the Anubis Twitter Intelligence Prototype v2.5 that have been empirically validated through static code analysis and/or execution. Each capability is assessed with verification status, operational conditions, and limitations.

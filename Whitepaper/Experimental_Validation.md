@@ -15,6 +15,18 @@
 
 ---
 
+## Official DOI
+
+DOI:
+10.5281/zenodo.21374132
+
+Persistent URL:
+https://doi.org/10.5281/zenodo.21374132
+
+This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+
+---
+
 ## 1. Methodology
 
 Experimental validation was conducted through static code analysis and targeted execution of the Anubis Twitter Intelligence Prototype v2.5. Each experiment tests a specific hypothesis derived from the framework's theoretical claims. Results are assessed against four criteria:
