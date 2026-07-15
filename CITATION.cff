@@ -1,0 +1,87 @@
+cff-version: 1.2.0
+message: "If you use the AnubisX Framework in your research, please cite this repository."
+title: "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution"
+type: software
+version: 1.0.0
+date-released: 2026-07-15
+url: "https://github.com/anubisx/framework"
+
+authors:
+  - name: "AnubisX Research Team"
+
+repository-code: "https://github.com/anubisx/framework"
+
+license: "CC-BY-4.0"
+
+keywords:
+  - behavioral identity attribution
+  - digital forensics
+  - stylometry
+  - cognitive fingerprinting
+  - multi-modal fusion
+  - likelihood ratio
+  - identity intelligence
+  - forensic science
+  - prototype validation
+  - faiss similarity search
+
+abstract: >
+  The AnubisX Framework is a comprehensive scientific methodology
+  for determining the identity of a human operator from their digital
+  behavioral patterns. It defines a complete theoretical specification
+  including 31 formal axioms, 37+ algorithm specifications, 292
+  mathematical definitions, 50 equations, 38 experiment designs, 24
+  benchmarks with 30 baselines, 20 case studies, and a four-tier
+  validation framework with 33 quantified acceptance criteria. The
+  framework includes a validated prototype implementation (Anubis
+  Twitter v2.5) demonstrating stylometric fingerprinting with 372-dim
+  feature vectors and FAISS-based similarity search at 16μs, supported
+  by 15 executed experiments on 31 Egyptian Twitter accounts. The
+  framework shifts digital attribution from transient technical
+  artifacts (IP addresses, device fingerprints) to persistent human
+  cognitive signatures rooted in stable cognitive processing habits.
+
+references:
+  - type: document
+    title: "Documentation/Overview.md"
+    url: "https://github.com/anubisx/framework/blob/main/Documentation/Overview.md"
+
+  - type: document
+    title: "Documentation/Framework_Guide.md"
+    url: "https://github.com/anubisx/framework/blob/main/Documentation/Framework_Guide.md"
+
+  - type: document
+    title: "Documentation/Theory_Guide.md"
+    url: "https://github.com/anubisx/framework/blob/main/Documentation/Theory_Guide.md"
+
+  - type: document
+    title: "Documentation/Mathematical_Model.md"
+    url: "https://github.com/anubisx/framework/blob/main/Documentation/Mathematical_Model.md"
+
+  - type: document
+    title: "Documentation/Algorithms.md"
+    url: "https://github.com/anubisx/framework/blob/main/Documentation/Algorithms.md"
+
+  - type: document
+    title: "Documentation/Validation.md"
+    url: "https://github.com/anubisx/framework/blob/main/Documentation/Validation.md"
+
+  - type: document
+    title: "Documentation/Architecture.md"
+    url: "https://github.com/anubisx/framework/blob/main/Documentation/Architecture.md"
+
+  - type: document
+    title: "PROJECT_STATUS.md"
+    url: "https://github.com/anubisx/framework/blob/main/PROJECT_STATUS.md"
+
+  - type: document
+    title: "PROJECT_COMPLETENESS_REPORT.md"
+    url: "https://github.com/anubisx/framework/blob/main/PROJECT_COMPLETENESS_REPORT.md"
+
+  - type: document
+    title: "Axioms/Core_Axioms.md"
+    url: "https://github.com/anubisx/framework/blob/main/Axioms/Core_Axioms.md"
+
+  - type: document
+    title: "Algorithms/Algorithm_Catalog.md"
+    url: "https://github.com/anubisx/framework/blob/main/Algorithms/Algorithm_Catalog.md"
