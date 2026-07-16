@@ -37,7 +37,7 @@ When using the AnubisX Framework, please provide attribution as follows:
 ### Minimal Attribution
 
 ```
-AnubisX Framework (2026) — https://github.com/anubisx/framework
+AnubisX Framework (2026) — https://github.com/nullc0d30/AnubisXFramework
 CC BY 4.0
 ```
 
@@ -46,8 +46,9 @@ CC BY 4.0
 ```bibtex
 @software{anubisx2026framework,
   title = {AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution},
+  author = {Awad, Ahmed},
   year = {2026},
-  url = {https://github.com/anubisx/framework}
+  url = {https://github.com/nullc0d30/AnubisXFramework}
 }
 ```
 
@@ -132,14 +133,15 @@ For licensing questions not covered here, please open an issue on GitHub or cont
 **Project**: AnubisX Framework  
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**ORCID**: https://orcid.org/0009-0005-0654-3393  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: Official AnubisX Repository  
+**Repository**: [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)  
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
 
-**DOI**: https://doi.org/10.5281/zenodo.21393392
+**DOI**: [https://doi.org/10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)
 
 ---
 

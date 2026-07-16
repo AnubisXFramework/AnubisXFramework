@@ -2,7 +2,7 @@
 
 **Date:** July 16, 2026
 **Author:** Ahmed Awad (NullC0d3)
-**Classification:** PUBLIC (C0)
+*Classification: PUBLIC (C0)*
 
 ## Summary
 
@@ -89,7 +89,7 @@ All 14 concerns from the initial reviewer response report have been addressed:
 | SN Computer Science (Springer) | Journal | Computer science, security, AI | Medium |
 | Frontiers in Computer Science | Open access journal | AI, security, digital forensics | Medium |
 
-**DOI**: https://doi.org/10.5281/zenodo.21393392
+**DOI**: [https://doi.org/10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)
 
 ## Final Verdict
 

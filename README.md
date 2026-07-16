@@ -25,6 +25,8 @@ The AnubisX Framework is a formal scientific methodology for determining the ide
 **DOI:** [10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)
 
 **Repository:** [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)
+**Original Framework**: Ahmed Awad (NullC0d3)  
+**Original Research**: Ahmed Awad (NullC0d3)  
 
 ---
 
@@ -151,7 +153,7 @@ See [Journal/](Journal/) for all journal-related materials.
 
 ---
 
-## Quick Links
+## Research Resources
 
 | Resource | Link |
 |---|---|
@@ -237,6 +239,7 @@ This work is licensed under [Creative Commons Attribution 4.0 International](LIC
 **Project**: AnubisX Framework  
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/)  
+**ORCID**: [https://orcid.org/0009-0005-0654-3393](https://orcid.org/0009-0005-0654-3393)  
 **Repository**: [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)  
 **DOI**: [https://doi.org/10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)
 

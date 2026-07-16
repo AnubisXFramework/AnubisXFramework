@@ -3,7 +3,7 @@
 **Publication-Ready Table Specifications**
 
 **Date:** July 16, 2026  
-**Classification:** PUBLIC (C0)
+*Classification: PUBLIC (C0)*
 
 ---
 
@@ -184,9 +184,15 @@ This directory documents all 12 tables used by the AnubisX Framework foundationa
 
 **Project**: AnubisX Framework  
 **Primary Author**: Ahmed Awad (NullC0d3)  
+**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**ORCID**: https://orcid.org/0009-0005-0654-3393  
 **Repository**: [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)  
+**Original Framework**: Ahmed Awad (NullC0d3)  
+**Original Research**: Ahmed Awad (NullC0d3)  
 **DOI**: [https://doi.org/10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.
+Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
+
 
 *Classification: PUBLIC (C0)*

@@ -9,7 +9,7 @@ Zenodo: https://doi.org/10.5281/zenodo.21393392
 
 **Version:** 2.0.0 — Journal Revision  
 **Date:** July 2026  
-**Classification:** PUBLIC (C0)  
+*Classification: PUBLIC (C0)*  
 **License:** CC BY 4.0  
 
 **Reference Work:**  
