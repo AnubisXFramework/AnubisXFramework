@@ -1,7 +1,7 @@
 # Methodology: AnubisX Framework Validation
 
 **Document ID**: WHP-METH-001  
-**Version**: 1.0.0  
+**Version**: 2.0.0  
 **Classification**: PUBLIC (C0)  
 
 ---

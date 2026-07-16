@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-**AnubisX Framework v1.0**
+**AnubisX Framework v2.0**
 
 ---
 
@@ -172,7 +172,7 @@ See the governance documentation for contribution guidelines, peer review proces
 
 ### How do I cite AnubisX?
 
-Citation format will be established with the first publication release. For now, reference the framework by name and version (AnubisX Framework v1.0), with a link to the repository.
+Citation format will be established with the first publication release. For now, reference the framework by name and version (AnubisX Framework v2.0), with a link to the repository.
 
 ### What is the license?
 

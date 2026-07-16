@@ -2,18 +2,30 @@ cff-version: 1.2.0
 message: "If you use the AnubisX Framework in your research, please cite this repository."
 title: "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution"
 type: software
-version: 1.0.0
-date-released: 2026-07-15
+version: 2.0.0
+date-released: 2026-07-16
 url: "https://github.com/nullc0d30/AnubisXFramework"
 
 authors:
-  - name: "AnubisX Research Team"
+  - name: "Ahmed Awad (NullC0d3)"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
 
 repository-code: "https://github.com/nullc0d30/AnubisXFramework"
 
 doi: "10.5281/zenodo.21374132"
 
 license: "CC-BY-4.0"
+
+preferred-citation:
+  type: article
+  title: "AnubisX Framework: A Behavioral Digital Attribution Framework for Identity Analysis Using Artificial Intelligence"
+  authors:
+    - name: "Awad, Ahmed"
+  year: 2026
+  version: "2.0.0"
+  doi: "10.5281/zenodo.21374132"
+  url: "https://github.com/nullc0d30/AnubisXFramework"
+  journal: "TBD (under review preparation)"
 
 keywords:
   - behavioral identity attribution
@@ -26,6 +38,11 @@ keywords:
   - forensic science
   - prototype validation
   - faiss similarity search
+  - cyber threat intelligence
+  - open science
+  - arabic nlp
+  - authorship attribution
+  - behavioral biometrics
 
 abstract: >
   The AnubisX Framework is a comprehensive scientific methodology
@@ -37,13 +54,20 @@ abstract: >
   validation framework with 33 quantified acceptance criteria. The
   framework includes a validated prototype implementation (Anubis
   Twitter v2.5) demonstrating stylometric fingerprinting with 372-dim
-  feature vectors and FAISS-based similarity search at 16μs, supported
+  feature vectors and FAISS-based similarity search at 6-8 µs, supported
   by 15 executed experiments on 31 Egyptian Twitter accounts. The
   framework shifts digital attribution from transient technical
   artifacts (IP addresses, device fingerprints) to persistent human
   cognitive signatures rooted in stable cognitive processing habits.
+  This v2.0 Journal Revision expands the foundational release with
+  50 references (62% external), enhanced related work, practical
+  implications, and comprehensive publication readiness documentation.
 
 references:
+  - type: document
+    title: "AnubisX Framework Foundational Paper v2.0"
+    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Journal/AnubisX_Framework_Foundational_Paper_v2.0.md"
+
   - type: document
     title: "Documentation/Overview.md"
     url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Overview.md"
@@ -55,10 +79,6 @@ references:
   - type: document
     title: "Documentation/Theory_Guide.md"
     url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Theory_Guide.md"
-
-  - type: document
-    title: "Documentation/Mathematical_Model.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Mathematical_Model.md"
 
   - type: document
     title: "Documentation/Algorithms.md"
@@ -73,17 +93,29 @@ references:
     url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Architecture.md"
 
   - type: document
-    title: "PROJECT_STATUS.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/PROJECT_STATUS.md"
+    title: "RELEASE_NOTES_v2.0.md"
+    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/RELEASE_NOTES_v2.0.md"
 
   - type: document
-    title: "PROJECT_COMPLETENESS_REPORT.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/PROJECT_COMPLETENESS_REPORT.md"
+    title: "RESEARCH_STATUS.md"
+    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/RESEARCH_STATUS.md"
 
   - type: document
-    title: "Axioms/Core_Axioms.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Axioms/Core_Axioms.md"
+    title: "ROADMAP_v2.md"
+    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/ROADMAP_v2.md"
 
   - type: document
-    title: "Algorithms/Algorithm_Catalog.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Algorithms/Algorithm_Catalog.md"
+    title: "PUBLICATION_STATUS.md"
+    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/PUBLICATION_STATUS.md"
+
+  - type: document
+    title: "OPEN_SCIENCE.md"
+    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/OPEN_SCIENCE.md"
+
+  - type: document
+    title: "Research_Artifacts.md"
+    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Research_Artifacts.md"
+
+  - type: document
+    title: "REPOSITORY_AUDIT_REPORT.md"
+    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/REPOSITORY_AUDIT_REPORT.md"

@@ -1,6 +1,6 @@
 # References
 
-**AnubisX Framework v1.0 — Master Reference Index**
+**AnubisX Framework v2.0 — Master Reference Index**
 
 ---
 

@@ -1,6 +1,6 @@
 # Framework Overview
 
-**AnubisX Framework v1.0 — Behavioral Identity Attribution**
+**AnubisX Framework v2.0 — Behavioral Identity Attribution**
 
 ---
 
@@ -307,4 +307,4 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-*Version: 1.0*
+*Version: 2.0*

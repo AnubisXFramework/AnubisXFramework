@@ -4,140 +4,201 @@
 
 # AnubisX Framework
 
-**A scientific methodology for behavioral identity attribution.**
+**A Scientific Methodology for Behavioral Identity Attribution**
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21374132-blue)](https://doi.org/10.5281/zenodo.21374132)
+[![Version](https://img.shields.io/badge/Version-2.0.0--Journal%20Revision-brightgreen)](RELEASE_NOTES_v2.0.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Status: Theoretical + Prototype](https://img.shields.io/badge/Status-Theoretical%20%2B%20Prototype-blue)](ROADMAP.md)
-[![Axioms](https://img.shields.io/badge/Axioms-31-8A2BE2)](Axioms/Core_Axioms.md)
-[![Algorithms](https://img.shields.io/badge/Algorithms-37-success)](Algorithms/Algorithm_Catalog.md)
-[![Experiments](https://img.shields.io/badge/Experiments-15%20Executed-brightgreen)](Anubis%20Twitter/reports/experimental_results/Executed_Experiments.md)
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21374132-blue)](CITATION.cff)
-
-DOI:
-10.5281/zenodo.21374132
-
-Persistent URL:
-https://doi.org/10.5281/zenodo.21374132
-
-This release is permanently archived on Zenodo under DOI: https://doi.org/10.5281/zenodo.21374132
+[![GitHub Release](https://img.shields.io/badge/GitHub-Release-blueviolet)](https://github.com/nullc0d30/AnubisXFramework/releases)
+[![Status: Theoretical + Prototype](https://img.shields.io/badge/Status-Theoretical%20%2B%20Prototype-blue)](ROADMAP_v2.md)
+[![Publication Status](https://img.shields.io/badge/Publication-Journal%20Ready-success)](PUBLICATION_STATUS.md)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![Research](https://img.shields.io/badge/Research-Open%20Science-orange)](OPEN_SCIENCE.md)
+[![Open Science](https://img.shields.io/badge/Open%20Science-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
-## Overview
+## Project Overview
 
 The AnubisX Framework is a formal scientific methodology for determining the identity of a human operator from their digital behavioral patterns. Unlike traditional attribution methods that rely on transient technical artifacts — IP addresses, device fingerprints, browser configurations — the framework measures **persistent human cognitive signatures** that are rooted in stable cognitive processing habits.
 
-**Source**: Documentation/Overview.md §1, Theory/Core_Theory.md (THY-001)
+**DOI:** [10.5281/zenodo.21374132](https://doi.org/10.5281/zenodo.21374132)
 
-The framework is a **complete theoretical specification** with a **validated prototype implementation**. The theoretical layer defines the axiomatic foundation, mathematical formalization, algorithm specifications, validation methodology, benchmark protocols, experiment designs, and case studies. The prototype layer (Anubis Twitter v2.5) implements a subset of the framework's stylometric fingerprinting and similarity search capabilities, with 15 executed experiments producing validated results across 31 Egyptian Twitter accounts.
+**Repository:** [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)
 
-**Source**: PROJECT_STATUS.md, PROJECT_COMPLETENESS_REPORT.md, Anubis Twitter/reports/experimental_results/
+---
 
-## Core Concepts
+## Research Motivation
 
-| Concept | Definition | Repository Source |
-|---|---|---|
-| **Cognitive Centroid** | The theoretical attractor of an individual's behavioral patterns in multi-dimensional feature space | Theory/Core_Theory.md (THY-001), HYP-CORE-001 |
-| **Five Behavioral Modalities** | Forensic Stylometry, Chrono-Profiling, Terminal Execution Profiling, Relational Network Analysis, Environmental Media Forensics | Framework/Framework_Modules.md (FWK-003) |
-| **Multi-Modal Fusion** | Combining evidence from independent behavioral signals for robust attribution | Algorithms/Fusion_Algorithms.md (ALG-029—032) |
-| **Likelihood Ratio (LR)** | Statistical quantification of evidence strength: P(E\|H_same) / P(E\|H_diff) | Algorithms/Attribution_Algorithms.md (ALG-017), EQ-017 |
-| **Identity Intelligence (IdINT)** | A proposed formal forensic discipline for behavioral attribution | Theory/Behavioral_Attribution_Theory.md (THY-003) |
+Digital attribution — linking digital actions to their human source — is a foundational capability in cyber threat intelligence, digital forensics, and national security. Current methodologies rely primarily on technical artifacts that sophisticated adversaries can spoof or eliminate. Behavioral attribution offers an alternative paradigm: analyzing intrinsic patterns of human cognition observable through digital traces.
 
-**Source**: Documentation/Framework_Guide.md §1—2, Documentation/Overview.md §2
+The framework addresses three specific limitations:
+1. **Fragmentation** — Behavioral attribution methods are developed independently across disciplines without unifying theory
+2. **Methodological rigor** — Most work lacks formal, pre-specified validation criteria
+3. **Transparency** — Comprehensive documentation of limitations and failure modes is uncommon
 
-## How the Pipeline Works
+---
 
-The framework processes behavioral data through six defined stages, specified in Framework/Framework_Architecture.md (FWK-001) and Framework/Framework_Pipeline.md (FWK-004):
+## Repository Structure
+
+| Directory | Contents |
+|---|---|
+| `Journal/` | Journal revision materials, publication documents, submission checklists |
+| `Documentation/` | Comprehensive public documentation (12 files) |
+| `Theory/` | Theoretical foundation documents |
+| `Framework/` | Architecture, workflow, modules, pipeline specifications |
+| `Algorithms/` | Algorithm specifications |
+| `Mathematics/` | Mathematical foundation, equations, functions |
+| `Validation/` | Validation framework, acceptance criteria, metrics |
+| `Research/` | Research methodology, questions, limitations |
+| `Whitepaper/` | Complete whitepaper (15 documents) |
+| `Release/` | Release notes, checklists, version documentation |
+| `Citation/` | Citation metadata, format guides |
+| `Provenance/` | Data provenance and chain-of-custody documentation |
+| `Figures/` | Figure specifications for publications |
+| `Tables/` | Table specifications for publications |
+| `Examples/` | Implementation examples and walkthroughs |
+| `API_Docs/` | API documentation and reference guides |
+| `Data/` | Dataset specifications and references |
+| `Scripts/` | Utility scripts and automation tools |
+| `FAQ/` | Frequently asked questions |
+| `Getting_Started/` | Step-by-step orientation guides |
+
+---
+
+## Framework Architecture
+
+```
+┌────────────────────────────────────────────────────────────┐
+│                   Decision Layer                            │
+├────────────────────────────────────────────────────────────┤
+│                   Evidence Layer                            │
+├────────────────────────────────────────────────────────────┤
+│                  Comparison Layer                           │
+├────────────────────────────────────────────────────────────┤
+│                  Profile Layer                              │
+├────────────────────────────────────────────────────────────┤
+│                  Feature Layer                              │
+├────────────────────────────────────────────────────────────┤
+│                    Data Layer                               │
+└────────────────────────────────────────────────────────────┘
+```
+
+### Six-Stage Pipeline
 
 ```
 Ingestion → Feature Extraction → Profile Construction → Comparison → Evidence Evaluation → Decision
 ```
 
-1. **Ingestion**: Raw digital traces are collected, validated, and metadata extracted
-2. **Feature Extraction**: Modality-specific processors transform raw data into structured feature vectors (ALG-001—004)
-3. **Profile Construction**: Features are aggregated into behavioral profiles with confidence bounds (ALG-006, ALG-016)
-4. **Comparison**: Profiles are compared using similarity functions — Cosine, Euclidean, RBF, Pearson, Jaccard (ALG-024—028)
-5. **Evidence Evaluation**: Scores are calibrated to Likelihood Ratios (ALG-017), weighted, and fused across modalities (ALG-029—032)
-6. **Decision**: Attribution conclusions are produced with quantified uncertainty (ALG-033—036)
+### Three Workflows
 
-Three workflows are supported: **Identification**, **Verification**, and **Forensic Comparison**.
+- **Identification (1:N)** — Determine who produced questioned material
+- **Verification (1:1)** — Confirm or refute a claimed identity
+- **Forensic Comparison (1:1)** — Compute likelihood ratio with evidence grading
 
-**Source**: Documentation/Architecture.md §2, Documentation/Framework_Guide.md §2
+### Five Behavioral Modalities
 
-## Repository Structure
-
-| Directory | Contents | Source |
+| Modality | Behavioral Signal | Validation Status |
 |---|---|---|
-| `Axioms/` | 31 formal axioms in 6 groups (CORE, BEH, IDN, ATR, EVI, RSN) | Axioms/Axiom_Catalog.md |
-| `Assumptions/` | 46 working assumptions in 6 categories | Assumptions/Assumption_Catalog.md |
-| `Mathematics/` | 292 mathematical objects, 50 equations, 47 functions | Mathematics/Mathematical_Foundation.md |
-| `Algorithms/` | 37+ algorithm specifications across 9 domains | Algorithms/Algorithm_Catalog.md |
-| `Theory/` | 5 theoretical foundation documents | Theory/Theory_Index.md |
-| `Framework/` | Architecture, workflow, modules, pipeline specifications | Framework/Framework_Index.md |
-| `Specifications/` | Component, API, data model specifications | Specifications/Specification_Index.md |
-| `Validation/` | 4-tier validation, 33 acceptance criteria | Validation/Validation_Framework.md (VLD-001) |
-| `Benchmarks/` | 24 benchmarks, 30 baselines, 15 scenarios | Benchmarks/Benchmark_Index.md |
-| `Experiments/` | 38 experiment designs across 6 domains | Experiments/Experiment_Index.md |
-| `Case_Studies/` | 20 case studies across 4 domains | Case_Studies/Case_Study_Index.md |
-| `Research/` | Research methodology, questions, limitations | Research/Research_Index.md |
-| `Papers/` | Publication roadmap and 6 paper plans | Papers/Paper_Roadmap.md |
-| `Documentation/` | 12 comprehensive public documentation files | Documentation/Overview.md |
-| `Diagrams/` | Architecture and workflow diagram specifications | Diagrams/ |
-| `Figures/` | Figure specifications | Figures/ |
-| `Release/` | Release checklists and notes | Release/ |
-| `IP/` | Intellectual property registers | IP/ |
-| `Public/` | Whitepaper, website, GitHub, platform materials | Public/ |
+| Forensic Stylometry | Vocabulary, syntax, discourse | Validated (prototype) |
+| Chrono-Profiling | Circadian rhythms, timing patterns | Requires data |
+| Terminal Execution Profiling | Commands, navigation patterns | Requires data |
+| Relational Network Analysis | Graph structure, communities | Requires data |
+| Environmental Media Forensics | File structure, naming conventions | Requires data |
 
-**Source**: MASTER_INDEX.md, REPOSITORY_ORGANIZATION_GUIDE.md
+---
+
+## Prototype Status
+
+**Anubis Twitter v2.5** — A working implementation of the stylometric modality for Arabic Twitter data:
+
+- 47 Python source files, ~2,800 LOC
+- 372-dimensional stylometric fingerprint extraction
+- FAISS-based similarity search at 6–8 µs latency
+- 15 executed experiments on 31 Egyptian Twitter accounts
+- 6/10 empirical claims at **PUBLICATION READY** status
+
+---
+
+## Validation Status
+
+| Component | Status |
+|---|---|
+| Axiomatic foundation | Complete (31 axioms) |
+| Mathematical framework | Complete (292 objects, 50 equations) |
+| Algorithm specifications | Complete (37 algorithms) |
+| Validation framework | Complete (33 acceptance thresholds) |
+| Benchmark framework | Complete (24 benchmarks) |
+| Experiment designs | Complete (38 experiments — 15 executed) |
+| Case studies | Complete (20 case studies) |
+| Prototype implementation | Validated (stylometric fingerprinting, FAISS search) |
+| Empirical validation | Partial — 6/10 publication-ready claims |
+| Full software implementation | Next phase |
+
+---
+
+## Journal Version Information
+
+This repository contains the **v2.0 Journal Revision** of the AnubisX Framework, prepared for submission to peer-reviewed venues. Key improvements from v1.0:
+
+- Expanded from 19 to 50 references (62% external)
+- New sections: Practical Implications, Summary of Contributions, Reproducibility
+- Expanded Related Work (6 to 11 subsections)
+- Enhanced limitations documentation with mitigation pathways
+- Complete publication readiness assessed at 8.5/10
+
+See [Journal/](Journal/) for all journal-related materials.
+
+---
+
+## Quick Links
+
+| Resource | Link |
+|---|---|
+| **GitHub Repository** | [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework) |
+| **Zenodo Archive** | [https://doi.org/10.5281/zenodo.21374132](https://doi.org/10.5281/zenodo.21374132) |
+| **ORCID** | [To be registered] |
+| **LinkedIn** | [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/) |
+| **Reference Book** | [You Can Hide Your Name... Not Your Mind](https://www.amazon.com/dp/B0H8LCTTWW) |
+| **Citation** | [CITATION.cff](CITATION.cff) |
+| **License** | [LICENSE.md](LICENSE.md) |
+| **Roadmap** | [ROADMAP_v2.md](ROADMAP_v2.md) |
+| **Changelog** | [CHANGELOG.md](CHANGELOG.md) |
+| **Contributing** | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| **Code of Conduct** | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
+| **Security** | [SECURITY.md](SECURITY.md) |
+| **FAQ** | [FAQ/README.md](FAQ/README.md) |
+
+---
 
 ## Getting Started
 
 | Audience | Recommended Path |
 |---|---|
-| **Newcomers** | Documentation/Getting_Started.md → Documentation/FAQ.md → Documentation/Theory_Guide.md |
-| **Researchers** | Documentation/Theory_Guide.md → Documentation/Mathematical_Model.md → Documentation/Algorithms.md → Documentation/Validation.md |
-| **Developers** | Documentation/Architecture.md → Documentation/Framework_Guide.md → Documentation/Algorithms.md |
-| **Forensic Practitioners** | Documentation/Framework_Guide.md → Documentation/Examples.md → Documentation/Validation.md |
+| **Newcomers** | [Getting_Started/](Getting_Started/) → [FAQ/](FAQ/) → [Documentation/Theory_Guide.md](Documentation/Theory_Guide.md) |
+| **Researchers** | [Documentation/Theory_Guide.md](Documentation/Theory_Guide.md) → [Documentation/Algorithms.md](Documentation/Algorithms.md) → [Documentation/Validation.md](Documentation/Validation.md) |
+| **Developers** | [Documentation/Architecture.md](Documentation/Architecture.md) → [Documentation/Framework_Guide.md](Documentation/Framework_Guide.md) → [API_Docs/](API_Docs/) |
+| **Forensic Practitioners** | [Documentation/Framework_Guide.md](Documentation/Framework_Guide.md) → [Documentation/Examples.md](Documentation/Examples.md) → [Documentation/Validation.md](Documentation/Validation.md) |
+
+---
 
 ## Documentation
 
 | Document | Description |
 |---|---|
 | [Overview](Documentation/Overview.md) | Complete framework introduction |
-| [Getting Started](Documentation/Getting_Started.md) | Step-by-step orientation |
+| [Getting Started](Getting_Started/) | Step-by-step orientation |
 | [Framework Guide](Documentation/Framework_Guide.md) | Comprehensive framework reference |
 | [Theory Guide](Documentation/Theory_Guide.md) | Theoretical foundations |
-| [Architecture](Documentation/Architecture.md) | System architecture and component design |
-| [Mathematical Model](Documentation/Mathematical_Model.md) | Mathematical foundation reference |
+| [Architecture](ARCHITECTURE.md) | System architecture and component design |
 | [Algorithms](Documentation/Algorithms.md) | Complete algorithm catalog |
-| [Validation](Documentation/Validation.md) | Validation methodology |
-| [FAQ](Documentation/FAQ.md) | Frequently asked questions |
+| [Validation](Documentation/Validation.md) | Validation methodology and status |
+| [FAQ](FAQ/) | Frequently asked questions |
 | [Glossary](Documentation/Glossary.md) | Standardized terminology |
 | [Examples](Documentation/Examples.md) | Case study walkthroughs |
 | [References](Documentation/References.md) | Source document index |
 
-## Current Status
-
-All theoretical specifications are complete. The prototype implementation (Anubis Twitter v2.5) has been validated with 15 executed experiments producing verified results.
-
-**Source**: PROJECT_STATUS.md, Anubis Twitter/reports/experimental_results/Experimental_Validation_Report.md
-
-| Component | Status |
-|---|---|
-| Axiomatic foundation | Complete (31 axioms) |
-| Mathematical foundation | Complete (292 objects, 50 equations) |
-| Algorithm specifications | Complete (37 algorithms) |
-| Validation framework | Complete (33 acceptance thresholds) |
-| Benchmark framework | Complete (24 benchmarks) |
-| Experiment designs | Complete (38 experiments — 15 executed) |
-| Case studies | Complete (20 case studies) |
-| Prototype implementation | ✅ Stylometric fingerprinting, FAISS search, Egyptian verification (15/15 experiments passed) |
-| Empirical validation | **Partial** — 6/10 publication-ready claims; 4 require further validation |
-| Full software implementation | **Next phase** |
-
-## License
-
-This work is licensed under [Creative Commons Attribution 4.0 International](LICENSE.md) (CC BY 4.0).
+---
 
 ## Citation
 
@@ -146,9 +207,12 @@ If you use the AnubisX Framework in your research, please cite:
 ```bibtex
 @software{anubisx2026framework,
   title = {AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution},
+  author = {Awad, Ahmed},
   year = {2026},
-  url = {https://github.com/anubisx/framework},
-  doi = {10.5281/zenodo.21374132}
+  version = {2.0.0},
+  url = {https://github.com/nullc0d30/AnubisXFramework},
+  doi = {10.5281/zenodo.21374132},
+  license = {CC-BY-4.0}
 }
 ```
 
@@ -156,12 +220,25 @@ Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
 
 ---
 
+## Support
+
+- **Issues:** [GitHub Issues](https://github.com/nullc0d30/AnubisXFramework/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/nullc0d30/AnubisXFramework/discussions)
+- **Security:** [SECURITY.md](SECURITY.md)
+
+---
+
+## License
+
+This work is licensed under [Creative Commons Attribution 4.0 International](LICENSE.md) (CC BY 4.0).
+
+---
+
 **Project**: AnubisX Framework  
 **Primary Author**: Ahmed Awad (NullC0d3)  
-**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
-**Original Framework**: Ahmed Awad (NullC0d3)  
-**Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: Official AnubisX Repository  
+**Author Profile**: [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/)  
+**Repository**: [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)  
+**DOI**: [https://doi.org/10.5281/zenodo.21374132](https://doi.org/10.5281/zenodo.21374132)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.

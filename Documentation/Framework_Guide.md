@@ -1,6 +1,6 @@
 # Framework Guide
 
-**AnubisX Framework v1.0 — Implementation and Integration Guide**
+**AnubisX Framework v2.0 — Implementation and Integration Guide**
 
 ---
 

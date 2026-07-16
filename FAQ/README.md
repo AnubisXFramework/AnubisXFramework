@@ -96,7 +96,7 @@ See the [Getting Started Guide](../Getting_Started/) for a step-by-step introduc
 
 ### Can I use this commercially?
 
-The framework is available under CC BY 4.0 for academic and research use. Commercial use requires a separate license. See the [LICENSE](../GitHub/LICENSE.md).
+The framework is available under CC BY 4.0 for academic and research use. Commercial use requires a separate license. See the [LICENSE](../LICENSE.md).
 
 ## Development
 
@@ -106,11 +106,23 @@ The framework has completed all theoretical specifications: axioms, conceptual m
 
 ### How can I contribute?
 
-See [CONTRIBUTING](../GitHub/CONTRIBUTING.md) for contribution guidelines. We welcome contributions from researchers, practitioners, and collaborators aligned with the framework's scientific and ethical standards.
+See [CONTRIBUTING](../CONTRIBUTING.md) for contribution guidelines. We welcome contributions from researchers, practitioners, and collaborators aligned with the framework's scientific and ethical standards.
 
 ### Is the reference book available?
 
 The document "You Can Hide Your Name... Not Your Mind" is included in the repository as a reference work on Identity Intelligence.
+
+---
+
+**Project**: AnubisX Framework  
+**Primary Author**: Ahmed Awad (NullC0d3)  
+**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**Original Framework**: Ahmed Awad (NullC0d3)  
+**Original Research**: Ahmed Awad (NullC0d3)  
+**Repository**: Official AnubisX Repository  
+
+**Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
+Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
 
 ---
 

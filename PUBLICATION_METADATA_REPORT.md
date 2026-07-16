@@ -1,6 +1,6 @@
 # Publication Metadata Report
 
-**AnubisX Framework v1.0.0 — DOI: 10.5281/zenodo.21374132**
+**AnubisX Framework v2.0.0 — DOI: 10.5281/zenodo.21374132**
 
 ---
 
@@ -10,7 +10,7 @@
 |-------|-------|
 | **DOI** | 10.5281/zenodo.21374132 |
 | **Persistent URL** | https://doi.org/10.5281/zenodo.21374132 |
-| **Version** | 1.0.0 |
+| **Version** | 2.0.0 |
 | **Release Date** | 2026-07-15 |
 | **License** | CC-BY-4.0 |
 | **Repository** | https://github.com/nullc0d30/AnubisXFramework |
@@ -33,15 +33,15 @@
 
 ### APA Style
 
-Awad, A. (2026). *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution* (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21374132
+Awad, A. (2026). *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution* (v2.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21374132
 
 ### MLA Style
 
-Awad, Ahmed. *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution*. Version 1.0.0, Zenodo, 2026, doi:10.5281/zenodo.21374132.
+Awad, Ahmed. *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution*. Version 2.0.0, Zenodo, 2026, doi:10.5281/zenodo.21374132.
 
 ### Chicago Style
 
-Awad, Ahmed. 2026. *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution*. Version 1.0.0. Zenodo. doi:10.5281/zenodo.21374132.
+Awad, Ahmed. 2026. *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution*. Version 2.0.0. Zenodo. doi:10.5281/zenodo.21374132.
 
 ---
 
@@ -54,7 +54,7 @@ cff-version: 1.2.0
 message: "If you use the AnubisX Framework in your research, please cite this repository."
 title: "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution"
 type: software
-version: 1.0.0
+version: 2.0.0
 date-released: 2026-07-15
 url: "https://github.com/nullc0d30/AnubisXFramework"
 doi: "10.5281/zenodo.21374132"

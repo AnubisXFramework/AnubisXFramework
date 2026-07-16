@@ -1,6 +1,6 @@
 # Architecture
 
-**AnubisX Framework v1.0 — Complete System Architecture**
+**AnubisX Framework v2.0 — Complete System Architecture**
 
 ---
 

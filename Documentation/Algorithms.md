@@ -1,6 +1,6 @@
 # Algorithms
 
-**AnubisX Framework v1.0 — Complete Algorithm Catalog (37 Algorithms)**
+**AnubisX Framework v2.0 — Complete Algorithm Catalog (37 Algorithms)**
 
 ---
 

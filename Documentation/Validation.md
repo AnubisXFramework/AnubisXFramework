@@ -1,6 +1,6 @@
 # Validation
 
-**AnubisX Framework v1.0 — Scientific Validation Standards, Protocols, and Results**
+**AnubisX Framework v2.0 — Scientific Validation Standards, Protocols, and Results**
 
 ---
 

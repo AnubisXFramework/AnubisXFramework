@@ -1,6 +1,6 @@
 # Examples
 
-**AnubisX Framework v1.0 — Code Examples and Walkthroughs**
+**AnubisX Framework v2.0 — Code Examples and Walkthroughs**
 
 ---
 

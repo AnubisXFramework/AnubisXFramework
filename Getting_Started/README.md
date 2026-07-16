@@ -59,7 +59,7 @@ If you plan to use the framework in research:
 2. Study the mathematical foundations (Mathematics/ directory)
 3. Review algorithm specifications (Algorithms/ directory)
 4. Consult the publication roadmap (Papers/ directory)
-5. Follow citation guidelines in [LICENSE](../GitHub/LICENSE.md)
+5. Follow citation guidelines in [LICENSE](../LICENSE.md)
 
 ## Step 6: For Developers
 

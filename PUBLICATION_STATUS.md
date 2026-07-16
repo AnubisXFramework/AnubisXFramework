@@ -1,0 +1,89 @@
+# Publication Status — AnubisX Framework
+
+**Date:** July 16, 2026  
+**Version:** 2.0.0 — Journal Research Edition  
+**Classification:** PUBLIC (C0)  
+**DOI:** [10.5281/zenodo.21374132](https://doi.org/10.5281/zenodo.21374132)
+
+---
+
+## Current Publication Locations
+
+| Platform | Type | Identifier | Status |
+|---|---|---|---|
+| **GitHub** | Source code repository | [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework) | Published |
+| **Zenodo** | DOI archive | [10.5281/zenodo.21374132](https://doi.org/10.5281/zenodo.21374132) | Published |
+| **ORCID** | Author identifier | [To be registered] | Planned |
+| **OpenAIRE** | Research output aggregation | Post-registration | Planned |
+
+---
+
+## Author Profiles
+
+| Platform | URL | Status |
+|---|---|---|
+| **LinkedIn** | [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/) | Published |
+| **GitHub** | [https://github.com/nullc0d30](https://github.com/nullc0d30) | Published |
+| **ORCID** | To be registered | Planned |
+
+## Supplementary Dissemination
+
+| Platform | Type | Status |
+|---|---|---|
+| **Medium** | Technical blog posts | Planned |
+| **Facebook** | Research community updates | Published (author page) |
+| **LinkedIn** | Professional announcements | Published |
+
+---
+
+## Publication Status Summary
+
+| Item | Status | Date |
+|---|---|---|
+| DOI Registration (Zenodo) | Published | 2026-07-15 |
+| GitHub Repository (v1.0) | Published | 2026-07-15 |
+| GitHub Repository (v2.0) | Published | 2026-07-16 |
+| Foundational Paper (DOCX) | Published | 2026-07-16 |
+| Foundational Paper (Markdown) | Published | 2026-07-16 |
+| Publication Readiness Report | Published | 2026-07-16 |
+| Reviewer Response Document | Published | 2026-07-16 |
+| Submission Checklist | Published | 2026-07-16 |
+| Target Journal Analysis | Published | 2026-07-16 |
+| Journal Submission (Target 1) | Planned | Q3 2026 |
+| Journal Submission (Target 2) | Planned | Q4 2026 |
+| Publication (Accepted) | Planned | TBD |
+
+---
+
+## Dissemination Plan
+
+| Phase | Activity | Timeline |
+|---|---|---|
+| **Pre-submission** | Repository v2.0 release, documentation complete | July 2026 |
+| **Submission** | Submit to primary target journal | Q3 2026 |
+| **Review** | Respond to reviewer feedback | Q4 2026 – Q1 2027 |
+| **Publication** | Accepted manuscript published | 2027 |
+| **Post-publication** | ORCID registration, OpenAIRE integration | Post-acceptance |
+| **Dissemination** | Social media announcements, blog posts | Post-publication |
+
+---
+
+## Target Submission Venues
+
+| Venue | Type | Priority | Status |
+|---|---|---|---|
+| Journal of Cybersecurity and Privacy (MDPI) | Open access journal | High | Planned (Q3 2026) |
+| Electronics (MDPI) | Open access journal | High | Fallback |
+| SN Computer Science (Springer) | Journal | Medium | Fallback |
+| Frontiers in Computer Science | Open access journal | Medium | Fallback |
+
+---
+
+**Project**: AnubisX Framework  
+**Primary Author**: Ahmed Awad (NullC0d3)  
+**Repository**: [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)  
+**DOI**: [https://doi.org/10.5281/zenodo.21374132](https://doi.org/10.5281/zenodo.21374132)
+
+**Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.
+
+*Classification: PUBLIC (C0)*

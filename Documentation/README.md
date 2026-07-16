@@ -25,6 +25,8 @@
 
 ---
 
+**DOI**: https://doi.org/10.5281/zenodo.21374132
+
 ---
 
 **Project**: AnubisX Framework  
