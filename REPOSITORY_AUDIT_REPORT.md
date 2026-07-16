@@ -84,7 +84,7 @@ Each category is scored from 1–10 based on:
 | Preferred citation | Defined with journal reference | 8 |
 
 **Strengths:** Complete citation infrastructure with machine-readable metadata.
-**Weaknesses:** ORCID not yet registered. Journal citation pending publication.
+**Weaknesses:** Journal citation pending publication.
 
 ### 6. GitHub Quality (Score: 8/10)
 
@@ -182,7 +182,7 @@ Each category is scored from 1–10 based on:
 
 ### Critical
 1. **Figures not generated** — All 7 figures are placeholder specifications
-2. **ORCID not registered** — Author identifier pending
+2. ~~ORCID not registered~~ — Now registered at https://orcid.org/0009-0005-0654-3393
 
 ### Major
 3. **Unexecuted experiments** — 23 of 38 experiments remain unexecuted
@@ -204,9 +204,8 @@ Each category is scored from 1–10 based on:
 
 ### Immediate (Pre-Submission)
 1. Generate all 7 figures using provided specifications
-2. Register ORCID identifier
-3. Final proofreading pass for typographical errors
-4. Update all remaining v1.0 references to v2.0
+2. Final proofreading pass for typographical errors
+3. Update all remaining v1.0 references to v2.0
 
 ### Short-Term (v2.1)
 5. Implement label data acquisition for formal validation
@@ -233,7 +232,7 @@ Each category is scored from 1–10 based on:
 | Improvement | Impact | Effort | Timeline |
 |---|---|---|---|
 | Generate publication figures | High | Medium | Pre-submission |
-| ORCID registration | Medium | Low | Pre-submission |
+| ORCID registration | Medium | Low | Completed |
 | Version consistency update | Medium | Low | v2.1 |
 | Labeled dataset acquisition | High | High | v2.1 |
 | Test suite implementation | High | Medium | v2.1 |

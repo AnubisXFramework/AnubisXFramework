@@ -13,7 +13,7 @@
 |---|---|---|---|
 | **GitHub** | Source code repository | [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework) | Published |
 | **Zenodo** | DOI archive | [10.5281/zenodo.21374132](https://doi.org/10.5281/zenodo.21374132) | Published |
-| **ORCID** | Author identifier | [To be registered] | Planned |
+| **ORCID** | Author identifier | https://orcid.org/0009-0005-0654-3393 | Registered |
 | **OpenAIRE** | Research output aggregation | Post-registration | Planned |
 
 ---
@@ -24,7 +24,7 @@
 |---|---|---|
 | **LinkedIn** | [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/) | Published |
 | **GitHub** | [https://github.com/nullc0d30](https://github.com/nullc0d30) | Published |
-| **ORCID** | To be registered | Planned |
+| **ORCID** | https://orcid.org/0009-0005-0654-3393 | Registered |
 
 ## Supplementary Dissemination
 
@@ -63,7 +63,7 @@
 | **Submission** | Submit to primary target journal | Q3 2026 |
 | **Review** | Respond to reviewer feedback | Q4 2026 – Q1 2027 |
 | **Publication** | Accepted manuscript published | 2027 |
-| **Post-publication** | ORCID registration, OpenAIRE integration | Post-acceptance |
+| **Post-publication** | OpenAIRE integration | Post-acceptance |
 | **Dissemination** | Social media announcements, blog posts | Post-publication |
 
 ---

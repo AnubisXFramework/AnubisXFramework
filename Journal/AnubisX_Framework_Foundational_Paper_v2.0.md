@@ -2,7 +2,7 @@
 
 **Ahmed Awad (NullC0d3)**  
 *Independent Cybersecurity Researcher*  
-ORCID: [To be registered]  
+ORCID: https://orcid.org/0009-0005-0654-3393  
 LinkedIn: https://www.linkedin.com/in/nullc0d3/  
 GitHub: https://github.com/nullc0d30/AnubisXFramework  
 Zenodo: https://doi.org/10.5281/zenodo.21374132  

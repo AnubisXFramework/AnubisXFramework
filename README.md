@@ -157,7 +157,7 @@ See [Journal/](Journal/) for all journal-related materials.
 |---|---|
 | **GitHub Repository** | [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework) |
 | **Zenodo Archive** | [https://doi.org/10.5281/zenodo.21374132](https://doi.org/10.5281/zenodo.21374132) |
-| **ORCID** | [To be registered] |
+| **ORCID** | [https://orcid.org/0009-0005-0654-3393](https://orcid.org/0009-0005-0654-3393) |
 | **LinkedIn** | [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/) |
 | **Reference Book** | [You Can Hide Your Name... Not Your Mind](https://www.amazon.com/dp/B0H8LCTTWW) |
 | **Citation** | [CITATION.cff](CITATION.cff) |

@@ -77,7 +77,7 @@
 | **GitHub** | CODE_OF_CONDUCT | Complete | Community standards |
 | **GitHub** | SECURITY | Complete | Security policy |
 | **Zenodo** | DOI Registration | Complete | 10.5281/zenodo.21374132 |
-| **ORCID** | Author Registration | In Progress | To be registered |
+| **ORCID** | Author Registration | Complete | https://orcid.org/0009-0005-0654-3393 |
 | **OpenAIRE** | OpenAIRE Integration | Planned | Post-publication |
 | **Publication** | Foundational Paper v2.0 | Complete | 18 sections, 12 tables, 50 references |
 | **Publication** | Publication Readiness | Complete | Assessed at 8.5/10 |
