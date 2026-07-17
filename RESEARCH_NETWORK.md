@@ -105,7 +105,7 @@ OpenAlex
 - Dataset and figure distribution
 - Academic networking and collaboration
 
-**URL:** [https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3](https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3)
+**ResearchGate Profile:** [https://www.researchgate.net/profile/Ahmed-Awad-118](https://www.researchgate.net/profile/Ahmed-Awad-118)
 
 **Content:**
 - Publication preprints
@@ -125,7 +125,7 @@ OpenAlex
 - Presentation slides and posters
 - Supplementary file distribution
 
-**URL:** [https://figshare.com/authors/Ahmed_Awad_NullC0d3](https://figshare.com/authors/Ahmed_Awad_NullC0d3)
+**Figshare Profile:** [https://figshare.com/authors/Ahmed_Awad/24415733](https://figshare.com/authors/Ahmed_Awad/24415733)
 
 **Content:**
 - Framework diagrams and architecture figures

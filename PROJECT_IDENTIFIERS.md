@@ -67,7 +67,7 @@ This document serves as the single reference point for all persistent identifier
 
 | Identifier | Value |
 |---|---|
-| **Profile URL** | [https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3](https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3) |
+| **Profile URL** | [https://www.researchgate.net/profile/Ahmed-Awad-118](https://www.researchgate.net/profile/Ahmed-Awad-118) |
 | **Publications** | Framework materials and updates |
 
 ---
@@ -76,7 +76,7 @@ This document serves as the single reference point for all persistent identifier
 
 | Identifier | Value |
 |---|---|
-| **Profile URL** | [https://figshare.com/authors/Ahmed_Awad_NullC0d3](https://figshare.com/authors/Ahmed_Awad_NullC0d3) |
+| **Profile URL** | [https://figshare.com/authors/Ahmed_Awad/24415733](https://figshare.com/authors/Ahmed_Awad/24415733) |
 | **Content** | Figures, datasets, supplementary materials |
 
 ---
@@ -150,8 +150,8 @@ See [LICENSE.md](LICENSE.md) for complete license text.
 |---|---|
 | **ORCID** | https://orcid.org/0009-0005-0654-3393 |
 | **LinkedIn** | https://www.linkedin.com/in/nullc0d3/ |
-| **ResearchGate** | https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3 |
-| **Figshare** | https://figshare.com/authors/Ahmed_Awad_NullC0d3 |
+| **ResearchGate** | https://www.researchgate.net/profile/Ahmed-Awad-118 |
+| **Figshare** | https://figshare.com/authors/Ahmed_Awad/24415733 |
 | **Amazon Book** | https://www.amazon.com/dp/B0H8LCTTWW |
 
 ---

@@ -183,7 +183,7 @@ See [RESEARCH_NETWORK.md](RESEARCH_NETWORK.md) for the complete ecosystem visual
 | **Zenodo Archive** | [https://doi.org/10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392) |
 | **ORCID** | [https://orcid.org/0009-0005-0654-3393](https://orcid.org/0009-0005-0654-3393) |
 | **LinkedIn** | [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/) |
-| **ResearchGate** | [Profile](https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3) |
+| **ResearchGate** | [Profile](https://www.researchgate.net/profile/Ahmed-Awad-118) |
 | **Reference Book** | [You Can Hide Your Name... Not Your Mind](https://www.amazon.com/dp/B0H8LCTTWW) |
 
 ---
@@ -239,8 +239,8 @@ Full citation examples in [CITATIONS.md](CITATIONS.md).
 |---|---|
 | ORCID | [0009-0005-0654-3393](https://orcid.org/0009-0005-0654-3393) |
 | LinkedIn | [/in/nullc0d3](https://www.linkedin.com/in/nullc0d3/) |
-| ResearchGate | [/profile/Ahmed-Awad-NullC0d3](https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3) |
-| Figshare | [/authors/Ahmed_Awad_NullC0d3](https://figshare.com/authors/Ahmed_Awad_NullC0d3) |
+| ResearchGate | [/profile/Ahmed-Awad-118](https://www.researchgate.net/profile/Ahmed-Awad-118) |
+| Figshare | [/authors/Ahmed_Awad/24415733](https://figshare.com/authors/Ahmed_Awad/24415733) |
 
 ---
 

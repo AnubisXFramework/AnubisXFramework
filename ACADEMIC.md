@@ -64,13 +64,13 @@ Will be assigned upon OSF project creation for preregistered studies.
 
 ### ResearchGate
 
-**ResearchGate Profile:** [https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3](https://www.researchgate.net/profile/Ahmed-Awad-NullC0d3)
+**ResearchGate Profile:** [https://www.researchgate.net/profile/Ahmed-Awad-118](https://www.researchgate.net/profile/Ahmed-Awad-118)
 
 Central hub for sharing publications, datasets, and research updates.
 
 ### Figshare
 
-**Figshare Profile:** [https://figshare.com/authors/Ahmed_Awad_NullC0d3](https://figshare.com/authors/Ahmed_Awad_NullC0d3)
+**Figshare Profile:** [https://figshare.com/authors/Ahmed_Awad/24415733](https://figshare.com/authors/Ahmed_Awad/24415733)
 
 Repository for figures, visual materials, and supplementary datasets.
 
