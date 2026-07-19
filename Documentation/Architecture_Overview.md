@@ -14,13 +14,17 @@ This release is permanently archived on Zenodo under DOI: [https://doi.org/10.52
 
 ## 1. Framework Architecture
 
-The AnubisX Framework defines a five-stage pipeline for behavioral identity attribution:
+The AnubisX Framework defines a six-stage pipeline for behavioral identity attribution:
 
 ```
-Feature Extraction → Profile Construction → Profile Comparison → Evidence Integration → Decision
+Ingestion → Feature Extraction → Profile Construction → Comparison → Evidence Evaluation → Decision
 ```
 
-### 1.1 Stage 1: Feature Extraction
+### 1.1 Stage 0: Ingestion
+
+Data acquisition through platform-specific adapters. Raw behavioral data is collected and validated before entering the analysis pipeline. Platform adapters handle API interactions, data format normalization, and initial quality assessment.
+
+### 1.2 Stage 1: Feature Extraction
 
 Each of the five behavioral modalities is processed by modality-specific extractors that transform raw behavioral data into structured feature vectors:
 
@@ -32,15 +36,15 @@ Each of the five behavioral modalities is processed by modality-specific extract
 | Network Analysis | Social graph data | Graph topology, interaction metrics |
 | Media Forensics | File system metadata | Organizational patterns, naming conventions |
 
-### 1.2 Stage 2: Profile Construction
+### 1.3 Stage 2: Profile Construction
 
 Extracted features are assembled into modality-specific profiles. Each profile is a structured representation of observed behavioral patterns for a given individual within a given modality.
 
-### 1.3 Stage 3: Profile Comparison
+### 1.4 Stage 3: Comparison
 
 Reference profiles (known individuals) are compared against questioned profiles (unknown subjects) using modality-specific similarity functions. Each comparison produces a similarity score.
 
-### 1.4 Stage 4: Evidence Integration
+### 1.5 Stage 4: Evidence Evaluation
 
 Similarity scores are transformed into likelihood ratios (LRs) and fused across modalities. The framework supports three fusion strategies:
 
@@ -48,7 +52,7 @@ Similarity scores are transformed into likelihood ratios (LRs) and fused across 
 - **Decision-level fusion**: Combining independent modality decisions
 - **Feature-level fusion**: Concatenating feature vectors (via HOSVD)
 
-### 1.5 Stage 5: Decision
+### 1.6 Stage 5: Decision
 
 The fused evidence supports a decision under quantified uncertainty. Outputs include:
 
@@ -59,12 +63,12 @@ The fused evidence supports a decision under quantified uncertainty. Outputs inc
 ## 2. Information Flow
 
 ```
-Raw Data → [Feature Extractors] → Feature Vectors → [Profile Constructor] → Behavioral Profiles → [Comparator] → Similarity Scores → [Calibrator] → LRs → [Fusion Engine] → Combined LR → [Decision Module] → Attribution Conclusion
+Raw Data → [Ingestion] → Validated Data → [Feature Extractors] → Feature Vectors → [Profile Constructor] → Behavioral Profiles → [Comparator] → Similarity Scores → [Calibrator] → LRs → [Fusion Engine] → Combined LR → [Decision Module] → Attribution Conclusion
 ```
 
 ## 3. Constraints
 
-- **Observational Bound**: Attribution confidence is fundamentally limited by the quantity and quality of available observations (HYP-CORE-004)
+- **Observational Bound**: Attribution confidence is fundamentally limited by the quantity and quality of available observations (ASM-CORE-003)
 - **Proportionality**: Evidence collection must be proportional to investigative need (P³ Protocol)
 - **Uncertainty Quantification**: All conclusions must include quantified uncertainty
 

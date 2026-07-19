@@ -504,7 +504,7 @@ metrics = get_performance_metrics()
 | Algorithms | Algorithm catalog | [Algorithms.md](Algorithms.md) |
 | Validation | Validation methodology | [Validation.md](Validation.md) |
 | Examples | Code examples | [Examples.md](Examples.md) |
-| Axiomatic System | 31 formal axioms | [Axiomatic_System.md](Axiomatic_System.md) |
+| Axiomatic System | 16 axioms, 20 hypotheses, 18 design principles | [Axiomatic_System.md](Axiomatic_System.md) |
 | Attribution Framework | LR-based attribution | [Attribution_Framework.md](Attribution_Framework.md) |
 | Multi-Modal Framework | Five modalities and fusion | [Multi_Modal_Framework.md](Multi_Modal_Framework.md) |
 | Benchmarking Guide | Evaluation scenarios | [Benchmarking_Guide.md](Benchmarking_Guide.md) |

@@ -43,7 +43,7 @@ The AnubisX Framework has completed its **theoretical specification**, achieved 
 | Q2 2027 | Cross-platform expansion | Facebook, Telegram, Discord adapters |
 | Q2 2027 | Benchmark execution | BENCH-0001—0024 (24 benchmarks) |
 | Q3 2027 | Multi-modal fusion implementation | Score-level, decision-level fusion engines |
-| Q3 2027 | Formal validation report | All 33 acceptance criteria assessed |
+| Q3 2027 | Formal validation report | All 31 acceptance criteria assessed |
 | Q4 2027 | Full validation documentation | Complete Tier 1–3 validation |
 
 ### Engineering Roadmap
@@ -136,7 +136,7 @@ The AnubisX Framework has completed its **theoretical specification**, achieved 
 | Domain | Criterion | Target |
 |---|---|---|
 | Scientific | Publications accepted in peer-reviewed venues | >= 5 papers |
-| Technical | All 33 acceptance criteria met | AUC >= 0.95, EER <= 0.08, C_lr <= 0.35 |
+| Technical | All 31 acceptance criteria met | AUC >= 0.95, EER <= 0.08, C_lr <= 0.35 |
 | Community | External contributors and third-party validators | >= 3 independent groups |
 | Legal | Daubert admissibility assessment | Pass |
 

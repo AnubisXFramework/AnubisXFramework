@@ -1,6 +1,6 @@
 # Validation Methodology
 
-**AnubisX Framework — Scientific Validation Standards and Protocols**
+**AnubisX Framework v3.0 — Scientific Validation Standards and Protocols**
 
 ---
 
@@ -14,7 +14,7 @@ This release is permanently archived on Zenodo under DOI: [https://doi.org/10.52
 
 ## 1. Overview
 
-This document defines the validation methodology for the AnubisX Framework v2.0 — a structured, tiered approach to establishing that every concept, equation, function, algorithm, and pipeline meets empirically grounded standards of scientific validity. The methodology is built on six core principles defined in the Validation Framework (VLD-001): Empirical Grounding, Reproducibility, Honesty, Transparency, Falsifiability, and Uncertainty Decomposition.
+This document defines the validation methodology for the AnubisX Framework v3.0 — a structured, tiered approach to establishing that every concept, equation, function, algorithm, and pipeline meets empirically grounded standards of scientific validity. The methodology is built on six core principles defined in the Validation Framework (VLD-001): Empirical Grounding, Reproducibility, Honesty, Transparency, Falsifiability, and Uncertainty Decomposition.
 
 The framework's validation architecture spans four tiers (Unit → Component → System → Operational), 31 acceptance criteria, 13 accuracy metrics, 10 performance metrics, 5 evaluation protocols, and 38 planned experiments (15 executed to date). Every protocol follows a standardized template specifying its target, purpose, inputs, outputs, metrics, and pass/fail conditions.
 
@@ -167,9 +167,9 @@ Validates performance under real-world deployment conditions. Targets the deploy
 
 The experimental validation program comprises 38 planned experiments across 6 domains. To date, 15 experiments have been executed in prototype form:
 
-- **Stylometric Fingerprinting (7 experiments)**: Facial feature extraction producing 372-dimensional vectors, ensemble embedding with 3 models (MarBERT 0.45, AraBERT 0.35, MPNet 0.20), lexical feature extraction (TTR, word length, punctuation, emoji ratios), TF-IDF topic extraction (top 100 keywords per account), profile construction via build_user_vector(), FAISS index construction (IndexFlatIP from 31 vectors), and FAISS similarity search (~16us per query). These experiments validate the core fingerprinting pipeline end-to-end.
+- **Stylometric Fingerprinting (7 experiments)**: Facial feature extraction producing 372-dimensional vectors, ensemble embedding with 3 models (MarBERT 0.45, AraBERT 0.35, MPNet 0.20), lexical feature extraction (TTR, word length, punctuation, emoji ratios), TF-IDF topic extraction (top 100 keywords per account), profile construction via build_user_vector(), FAISS index construction (IndexFlatIP from 31 vectors), and FAISS similarity search (6–8 μs per query). These experiments validate the core fingerprinting pipeline end-to-end.
 - **Demographic Verification (2 experiments)**: Egyptian account scoring using a 3-layer system (bio 60%, posts 40%) with 200+ indicators, and hardcoded threshold 0.7 for verification decisions. These validate the demographic modality.
-- **Cross-User Analysis (3 experiments)**: Cross-user cosine similarity distribution (mean ~0.26), similarity range analysis across 31 accounts, and within/between comparison (flagged as not computable without ground truth).
+- **Cross-User Analysis (3 experiments)**: Cross-user cosine similarity distribution (mean ~0.697), similarity range analysis across 31 accounts, and within/between comparison (flagged as not computable without ground truth).
 - **Publication Readiness (3 experiments)**: Claims audit finding 6/10 publication-ready, capability catalog assessing 12 capabilities, and limitation documentation.
 
 The remaining 23 experiments (Twitter domain +1, Facebook domain 7, Cross-Platform 5, Benchmarks 5, Ablation Studies 7, Stress Tests 6) are defined but pending implementation of their software and dataset prerequisites.
@@ -186,7 +186,7 @@ The remaining 23 experiments (Twitter domain +1, Facebook domain 7, Cross-Platfo
 | Theoretical validation | COMPLETE | Axiom-to-algorithm traceability established |
 | Scientific validation methodology | COMPLETE | 5 evaluation protocols defined |
 | Prototype — Stylometric fingerprint extraction | VALIDATED | Code execution on 31 accounts, 372-dim vectors produced |
-| Prototype — FAISS similarity search | VALIDATED | Verified at ~16us per query |
+| Prototype — FAISS similarity search | VALIDATED | Verified at 6–8 μs per query |
 | Prototype — Demographic filtering | VALIDATED | 3-layer scoring verified |
 | Prototype — Cosine similarity | VALIDATED | Verified against known examples |
 | Experimental plans | COMPLETE | 38 experiments planned across 6 domains |
@@ -213,7 +213,7 @@ All details — including complete accuracy metric definitions, performance metr
 
 **Document ID**: VLD-METH-001  
 **Classification**: PUBLIC (C0)  
-**Version**: 1.0  
+**Version**: 3.0  
 
 ---
 

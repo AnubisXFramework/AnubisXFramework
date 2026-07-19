@@ -42,7 +42,7 @@ Experimental validation was conducted through static code analysis and targeted 
 | 2 | Multi-model ensemble load | All 3 models load successfully | **Complete** | **Fail** (auth degraded) | N/A | No | **BLOCKED** |
 | 3 | Demographic filtering precision | Egyptian verification works | **Complete** | **Pass** | N/A (feasibility) | **Yes** | **READY** |
 | 4 | FAISS index construction | 372-dim vectors indexable | **Complete** | **Pass** | N/A | **Yes** | **READY** |
-| 5 | FAISS search speed | <100μs per query | **Complete** | **Pass** (~16μs) | **Confirmed** | **Yes** | **READY** |
+| 5 | FAISS search speed | <100μs per query | **Complete** | **Pass** (6–8 μs) | **Confirmed** | **Yes** | **READY** |
 | 6 | FAISS dimension consistency | Pipeline/search use same dim | **Inconsistent** | **Fail** | N/A | No | **BROKEN** |
 | 7 | Database versioning | Versioned schema works | **Complete** | **Pass** | N/A (feasibility) | **Yes** | **READY** |
 | 8 | Data ingestion from raw JSON | ETL pipeline functional | **Complete** | **Pass** | N/A | **Yes** | **READY** |
@@ -58,7 +58,7 @@ Experimental validation was conducted through static code analysis and targeted 
 
 | Verdict | Count | Experiments |
 |---------|-------|-------------|
-| **READY** | 10 | 1, 3, 4, 5, 7, 8, 10, 11, 12, 13, 14, 15 |
+| **READY** | 12 | 1, 3, 4, 5, 7, 8, 10, 11, 12, 13, 14, 15 |
 | **BLOCKED** | 1 | 2 |
 | **BROKEN** | 1 | 6 |
 | **DEGRADED** | 1 | 9 |

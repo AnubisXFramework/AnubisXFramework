@@ -359,7 +359,7 @@ The framework defines:
 - **50 equations** (EQ-001—050) across 10 domains
 - **47 function specifications** (FUNC-001—047)
 - **37+ algorithm specifications** (ALG-001—036, 041) across 9 domains
-- **33 acceptance criteria** (AC-001—004) across a 4-tier validation hierarchy
+- **31 acceptance criteria** (AC-001—004) across a 4-tier validation hierarchy
 - **24 benchmarks** (BENCH-0001—0024) in 8 suites with 30 baselines
 - **38 experiment designs** (EXP-*) across 6 domains
 - **20 case studies** (CASE-*) across 4 domains

@@ -511,7 +511,7 @@ Results (ranked matches)
 | Network features | Not collected | Relational network analysis |
 | Validation | Partial (15/38 experiments) | Full 4-tier hierarchy |
 | Accuracy metrics | 7 of 13 computable | All 13 |
-| Acceptance criteria | Untested | 33 criteria |
+| Acceptance criteria | Untested | 31 criteria |
 | Database | 31 users | N/A (full framework) |
 
 ---

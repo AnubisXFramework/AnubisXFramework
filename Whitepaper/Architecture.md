@@ -1,7 +1,7 @@
 # Architecture: AnubisX Framework
 
 **Document ID**: WHP-ARCH-001  
-**Version**: 2.0.0  
+**Version**: 3.0.0  
 **Classification**: PUBLIC (C0)  
 
 ---

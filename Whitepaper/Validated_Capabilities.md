@@ -64,7 +64,7 @@ This document catalogs the capabilities of the Anubis Twitter Intelligence Proto
 | Field | Value |
 |-------|-------|
 | **Status** | **VERIFIED (with caveats)** |
-| Evidence | `pipeline.py:174-208` — IndexFlatIP, L2 normalization, ~16μs query time |
+| Evidence | `pipeline.py:174-208` — IndexFlatIP, L2 normalization, 6–8 μs query time |
 | Code Details | 372-dim vectors, cosine similarity via inner product, top-k retrieval |
 | Conditions | faiss library, numpy. Dimension must match between build and search. |
 | Limitations | **Critical**: Pipeline uses 372-dim; legacy scripts use 734-dim. Dimension mismatch causes `faissException`. Cross-script search is broken. |

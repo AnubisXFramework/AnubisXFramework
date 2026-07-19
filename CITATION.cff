@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use the AnubisX Framework in your research, please cite this repository."
 title: "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution"
 type: software
-version: 2.0.0
-date-released: 2026-07-16
+version: 3.0.0
+date-released: 2026-07-19
 url: "https://github.com/nullc0d30/AnubisXFramework"
 
 authors:
@@ -22,7 +22,7 @@ preferred-citation:
   authors:
     - name: "Awad, Ahmed"
   year: 2026
-  version: "2.0.0"
+  version: "3.0.0"
   doi: "10.5281/zenodo.21393392"
   url: "https://github.com/nullc0d30/AnubisXFramework"
   journal: "TBD (under review preparation)"
@@ -48,7 +48,7 @@ abstract: >
   The AnubisX Framework is a comprehensive scientific methodology
   for determining the identity of a human operator from their digital
   behavioral patterns. It defines a complete theoretical specification
-  including 31 formal axioms, 37+ algorithm specifications, 292
+  including 16 formal axioms, 37+ algorithm specifications, 292
   mathematical definitions, 50 equations, 38 experiment designs, 24
   benchmarks with 30 baselines, 20 case studies, and a four-tier
   validation framework with 33 quantified acceptance criteria. The

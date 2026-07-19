@@ -40,7 +40,7 @@ A proposed formal forensic discipline for behavioral identity attribution, along
 
 ### Is it peer reviewed?
 
-The framework follows a formal publication pipeline with 6 planned papers covering framework, theory, mathematics, algorithms, validation, and case studies. Current validation is internal but follows rigorous scientific standards with 33 acceptance criteria and 23 metrics.
+The framework follows a formal publication pipeline with 6 planned papers covering framework, theory, mathematics, algorithms, validation, and case studies. Current validation is internal but follows rigorous scientific standards with 31 acceptance criteria and 23 metrics.
 
 ### How is confidence quantified?
 
@@ -77,7 +77,7 @@ Three fusion strategies:
 
 ### What validation does the framework have?
 
-A four-tier hierarchy (Unit, Component, System, Operational) with 33 acceptance criteria, 13 accuracy metrics, 10 performance metrics, 24 benchmarks, and 30 baselines. 15 experiments have been executed on the prototype.
+A four-tier hierarchy (Unit, Component, System, Operational) with 31 acceptance criteria, 13 accuracy metrics, 10 performance metrics, 24 benchmarks, and 30 baselines. 15 experiments have been executed on the prototype.
 
 ---
 
@@ -152,7 +152,7 @@ The prototype code and documentation are available. Reproducibility requires:
 
 ### What are the main research gaps?
 
-1. **Empirical validation**: 33 acceptance criteria untested against real data
+1. **Empirical validation**: 31 acceptance criteria untested against real data
 2. **Cross-platform validation**: Facebook and cross-platform pipelines not operational
 3. **Multi-modal validation**: Only stylometry implemented
 4. **Accuracy measurement**: No formal FAR/FRR/AUC estimates

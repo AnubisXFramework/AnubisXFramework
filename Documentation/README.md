@@ -9,7 +9,7 @@
 | Section | Description |
 |---|---|
 | [Architecture Overview](Architecture_Overview.md) | Framework architecture and component model |
-| [Axiomatic System](Axiomatic_System.md) | The 31 formal axioms of Identity Intelligence |
+| [Axiomatic System](Axiomatic_System.md) | 16 formal axioms, 20 hypotheses, 18 design principles |
 | [Multi-Modal Framework](Multi_Modal_Framework.md) | Five tracking modalities and fusion architecture |
 | [Attribution Framework](Attribution_Framework.md) | LR-based attribution and evidence integration |
 | [Validation Methodology](Validation_Methodology.md) | Scientific validation standards and protocols |

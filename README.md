@@ -7,7 +7,7 @@
 **A Scientific Methodology for Behavioral Identity Attribution**
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21393392-blue)](https://doi.org/10.5281/zenodo.21393392)
-[![Version](https://img.shields.io/badge/Version-2.0.0--Journal%20Revision-brightgreen)](RELEASE_NOTES_v2.0.md)
+[![Version](https://img.shields.io/badge/Version-3.0.0--Scientific%20Re%20Architecture-brightgreen)](RELEASE_NOTES_v3.0.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![GitHub Release](https://img.shields.io/badge/GitHub-Release-blueviolet)](https://github.com/nullc0d30/AnubisXFramework/releases)
 [![Status: Theoretical + Prototype](https://img.shields.io/badge/Status-Theoretical%20%2B%20Prototype-blue)](ROADMAP_v2.md)
@@ -128,10 +128,10 @@ Ingestion → Feature Extraction → Profile Construction → Comparison → Evi
 
 | Component | Status |
 |---|---|
-| Axiomatic foundation | Complete (31 axioms) |
+| Axiomatic foundation | Complete (16 axioms) |
 | Mathematical framework | Complete (292 objects, 50 equations) |
 | Algorithm specifications | Complete (37 algorithms) |
-| Validation framework | Complete (33 acceptance thresholds) |
+| Validation framework | Complete (31 acceptance thresholds) |
 | Benchmark framework | Complete (24 benchmarks) |
 | Experiment designs | Complete (38 experiments — 15 executed) |
 | Case studies | Complete (20 case studies) |
@@ -257,8 +257,8 @@ Full citation examples in [CITATIONS.md](CITATIONS.md).
 
 The framework advances behavioral identity attribution through:
 
-1. **Theoretical Innovation** — First comprehensive axiomatic foundation (31 axioms)
-2. **Methodological Rigor** — Formal validation with 33 acceptance thresholds
+1. **Theoretical Innovation** — First comprehensive axiomatic foundation (16 axioms, 20 hypotheses, 18 design principles)
+2. **Methodological Rigor** — Formal validation with 31 acceptance thresholds
 3. **Technical Implementation** — Working prototype with FAISS similarity search
 4. **Empirical Evidence** — Validated on 31 real-world Twitter accounts
 

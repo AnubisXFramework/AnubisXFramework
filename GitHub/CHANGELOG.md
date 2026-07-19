@@ -4,109 +4,6 @@
 
 ---
 
-## Official DOI
-
-DOI: [10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)
-
----
-
-## 2.0.0 (Journal Research Edition)
-
-**Release Date**: 2026-07-16
-
-This is the Journal Research Edition (v2.0) of the AnubisX Framework — upgraded from the Foundational Release (v1.0) to a complete journal-ready research repository.
-
-### Added
-
-#### Journal Directory (NEW)
-- `Journal/README.md` — Journal revision materials index
-- `Journal/REVIEWER_RESPONSE.md` — Response to 14 reviewer concerns
-- `Journal/Submission_Checklist.md` — Pre-submission verification checklist
-- `Journal/Target_Journals.md` — Target journal analysis and prioritization
-- `Journal/Publication_History.md` — Complete publication version tracking
-- `AnubisX_Framework_Foundational_Paper_v2.0.docx` — Journal-ready manuscript (DOCX)
-- `AnubisX_Framework_Foundational_Paper_v2.0.md` — Manuscript in Markdown format
-
-#### Release Documentation (NEW)
-- `RELEASE_NOTES_v2.0.md` — Complete v2.0 release notes with highlights, improvements, limitations
-- `Release/` — Release documentation directory
-
-#### Research Documentation (NEW)
-- `RESEARCH_STATUS.md` — Comprehensive status matrix (20 categories)
-- `ROADMAP_v2.md` — Expanded roadmap through v3.0
-- `PUBLICATION_STATUS.md` — Publication locations and submission status
-- `Research_Artifacts.md` — Complete research artifact inventory
-- `OPEN_SCIENCE.md` — Open science policy documentation
-- `REPOSITORY_AUDIT_REPORT.md` — Comprehensive repository quality audit
-
-#### Publication Support (NEW)
-- `Figures/README.md` — Figure specifications with publication-ready captions (7 figures)
-- `Tables/README.md` — Table documentation (12 tables)
-- `Citation/` — Citation directory for format guides
-
-#### Repository Structure (NEW DIRECTORIES)
-- `Journal/` — Journal revision materials
-- `Release/` — Release documentation and notes
-- `Figures/` — Figure specifications
-- `Tables/` — Table specifications
-- `Citation/` — Citation metadata and formats
-- `Provenance/` — Data provenance documentation
-- `Examples/` — Implementation examples
-- `Research/` — Research documentation
-- `Theory/` — Theoretical foundation documents
-- `Framework/` — Framework architecture documents
-- `Algorithms/` — Algorithm specifications
-- `Mathematics/` — Mathematical foundation documents
-- `Validation/` — Validation documentation
-- `Data/` — Dataset specifications
-- `Scripts/` — Utility scripts
-
-### Improved
-
-- **README.md**: Complete modernization with badges, navigation, architecture overview, quick links, support section
-- **CITATION.cff**: Updated to v2.0.0 with complete metadata, ORCID, preferred citation, expanded references
-- **Documentation**: Cross-references updated to reflect v2.0 version numbering
-
-### Updated
-
-- All documentation files: Version references updated from v1.0 to v2.0 where applicable
-- PUBLICATION_METADATA_REPORT.md: Updated version and date references
-
-### Corrected
-
-- Version number consistency across all files (v1.0 → v2.0 where journal revision is referenced)
-- Copyright normalization with consistent attribution blocks
-- Broken internal link references updated
-
-### Deprecated
-
-- ROADMAP.md — Superseded by ROADMAP_v2.md (kept for reference)
-- PUBLICATION_METADATA_REPORT.md — v1.0 metadata (kept for reference)
-- FINAL_CITATION_REPORT.md — v1.0 citation report (kept for reference)
-
-### Publication Changes
-
-- Manuscript expanded from 19 to 50 references (62% external)
-- New sections: Practical Implications, Summary of Contributions, Reproducibility
-- Expanded Related Work from 6 to 11 subsections
-- Enhanced limitations with severity/impact/mitigation structure
-- All 14 reviewer concerns addressed
-
-### Validation Changes
-
-- Claims status system implemented: 6/10 PUBLICATION READY, 1 DEGRADED, 3 REQUIRES DATA
-- Publication readiness assessed at 8.5/10
-- Comparative analysis framework established
-
-### Documentation Changes
-
-- Repository structure reorganized with 15 new directories
-- README modernized with comprehensive badges and navigation
-- Figure and table specifications created
-- Open science policy formally documented
-
----
-
 ## 1.0.0 (Foundational Release)
 
 **Release Date**: 2026-07-15
@@ -202,12 +99,9 @@ This is the foundational public release of the AnubisX Framework — a complete 
 **Project**: AnubisX Framework  
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
-**ORCID**: https://orcid.org/0009-0005-0654-3393  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)  
-
-**DOI**: [https://doi.org/10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)
+**Repository**: Official AnubisX Repository  
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.

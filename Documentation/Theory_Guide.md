@@ -14,7 +14,7 @@ This release is permanently archived on Zenodo under DOI: [https://doi.org/10.52
 
 ## 1. Introduction
 
-This guide presents the theoretical foundations of the AnubisX Framework. It covers the Cognitive Centroid theory, the 31 formal axioms, the 46 assumptions, Identity Intelligence (IdINT) as a proposed discipline, the five tracking modalities and their theoretical basis, the signal decomposition model, and the Likelihood Ratio framework.
+This guide presents the theoretical foundations of the AnubisX Framework. It covers the Cognitive Centroid theory, the 16 formal axioms, 20 hypotheses, and 18 design principles, the 46 assumptions, Identity Intelligence (IdINT) as a proposed discipline, the five tracking modalities and their theoretical basis, the signal decomposition model, and the Likelihood Ratio framework.
 
 The complete theoretical specification is documented in the Theory/ directory (THY-001 through THY-005).
 
@@ -71,7 +71,7 @@ where f_i_j are n feature vectors from individual i. The estimate converges at r
 
 ## 3. The 31 Formal Axioms
 
-The framework's axiomatic system comprises 31 formal axioms organized into 6 groups. Each axiom states a fundamental truth that is accepted without proof within the framework.
+The framework's axiomatic system comprises 16 formal axioms organized into 6 groups, supported by 20 research hypotheses and 18 design principles. Each axiom states a fundamental truth that is accepted without proof within the framework.
 
 ### 3.1 Core Axioms (HYP-CORE-001 — 005)
 
@@ -227,7 +227,7 @@ The framework is designed to meet the Daubert standard for admissibility of scie
 |---|---|
 | Testability | 37 algorithms, 38 experiments, falsifiable predictions |
 | Peer review | Publication pipeline (6 papers planned) |
-| Error rate | 33 acceptance criteria, 13 accuracy metrics, 23 total metrics |
+| Error rate | 31 acceptance criteria, 13 accuracy metrics, 23 total metrics |
 | Standards | Standardized protocols, reproducibility requirements |
 | General acceptance | Novel discipline — acceptance built through publication |
 

@@ -43,7 +43,7 @@
 | **Prototype** | Network Analysis | Planned | No implementation |
 | **Prototype** | Media Forensics | Planned | No implementation |
 | **Prototype** | Multi-Modal Fusion | Planned | No implementation |
-| **Validation** | Validation Framework | Complete | 4-tier hierarchy, 33 acceptance criteria |
+| **Validation** | Validation Framework | Complete | 4-tier hierarchy, 31 acceptance criteria |
 | **Validation** | Accuracy Metrics | Complete | 13 accuracy metrics defined |
 | **Validation** | Performance Metrics | Complete | 10 performance metrics defined |
 | **Validation** | Evaluation Methodologies | Complete | 5 methodologies (Holdout, K-fold, LOO, Bootstrap, Temporal) |

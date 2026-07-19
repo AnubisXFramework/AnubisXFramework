@@ -17,10 +17,10 @@ This release is permanently archived on Zenodo.
 AnubisX is a scientific framework for digital identity attribution based on the principle that human operators leave persistent, measurable cognitive signatures in their digital interactions. Unlike traditional attribution methods that track technical artifacts (IP addresses, device fingerprints, browser cookies), AnubisX analyzes involuntary behavioral patterns — the unconscious habits of language, timing, interaction, and organization that are unique to each individual.
 
 The framework provides:
-- A formal theoretical foundation (31 axioms, 46 assumptions)
+- A formal theoretical foundation (16 axioms, 20 hypotheses, 18 design principles)
 - A mathematical formalism (292 definitions, 50+ equations, 37 algorithms)
 - A multi-modal architecture (5 behavioral modalities, 3 fusion strategies)
-- A validation framework (4-tier hierarchy, 33 acceptance criteria, 23 metrics)
+- A validation framework (4-tier hierarchy, 31 acceptance criteria, 23 metrics)
 - A prototype implementation (Anubis Twitter Intelligence v2.5)
 - Experimental validation (15 executed experiments)
 - 20 case studies across Twitter, Facebook, and cross-platform scenarios
@@ -60,7 +60,7 @@ AnubisX bridges this gap with a comprehensive theoretical, mathematical, and emp
 | **Persistence** | Session-level | Years (stable across technical changes) |
 | **Dimensionality** | Low (dozens of features) | High (hundreds of features, 5 modalities) |
 | **Certainty** | Binary (match/no match) | Probabilistic (Likelihood Ratio) |
-| **Validation** | Ad-hoc | Formal (4-tier, 33 criteria) |
+| **Validation** | Ad-hoc | Formal (4-tier, 31 criteria) |
 | **Theoretical Basis** | Engineering | Cognitive science + forensic science |
 
 ### 3.1 Key Insight
@@ -76,7 +76,7 @@ The core insight (HYP-CORE-001) is that each individual possesses a **Cognitive 
 
 ### 4.1 Theoretical Foundation
 
-The framework is built on 31 formal axioms organized into 6 groups:
+The framework is built on 16 formal axioms, 20 research hypotheses, and 18 design principles organized into three tiers:
 
 | Group | Count | Focus |
 |---|---|---|
@@ -281,7 +281,7 @@ fingerprint[372] = embedding[256] + stats[16] + cvec[100]
 | FAQ | Frequently asked questions | [FAQ.md](FAQ.md) |
 | Glossary | Standardized terminology | [Glossary.md](Glossary.md) |
 | References | Document references | [References.md](References.md) |
-| Axiomatic System | 31 formal axioms | [Axiomatic_System.md](Axiomatic_System.md) |
+| Axiomatic System | 16 axioms, 20 hypotheses, 18 design principles | [Axiomatic_System.md](Axiomatic_System.md) |
 | Attribution Framework | LR-based attribution | [Attribution_Framework.md](Attribution_Framework.md) |
 | Multi-Modal Framework | Five modalities and fusion | [Multi_Modal_Framework.md](Multi_Modal_Framework.md) |
 | Benchmarking Guide | Evaluation scenarios | [Benchmarking_Guide.md](Benchmarking_Guide.md) |
