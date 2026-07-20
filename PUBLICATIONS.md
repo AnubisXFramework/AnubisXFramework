@@ -33,7 +33,7 @@
   year = {2026},
   version = {2.0.0},
   doi = {10.5281/zenodo.21393392},
-  url = {https://github.com/nullc0d30/AnubisXFramework},
+  url = {https://github.com/AnubisXFramework/AnubisXFramework},
   journal = {TBD (under review)}
 }
 ```

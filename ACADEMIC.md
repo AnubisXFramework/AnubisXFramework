@@ -82,7 +82,7 @@ Manuscript will be submitted to SSRN for preprint distribution upon journal sele
 
 ### GitHub Repository
 
-**Repository:** [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)
+**Repository:** [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
 Primary development repository containing complete framework specification and implementation.
 
@@ -204,7 +204,7 @@ Professional profile and research updates.
   author = {Awad, Ahmed},
   year = {2026},
   version = {2.0.0},
-  url = {https://github.com/nullc0d30/AnubisXFramework},
+  url = {https://github.com/AnubisXFramework/AnubisXFramework},
   doi = {10.5281/zenodo.21393392},
   license = {CC-BY-4.0}
 }

@@ -4,7 +4,7 @@
 *Independent Cybersecurity Researcher*  
 ORCID: https://orcid.org/0009-0005-0654-3393  
 LinkedIn: https://www.linkedin.com/in/nullc0d3/  
-GitHub: https://github.com/nullc0d30/AnubisXFramework  
+GitHub: https://github.com/AnubisXFramework/AnubisXFramework  
 Zenodo: https://doi.org/10.5281/zenodo.21393392  
 
 **Version:** 2.0.0 — Journal Revision  
@@ -511,7 +511,7 @@ All 37 algorithms. Multi-lingual expansion. All 24 benchmarks. All 38 formal exp
 
 ## 17. Reproducibility
 
-Source code (47 files, ~2,800 LOC) at https://github.com/nullc0d30/AnubisXFramework (MIT). 31 JSON account files included. Requirements: Python 3.10+, FAISS, sentence-transformers, NumPy, scikit-learn, pandas. Note: hash() non-determinism affects n-gram reproducibility. Framework documentation available in same repository.
+Source code (47 files, ~2,800 LOC) at https://github.com/AnubisXFramework/AnubisXFramework (MIT). 31 JSON account files included. Requirements: Python 3.10+, FAISS, sentence-transformers, NumPy, scikit-learn, pandas. Note: hash() non-determinism affects n-gram reproducibility. Framework documentation available in same repository.
 
 ---
 
@@ -535,13 +535,13 @@ The author acknowledges the 31 Egyptian Twitter users whose publicly available d
 
 ## Data Availability
 
-31 Egyptian Twitter account JSON files at https://github.com/nullc0d30/AnubisXFramework. Publicly available tweet data only.
+31 Egyptian Twitter account JSON files at https://github.com/AnubisXFramework/AnubisXFramework. Publicly available tweet data only.
 
 ---
 
 ## Code Availability
 
-47 Python files, ~2,800 LOC at https://github.com/nullc0d30/AnubisXFramework. MIT license.
+47 Python files, ~2,800 LOC at https://github.com/AnubisXFramework/AnubisXFramework. MIT license.
 
 ---
 
@@ -658,3 +658,4 @@ None. Independent research without external funding.
 [49] Koppel, M., Schler, J., & Argamon, S. (2011). Authorship attribution in the wild. Language Resources and Evaluation, 45(1), 83–94.
 
 [50] He, X., et al. (2024). Authorship attribution methods, challenges, and future research directions: A comprehensive survey. Information, 15(3), 131.
+

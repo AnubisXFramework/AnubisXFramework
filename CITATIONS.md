@@ -22,7 +22,7 @@ Below are examples for citing the AnubisX Framework in various academic styles. 
   author = {Awad, Ahmed},
   year = {2026},
   version = {2.0.0},
-  url = {https://github.com/nullc0d30/AnubisXFramework},
+  url = {https://github.com/AnubisXFramework/AnubisXFramework},
   doi = {10.5281/zenodo.21393392},
   license = {CC-BY-4.0}
 }
@@ -37,7 +37,7 @@ Below are examples for citing the AnubisX Framework in various academic styles. 
   year = {2026},
   version = {2.0.0},
   doi = {10.5281/zenodo.21393392},
-  url = {https://github.com/nullc0d30/AnubisXFramework},
+  url = {https://github.com/AnubisXFramework/AnubisXFramework},
   journal = {TBD (under review)}
 }
 ```
@@ -64,7 +64,7 @@ Awad, A. (2026). *AnubisX Framework: A Scientific Methodology for Behavioral Ide
 
 ### Website Citation
 
-Awad, A. (2026). AnubisX Framework. Retrieved July 18, 2026, from https://github.com/nullc0d30/AnubisXFramework
+Awad, A. (2026). AnubisX Framework. Retrieved July 18, 2026, from https://github.com/AnubisXFramework/AnubisXFramework
 
 ---
 
@@ -116,7 +116,7 @@ TI  - AnubisX Framework: A Scientific Methodology for Behavioral Identity Attrib
 AU  - Awad, Ahmed
 PY  - 2026
 VL  - 2.0.0
-UR  - https://github.com/nullc0d30/AnubisXFramework
+UR  - https://github.com/AnubisXFramework/AnubisXFramework
 DO  - 10.5281/zenodo.21393392
 LA  - English
 KW  - behavioral identity attribution
@@ -147,7 +147,7 @@ ER  -
 %A Awad, Ahmed
 %D 2026
 %V 2.0.0
-%U https://github.com/nullc0d30/AnubisXFramework
+%U https://github.com/AnubisXFramework/AnubisXFramework
 %R 10.5281/zenodo.21393392
 %K behavioral identity attribution
 %K digital forensics
@@ -180,7 +180,7 @@ When citing the AnubisX Framework, please include:
 1. DOI: 10.5281/zenodo.21393392
 2. Version: 2.0.0
 3. License: CC BY 4.0
-4. Repository URL: https://github.com/nullc0d30/AnubisXFramework
+4. Repository URL: https://github.com/AnubisXFramework/AnubisXFramework
 
 ---
 

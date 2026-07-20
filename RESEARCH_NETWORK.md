@@ -44,7 +44,7 @@ OpenAlex
 - Documentation and specification maintenance
 - Continuous integration for prototype code
 
-**URL:** [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)
+**URL:** [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
 **Content:**
 - Complete framework specification

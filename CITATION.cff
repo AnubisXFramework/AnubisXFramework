@@ -4,13 +4,13 @@ title: "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attr
 type: software
 version: 3.0.0
 date-released: 2026-07-19
-url: "https://github.com/nullc0d30/AnubisXFramework"
+url: "https://github.com/AnubisXFramework/AnubisXFramework"
 
 authors:
   - name: "Ahmed Awad (NullC0d3)"
     orcid: "https://orcid.org/0009-0005-0654-3393"
 
-repository-code: "https://github.com/nullc0d30/AnubisXFramework"
+repository-code: "https://github.com/AnubisXFramework/AnubisXFramework"
 
 doi: "10.5281/zenodo.21393392"
 
@@ -24,7 +24,7 @@ preferred-citation:
   year: 2026
   version: "3.0.0"
   doi: "10.5281/zenodo.21393392"
-  url: "https://github.com/nullc0d30/AnubisXFramework"
+  url: "https://github.com/AnubisXFramework/AnubisXFramework"
   journal: "TBD (under review preparation)"
 
 keywords:
@@ -66,56 +66,57 @@ abstract: >
 references:
   - type: document
     title: "AnubisX Framework Foundational Paper v2.0"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Journal/AnubisX_Framework_Foundational_Paper_v2.0.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Journal/AnubisX_Framework_Foundational_Paper_v2.0.md"
 
   - type: document
     title: "Documentation/Overview.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Overview.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Overview.md"
 
   - type: document
     title: "Documentation/Framework_Guide.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Framework_Guide.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Framework_Guide.md"
 
   - type: document
     title: "Documentation/Theory_Guide.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Theory_Guide.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Theory_Guide.md"
 
   - type: document
     title: "Documentation/Algorithms.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Algorithms.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Algorithms.md"
 
   - type: document
     title: "Documentation/Validation.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Validation.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Validation.md"
 
   - type: document
     title: "Documentation/Architecture.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Documentation/Architecture.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Architecture.md"
 
   - type: document
     title: "RELEASE_NOTES_v2.0.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/RELEASE_NOTES_v2.0.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/RELEASE_NOTES_v2.0.md"
 
   - type: document
     title: "RESEARCH_STATUS.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/RESEARCH_STATUS.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/RESEARCH_STATUS.md"
 
   - type: document
     title: "ROADMAP_v2.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/ROADMAP_v2.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/ROADMAP_v2.md"
 
   - type: document
     title: "PUBLICATION_STATUS.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/PUBLICATION_STATUS.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/PUBLICATION_STATUS.md"
 
   - type: document
     title: "OPEN_SCIENCE.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/OPEN_SCIENCE.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/OPEN_SCIENCE.md"
 
   - type: document
     title: "Research_Artifacts.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/Research_Artifacts.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Research_Artifacts.md"
 
   - type: document
     title: "REPOSITORY_AUDIT_REPORT.md"
-    url: "https://github.com/nullc0d30/AnubisXFramework/blob/main/REPOSITORY_AUDIT_REPORT.md"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/REPOSITORY_AUDIT_REPORT.md"
+

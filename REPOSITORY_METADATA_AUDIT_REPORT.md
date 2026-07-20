@@ -11,7 +11,7 @@
 | Field | Value | Source |
 |---|---|---|
 | **Author** | Ahmed Awad (NullC0d3) | CITATION.cff, README.md |
-| **GitHub Repository** | https://github.com/nullc0d30/AnubisXFramework | CITATION.cff |
+| **GitHub Repository** | https://github.com/AnubisXFramework/AnubisXFramework | CITATION.cff |
 | **Zenodo DOI** | 10.5281/zenodo.21393392 | CITATION.cff |
 | **ORCID** | https://orcid.org/0009-0005-0654-3393 | CITATION.cff |
 | **LinkedIn** | https://www.linkedin.com/in/nullc0d3/ | README.md |
@@ -46,7 +46,7 @@
 
 **Files fixed:** All files using Pattern B or Pattern C footers.
 
-**Action:** Replaced with `[https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)`.
+**Action:** Replaced with `[https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)`.
 
 ### 2. Whitepaper "Owner" Header — 16 files fixed
 
@@ -130,7 +130,7 @@
 
 | Old Value | New Value | Files Affected |
 |---|---|---|
-| `github.com/anubisx/framework` | `github.com/nullc0d30/AnubisXFramework` | PUBLICATION_METADATA_REPORT.md, LICENSE_GUIDE.md |
+| `github.com/anubisx/framework` | `github.com/AnubisXFramework/AnubisXFramework` | PUBLICATION_METADATA_REPORT.md, LICENSE_GUIDE.md |
 | `10.5281/zenodo.21374132` | `10.5281/zenodo.21393392` | Entire repository (132 occurrences) |
 | `**Owner**: Ahmed Awad (NullC0d3)` | `**Project**: AnubisX Framework` | All 16 Whitepaper/*.md files |
 
@@ -143,7 +143,7 @@
 All 80 public documentation files now reference identical official project metadata:
 
 - **Author:** Ahmed Awad (NullC0d3) — Independent Cybersecurity Researcher
-- **Repository:** https://github.com/nullc0d30/AnubisXFramework
+- **Repository:** https://github.com/AnubisXFramework/AnubisXFramework
 - **DOI:** 10.5281/zenodo.21393392
 - **ORCID:** https://orcid.org/0009-0005-0654-3393
 - **LinkedIn:** https://www.linkedin.com/in/nullc0d3/
@@ -176,3 +176,4 @@ All 80 public documentation files now reference identical official project metad
 
 *Report generated: 2026-07-16*  
 *Classification: PUBLIC (C0)*
+

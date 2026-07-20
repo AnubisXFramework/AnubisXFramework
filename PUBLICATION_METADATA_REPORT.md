@@ -13,7 +13,7 @@
 | **Version** | 2.0.0 |
 | **Release Date** | 2026-07-15 |
 | **License** | CC-BY-4.0 |
-| **Repository** | https://github.com/nullc0d30/AnubisXFramework |
+| **Repository** | https://github.com/AnubisXFramework/AnubisXFramework |
 | **Author** | Ahmed Awad (NullC0d3) |
 
 ---
@@ -27,7 +27,7 @@
   title = {AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution},
   author = {Awad, Ahmed},
   year = {2026},
-  url = {https://github.com/nullc0d30/AnubisXFramework},
+  url = {https://github.com/AnubisXFramework/AnubisXFramework},
   doi = {10.5281/zenodo.21393392}
 }
 ```
@@ -57,7 +57,7 @@ title: "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attr
 type: software
 version: 2.0.0
 date-released: 2026-07-15
-url: "https://github.com/nullc0d30/AnubisXFramework"
+url: "https://github.com/AnubisXFramework/AnubisXFramework"
 doi: "10.5281/zenodo.21393392"
 license: "CC-BY-4.0"
 ```
@@ -82,7 +82,7 @@ The DOI metadata is integrated into:
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
 
 
 **DOI**: [https://doi.org/10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)

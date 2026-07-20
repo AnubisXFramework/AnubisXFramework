@@ -112,7 +112,7 @@ See manuscript Section 17 for complete reproducibility documentation.
   author = {Awad, Ahmed},
   year = {2026},
   version = {2.0.0},
-  url = {https://github.com/nullc0d30/AnubisXFramework},
+  url = {https://github.com/AnubisXFramework/AnubisXFramework},
   doi = {10.5281/zenodo.21393392},
   license = {CC-BY-4.0}
 }
@@ -144,7 +144,7 @@ Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
 When using the framework in academic work, provide:
 
 1. Citation to the DOI: [10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392)
-2. Reference to the repository: [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework)
+2. Reference to the repository: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
 3. License notice: CC BY 4.0
@@ -207,3 +207,4 @@ The framework supports the following open science practices eligible for badges:
 
 **© 2026 Ahmed Awad (NullC0d3). All rights reserved.**  
 *This document represents the official open science statement for the AnubisX Framework.*
+

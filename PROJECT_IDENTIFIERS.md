@@ -16,7 +16,7 @@ This document serves as the single reference point for all persistent identifier
 
 | Identifier | Value |
 |---|---|
-| **Repository URL** | [https://github.com/nullc0d30/AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework) |
+| **Repository URL** | [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework) |
 | **Repository DOI** | [10.5281/zenodo.21393392](https://doi.org/10.5281/zenodo.21393392) |
 | **License** | [Creative Commons Attribution 4.0 International](LICENSE.md) |
 | **Current Version** | 2.0.0 — Journal Revision |
@@ -58,8 +58,8 @@ This document serves as the single reference point for all persistent identifier
 | Identifier | Value |
 |---|---|
 | **Username** | nullc0d30 |
-| **Repository** | [AnubisXFramework](https://github.com/nullc0d30/AnubisXFramework) |
-| **Releases** | [Releases Page](https://github.com/nullc0d30/AnubisXFramework/releases) |
+| **Repository** | [AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework) |
+| **Releases** | [Releases Page](https://github.com/AnubisXFramework/AnubisXFramework/releases) |
 
 ---
 
@@ -139,10 +139,10 @@ See [LICENSE.md](LICENSE.md) for complete license text.
 
 | Purpose | URL |
 |---|---|
-| **Main Repository** | https://github.com/nullc0d30/AnubisXFramework |
+| **Main Repository** | https://github.com/AnubisXFramework/AnubisXFramework |
 | **Archived Version** | https://doi.org/10.5281/zenodo.21393392 |
-| **Citation File** | https://github.com/nullc0d30/AnubisXFramework/blob/main/CITATION.cff |
-| **License** | https://github.com/nullc0d30/AnubisXFramework/blob/main/LICENSE.md |
+| **Citation File** | https://github.com/AnubisXFramework/AnubisXFramework/blob/main/CITATION.cff |
+| **License** | https://github.com/AnubisXFramework/AnubisXFramework/blob/main/LICENSE.md |
 
 ### Profile URLs
 
@@ -161,7 +161,7 @@ See [LICENSE.md](LICENSE.md) for complete license text.
 ```
 DOI:       10.5281/zenodo.21393392
 ORCID:     0009-0005-0654-3393
-GitHub:    github.com/nullc0d30/AnubisXFramework
+GitHub:    github.com/AnubisXFramework/AnubisXFramework
 License:   CC BY 4.0
 Version:   2.0.0
 Author:    Ahmed Awad (NullC0d3)

@@ -135,7 +135,7 @@ If you use the AnubisX Framework in your research, please cite:
 @software{anubisx2026framework,
   title = {AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution},
   year = {2026},
-  url = {https://github.com/nullc0d30/AnubisXFramework},
+  url = {https://github.com/AnubisXFramework/AnubisXFramework},
   doi = {10.5281/zenodo.21393392}
 }
 ```
@@ -157,3 +157,4 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
+
