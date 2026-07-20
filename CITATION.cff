@@ -20,7 +20,7 @@ preferred-citation:
   type: article
   title: "AnubisX Framework: A Behavioral Digital Attribution Framework for Identity Analysis Using Artificial Intelligence"
   authors:
-    - name: "Awad, Ahmed"
+    - name: "Ahmed Awad (NullC0d3)"
   year: 2026
   version: "3.0.0"
   doi: "10.5281/zenodo.21393392"

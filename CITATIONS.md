@@ -17,9 +17,9 @@ Below are examples for citing the AnubisX Framework in various academic styles. 
 ### Software Citation (Recommended)
 
 ```bibtex
-@software{anubisx2026framework,
+@software{nullc0d3-anubisx-software,
   title = {AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution},
-  author = {Awad, Ahmed},
+  author = {Ahmed Awad (NullC0d3)},
   year = {2026},
   version = {2.0.0},
   url = {https://github.com/AnubisXFramework/AnubisXFramework},
@@ -31,9 +31,9 @@ Below are examples for citing the AnubisX Framework in various academic styles. 
 ### Article Citation
 
 ```bibtex
-@article{awad2026anubisx,
+@article{nullc0d3-anubisx-framework,
   title = {AnubisX Framework: A Behavioral Digital Attribution Framework for Identity Analysis Using Artificial Intelligence},
-  author = {Awad, Ahmed},
+  author = {Ahmed Awad (NullC0d3)},
   year = {2026},
   version = {2.0.0},
   doi = {10.5281/zenodo.21393392},
@@ -45,9 +45,9 @@ Below are examples for citing the AnubisX Framework in various academic styles. 
 ### Book Citation
 
 ```bibtex
-@book{awad2024you,
+@book{ahmedawadnullc0d3,
   title = {You Can Hide Your Name... Not Your Mind: A Scientific Methodology for Behavioral Identity Attribution},
-  author = {Awad, Ahmed},
+  author = {Ahmed Awad (NullC0d3)},
   year = {2024},
   publisher = {Amazon Kindle Direct Publishing},
   isbn = {B0H8LCTTWW}
@@ -60,11 +60,11 @@ Below are examples for citing the AnubisX Framework in various academic styles. 
 
 ### Software Citation
 
-Awad, A. (2026). *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution* (Version 2.0.0) [Computer software]. https://doi.org/10.5281/zenodo.21393392
+Awad (NullC0d3), A. (2026). *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution* (Version 2.0.0) [Computer software]. https://doi.org/10.5281/zenodo.21393392
 
 ### Website Citation
 
-Awad, A. (2026). AnubisX Framework. Retrieved July 18, 2026, from https://github.com/AnubisXFramework/AnubisXFramework
+Awad (NullC0d3), A. (2026). AnubisX Framework. Retrieved July 18, 2026, from https://github.com/AnubisXFramework/AnubisXFramework
 
 ---
 
@@ -72,27 +72,27 @@ Awad, A. (2026). AnubisX Framework. Retrieved July 18, 2026, from https://github
 
 ### Software Citation
 
-A. Awad, "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution," *Version 2.0.0*, Zenodo, 2026. [Online]. Available: https://doi.org/10.5281/zenodo.21393392
+A. Awad (NullC0d3), "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution," *Version 2.0.0*, Zenodo, 2026. [Online]. Available: https://doi.org/10.5281/zenodo.21393392
 
 ### Conference/Journal Format
 
-A. Awad, "AnubisX Framework: A Behavioral Digital Attribution Framework for Identity Analysis Using Artificial Intelligence," in *TBD*, 2026. [Online]. Available: https://doi.org/10.5281/zenodo.21393392
+A. Awad (NullC0d3), "AnubisX Framework: A Behavioral Digital Attribution Framework for Identity Analysis Using Artificial Intelligence," in *TBD*, 2026. [Online]. Available: https://doi.org/10.5281/zenodo.21393392
 
 ---
 
 ## MLA (9th Edition)
 
-Awad, Ahmed. *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution*. Version 2.0.0, Zenodo, 2026. Web. 18 July 2026. <https://doi.org/10.5281/zenodo.21393392>.
+Ahmed Awad (NullC0d3). *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution*. Version 2.0.0, Zenodo, 2026. Web. 18 July 2026. <https://doi.org/10.5281/zenodo.21393392>.
 
 ---
 
 ## Chicago (Author-Date)
 
-Awad, Ahmed. 2026. "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution." *Version 2.0.0*. Zenodo. doi:10.5281/zenodo.21393392.
+Ahmed Awad (NullC0d3). 2026. "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution." *Version 2.0.0*. Zenodo. doi:10.5281/zenodo.21393392.
 
 ### Chicago (Notes-Bibliography)
 
-Awad, Ahmed. 2026. "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution." *Version 2.0.0*. Zenodo. doi:10.5281/zenodo.21393392.
+Ahmed Awad (NullC0d3). 2026. "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution." *Version 2.0.0*. Zenodo. doi:10.5281/zenodo.21393392.
 
 ---
 
@@ -100,11 +100,11 @@ Awad, Ahmed. 2026. "AnubisX Framework: A Scientific Methodology for Behavioral I
 
 ### Software Citation
 
-Awad, A., 2026. *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution* (Version 2.0.0) [Computer program]. Available at: https://doi.org/10.5281/zenodo.21393392
+Awad (NullC0d3), A., 2026. *AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution* (Version 2.0.0) [Computer program]. Available at: https://doi.org/10.5281/zenodo.21393392
 
 ### In-text Citation
 
-(Awad, 2026) or Awad (2026)
+(Awad (NullC0d3), 2026) or Awad (NullC0d3, 2026)
 
 ---
 
@@ -113,7 +113,7 @@ Awad, A., 2026. *AnubisX Framework: A Scientific Methodology for Behavioral Iden
 ```ris
 TY  - COMP
 TI  - AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution
-AU  - Awad, Ahmed
+AU  - Ahmed Awad (NullC0d3)
 PY  - 2026
 VL  - 2.0.0
 UR  - https://github.com/AnubisXFramework/AnubisXFramework
@@ -127,7 +127,7 @@ ER  -
 
 TY  - EBOOK
 TI  - You Can Hide Your Name... Not Your Mind: A Scientific Methodology for Behavioral Identity Attribution
-AU  - Awad, Ahmed
+AU  - Ahmed Awad (NullC0d3)
 PY  - 2024
 PB  - Amazon Kindle Direct Publishing
 SN  - B0H8LCTTWW
@@ -144,7 +144,7 @@ ER  -
 ```
 %0 Computer Program
 %T AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution
-%A Awad, Ahmed
+%A Ahmed Awad (NullC0d3)
 %D 2026
 %V 2.0.0
 %U https://github.com/AnubisXFramework/AnubisXFramework
