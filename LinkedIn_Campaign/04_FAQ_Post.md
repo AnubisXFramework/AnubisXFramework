@@ -38,7 +38,7 @@ A: Software implementation and empirical validation, followed by peer-reviewed p
 
 ---
 
-**Repository**: https://github.com/anubisx/framework
+**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
 
 #AnubisX #FAQ #DigitalForensics #CyberSecurity
 

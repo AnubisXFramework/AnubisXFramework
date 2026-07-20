@@ -50,7 +50,7 @@ Total error is decomposed into five components: measurement, context, estimation
 
 ---
 
-**Repository**: https://github.com/anubisx/framework
+**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
 
 #AnubisX #Innovation #ForensicScience #IdentityIntelligence
 

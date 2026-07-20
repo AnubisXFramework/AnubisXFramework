@@ -34,7 +34,7 @@ All implementations should be validated against:
 
 ## Contributing
 
-See the [Contributing Guide](../GitHub/CONTRIBUTING.md) for contribution guidelines.
+See the [Contributing Guide](../CONTRIBUTING.md) for contribution guidelines.
 
 ---
 

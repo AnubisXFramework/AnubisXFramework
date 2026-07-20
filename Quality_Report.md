@@ -78,9 +78,9 @@ This report assesses the quality and completeness of the Public/ directory docum
 | Media materials | ✅ | Media_Kit/ with key messages and talking points |
 | Brand guidelines | ✅ | Media_Kit/ |
 | Publication process | ✅ | Publication_Checklist.md |
-| Licensing | ✅ | GitHub/LICENSE.md |
-| Contributing | ✅ | GitHub/CONTRIBUTING.md |
-| Code of conduct | ✅ | GitHub/CODE_OF_CONDUCT.md |
+| Licensing | ✅ | LICENSE.md |
+| Contributing | ✅ | CONTRIBUTING.md |
+| Code of conduct | ✅ | CODE_OF_CONDUCT.md |
 
 ## 5. Quality Issues
 

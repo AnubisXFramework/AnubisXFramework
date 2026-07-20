@@ -40,7 +40,7 @@ We are particularly interested in partnerships with forensic science institutes,
 
 ---
 
-**Repository**: https://github.com/anubisx/framework
+**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
 
 #AnubisX #ResearchCollaboration #AcademicResearch #ForensicScience #OpenSource
 

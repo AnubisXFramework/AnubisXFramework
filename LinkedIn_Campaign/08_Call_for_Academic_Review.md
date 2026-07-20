@@ -41,7 +41,7 @@ We believe addressing these issues requires input from the broader research comm
 
 ---
 
-**Repository**: https://github.com/anubisx/framework
+**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
 **Internal peer review**: 00_REVIEW/ (8 reports available)
 **Framework overview**: Documentation/Overview.md
 

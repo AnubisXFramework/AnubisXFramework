@@ -24,7 +24,7 @@ This is what research looks like: incremental progress, honest accounting, and t
 
 ---
 
-**Repository**: https://github.com/anubisx/framework
+**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
 **Full Methodology**: Public/Documentation/Validation_Methodology.md
 
 ---

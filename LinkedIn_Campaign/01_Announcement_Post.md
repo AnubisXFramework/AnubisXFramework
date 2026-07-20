@@ -31,7 +31,7 @@ We invite the forensic science, cybersecurity, and research communities to exami
 
 ---
 
-**Repository**: https://github.com/anubisx/framework
+**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
 
 #AnubisX #DigitalForensics #BehavioralBiometrics #IdentityIntelligence #CyberSecurity
 

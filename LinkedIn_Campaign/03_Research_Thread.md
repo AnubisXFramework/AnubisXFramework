@@ -63,7 +63,7 @@ The limitations are documented alongside the contributions in Research/Research_
 
 ---
 
-**Repository**: https://github.com/anubisx/framework
+**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
 
 #AnubisX #Research #ForensicScience #AcademicResearch
 
