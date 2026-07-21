@@ -8,7 +8,7 @@
 **Version**: 1.0  
 **Project**: AnubisX Framework  
 **Status**: ESTABLISHED  
-**Dependencies**: THY-001—005  
+**Dependencies**: Core theory documents  
 **Referenced Documents**: Framework_Overview.md  
 **Confidentiality**: PUBLIC (C0)  
 **Last Review**: 2026-07-14
@@ -17,9 +17,14 @@
 
 ## Official DOI
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)  
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)  
+**Contact**: anubisxframework@gmail.com
 
 ---
 
@@ -31,7 +36,7 @@ The first formalization of behavioral identity as an asymptotic attractor in fea
 
 ### 1.2 Axiomatic Foundation
 
-31 formal axioms establish Identity Intelligence as a scientific discipline with defined boundaries, internal consistency, and testable predictions.
+Formal axioms establish Identity Intelligence as a scientific discipline with defined boundaries, internal consistency, and testable predictions.
 
 ### 1.3 Involuntary Signal Hierarchy
 
@@ -43,7 +48,7 @@ A formal account of which behavioral features are most resistant to conscious mo
 
 The first structured comparison of fusion strategies for five behavioral modalities, including score-level, feature-level, and decision-level approaches.
 
-### 2.2 Four-Tier Validation Hierarchy
+### 2.2 Multi-Tier Validation Hierarchy
 
 A validation framework specific to behavioral attribution systems, with tiered criteria from unit testing through operational deployment.
 
@@ -59,7 +64,7 @@ The first comprehensive set of evaluation metrics designed specifically for beha
 
 ### 3.2 Benchmark Library
 
-24 standardized benchmarks enabling reproducible comparison of behavioral attribution methods.
+Standardized benchmarks enabling reproducible comparison of behavioral attribution methods.
 
 ### 3.3 Daubert-Compliant Design
 
@@ -73,7 +78,7 @@ The framework is designed from inception to meet legal standards for scientific 
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
 **DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
 
@@ -83,5 +88,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

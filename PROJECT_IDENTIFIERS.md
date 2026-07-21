@@ -18,8 +18,6 @@ This document serves as the single reference point for all persistent identifier
 |---|---|
 | **Repository URL** | [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework) |
 | **Repository DOI** | [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923) |
-| **Website** | [https://anubisxframework.github.io](https://anubisxframework.github.io) |
-| **Mirror** | [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev) |
 | **License** | [Creative Commons Attribution 4.0 International](LICENSE.md) |
 | **Current Version** | 2.0.0 — Journal Revision |
 
@@ -31,8 +29,40 @@ This document serves as the single reference point for all persistent identifier
 |---|---|
 | **DOI** | [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923) |
 | **Archive Type** | Software / Repository Snapshot |
-| **Date Recorded** | 2026 |
 | **License** | CC BY 4.0 |
+
+---
+
+## Figshare
+
+| Identifier | Value |
+|---|---|
+| **DOI** | [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817) |
+| **Content** | Figures, datasets, supplementary materials |
+
+---
+
+## Website
+
+| Identifier | Value |
+|---|---|
+| **URL** | [https://anubisxframework.github.io](https://anubisxframework.github.io) |
+
+---
+
+## Mirror
+
+| Identifier | Value |
+|---|---|
+| **URL** | [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev) |
+
+---
+
+## Contact
+
+| Identifier | Value |
+|---|---|
+| **Email** | anubisxframework@gmail.com |
 
 ---
 
@@ -42,7 +72,6 @@ This document serves as the single reference point for all persistent identifier
 |---|---|
 | **OSF Project URL** | [https://osf.io/xxxxx](https://osf.io/xxxxx) *(To be created)* |
 | **OSF DOI** | Pending registration |
-| **Status** | Planned |
 
 ---
 
@@ -70,26 +99,6 @@ This document serves as the single reference point for all persistent identifier
 | Identifier | Value |
 |---|---|
 | **Profile URL** | [https://www.researchgate.net/profile/Ahmed-Awad-118](https://www.researchgate.net/profile/Ahmed-Awad-118) |
-| **Publications** | Framework materials and updates |
-
----
-
-## Figshare
-
-| Identifier | Value |
-|---|---|
-| **Profile URL** | [https://figshare.com/authors/Ahmed_Awad/24415733](https://figshare.com/authors/Ahmed_Awad/24415733) |
-| **Figure DOI** | [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817) |
-| **Content** | Figures, datasets, supplementary materials |
-
----
-
-## SSRN
-
-| Identifier | Value |
-|---|---|
-| **Author URL** | Pending submission |
-| **Paper DOI** | To be assigned upon submission |
 
 ---
 
@@ -98,7 +107,6 @@ This document serves as the single reference point for all persistent identifier
 | Identifier | Value |
 |---|---|
 | **Profile URL** | [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/) |
-| **Role** | Professional research profile |
 
 ---
 
@@ -110,7 +118,6 @@ This document serves as the single reference point for all persistent identifier
 | **Amazon URL** | [https://www.amazon.com/dp/B0H8LCTTWW](https://www.amazon.com/dp/B0H8LCTTWW) |
 | **ISBN** | B0H8LCTTWW |
 | **Year** | 2024 |
-| **Figshare DOI** | Pending registration |
 
 ---
 
@@ -123,8 +130,6 @@ This document serves as the single reference point for all persistent identifier
 | **Reference Book** | Copyright Amazon KDP |
 | **Experimental Data** | CC BY 4.0 |
 
-See [LICENSE.md](LICENSE.md) for complete license text.
-
 ---
 
 ## Version History
@@ -132,7 +137,7 @@ See [LICENSE.md](LICENSE.md) for complete license text.
 | Version | Date | Description | DOI |
 |---|---|---|---|
 | 1.0.0 | 2024 | Foundational release | N/A |
-| 2.0.0 | 2026-07-16 | Journal revision, 50 references, enhanced validation | [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923) |
+| 2.0.0 | 2026-07-16 | Journal revision | [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923) |
 
 ---
 
@@ -143,9 +148,11 @@ See [LICENSE.md](LICENSE.md) for complete license text.
 | Purpose | URL |
 |---|---|
 | **Main Repository** | https://github.com/AnubisXFramework/AnubisXFramework |
+| **Archived Version** | https://doi.org/10.5281/zenodo.21446923 |
+| **Supplementary Materials** | https://doi.org/10.6084/m9.figshare.33028817 |
 | **Website** | https://anubisxframework.github.io |
 | **Mirror** | https://anubisxframework.nullc0d3.workers.dev |
-| **Archived Version** | https://doi.org/10.5281/zenodo.21446923 |
+| **Contact** | anubisxframework@gmail.com |
 | **Citation File** | https://github.com/AnubisXFramework/AnubisXFramework/blob/main/CITATION.cff |
 | **License** | https://github.com/AnubisXFramework/AnubisXFramework/blob/main/LICENSE.md |
 
@@ -157,7 +164,6 @@ See [LICENSE.md](LICENSE.md) for complete license text.
 | **LinkedIn** | https://www.linkedin.com/in/nullc0d3/ |
 | **ResearchGate** | https://www.researchgate.net/profile/Ahmed-Awad-118 |
 | **Figshare** | https://figshare.com/authors/Ahmed_Awad/24415733 |
-| **Figshare DOI** | https://doi.org/10.6084/m9.figshare.33028817 |
 | **Amazon Book** | https://www.amazon.com/dp/B0H8LCTTWW |
 
 ---
@@ -165,15 +171,16 @@ See [LICENSE.md](LICENSE.md) for complete license text.
 ## Quick Reference Card
 
 ```
-DOI:       10.5281/zenodo.21446923
-ORCID:     0009-0005-0654-3393
-GitHub:    github.com/AnubisXFramework/AnubisXFramework
-Website:   anubisxframework.github.io
-Mirror:    anubisxframework.nullc0d3.workers.dev
-License:   CC BY 4.0
-Version:   2.0.0
-Author:    Ahmed Awad (NullC0d3)
-Contact:   anubisxframework@gmail.com
+Zenodo DOI:   10.5281/zenodo.21446923
+Figshare DOI: 10.6084/m9.figshare.33028817
+Webiste:      https://anubisxframework.github.io
+Mirror:       https://anubisxframework.nullc0d3.workers.dev
+Contact:      anubisxframework@gmail.com
+ORCID:        0009-0005-0654-3393
+GitHub:       github.com/AnubisXFramework/AnubisXFramework
+License:      CC BY 4.0
+Version:      2.0.0
+Author:       Ahmed Awad (NullC0d3)
 ```
 
 ---
@@ -193,4 +200,3 @@ Contact:   anubisxframework@gmail.com
 
 **© 2026 Ahmed Awad (NullC0d3). All rights reserved.**  
 *This document provides a centralized reference for all persistent identifiers.*
-

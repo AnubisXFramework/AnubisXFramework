@@ -8,49 +8,47 @@
 
 How does the AnubisX Framework work, technically?
 
-The framework processes behavioral data through a six-stage pipeline, specified in Framework/Framework_Architecture.md (FWK-001) and Framework/Framework_Pipeline.md (FWK-004):
+The framework processes behavioral data through a multi-stage pipeline:
 
 **Stage 1 — Ingestion**: Raw digital traces are collected, validated, and metadata extracted. Platform adapters normalize input from different sources (social media, command logs, file systems).
 
-**Stage 2 — Feature Extraction**: Five modality-specific processors run in parallel (ALG-001—004), transforming raw data into structured feature vectors:
+**Stage 2 — Feature Extraction**: Modality-specific processors run in parallel, transforming raw data into structured feature representations:
 
 | Modality | Input | Features |
 |---|---|---|
-| Forensic Stylometry | Text content | Function-word frequencies, syntax patterns, vocabulary metrics |
-| Chrono-Profiling | Timestamps | Circadian phase, inter-event intervals, burst parameters |
-| Terminal Profiling | Command logs | Command sequences, timing signatures, shell idioms |
-| Relational Network Analysis | Social graphs | Graph topology, centrality, subgraph entropy |
+| Forensic Stylometry | Text content | Linguistic patterns, syntax structures, vocabulary metrics |
+| Chrono-Profiling | Timestamps | Temporal patterns, circadian phase, inter-event intervals |
+| Terminal Profiling | Command logs | Command sequences, timing signatures, interaction patterns |
+| Relational Network Analysis | Social graphs | Graph topology, centrality measures, subgraph structure |
 | Environmental Media Forensics | File metadata | Organizational patterns, naming conventions |
 
-**Source**: Algorithms/Core_Algorithms.md (ALG-001—004), Framework/Framework_Modules.md (FWK-003)
+**Stage 3 — Profile Construction**: Feature representations are aggregated into modality-specific behavioral profiles. The framework estimates a **Cognitive Centroid** — the theoretical attractor of an individual's behavioral feature distribution — from accumulated observations. Temporal decay accounts for signal degradation.
 
-**Stage 3 — Profile Construction**: Feature vectors are aggregated into modality-specific behavioral profiles (ALG-006). The framework estimates a **Cognitive Centroid** — the theoretical attractor of an individual's behavioral feature distribution — from accumulated observations (ALG-009). Temporal decay accounts for signal degradation (ALG-021).
+**Stage 4 — Comparison**: Profiles are compared using multiple similarity functions including cosine-based, distance-based, and correlation-based measures.
 
-**Source**: Algorithms/Behavior_Algorithms.md (ALG-006, ALG-009), Algorithms/Confidence_Algorithms.md (ALG-021)
+**Stage 5 — Evidence Evaluation**: Similarity scores are calibrated into Likelihood Ratios. Multiple fusion strategies combine modality evidence: score-level, feature-level, and decision-level.
 
-**Stage 4 — Comparison**: Profiles are compared using five similarity functions: Cosine Similarity (ALG-024, EQ-024), Euclidean Distance (ALG-025, EQ-025), RBF Similarity (ALG-026, EQ-026), Pearson Correlation (ALG-027, EQ-027), and Jaccard Similarity (ALG-028, EQ-028).
-
-**Source**: Algorithms/Similarity_Algorithms.md (ALG-024—028)
-
-**Stage 5 — Evidence Evaluation**: Similarity scores are calibrated into Likelihood Ratios (ALG-017, EQ-017). Three fusion strategies combine modality evidence: score-level (ALG-030), feature-level via HOSVD (ALG-031, PROPOSED), and decision-level via Dempster-Shafer (ALG-032).
-
-**Source**: Algorithms/Attribution_Algorithms.md (ALG-017), Algorithms/Fusion_Algorithms.md (ALG-029—032)
-
-**Stage 6 — Decision**: The combined LR is compared against thresholds (ALG-033). Conclusions: same-source, different-source, or inconclusive. Confidence is quantified using the Attribution Confidence Metric (ALG-019—022).
-
-**Source**: Algorithms/Decision_Algorithms.md (ALG-033—036), Algorithms/Confidence_Algorithms.md (ALG-019—022)
+**Stage 6 — Decision**: The combined evidence is evaluated to produce attribution conclusions: same-source, different-source, or inconclusive. Confidence is quantified through established metrics.
 
 **Key design features**:
-- Three operational workflows: identification, verification, forensic comparison. **Source**: Framework/Framework_Workflow.md (FWK-002)
-- Modular architecture — modalities can be added or removed independently. **Source**: Framework/Framework_Architecture.md (FWK-001)
-- Full audit trail and traceability for every processing step. **Source**: Specifications/Component_Specifications.md (SPC-001)
+- Multiple operational workflows: identification, verification, forensic comparison
+- Modular architecture — modalities can be added or removed independently
+- Full audit trail and traceability for every processing step
 
 **Current status**: All algorithms are specified but not implemented. The pipeline is a design specification pending software development.
 
 ---
 
-**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
+**Project**: AnubisX Framework  
+**Primary Author**: Ahmed Awad (NullC0d3)  
+**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Repository**: Official AnubisX Repository
 
-#AnubisX #ForensicScience #MachineLearning #DigitalForensics
+**DOI**: https://doi.org/10.5281/zenodo.21446923  
+**Figshare DOI**: https://doi.org/10.6084/m9.figshare.33028817
 
-
+#AnubisX #ForensicScience #DigitalForensics

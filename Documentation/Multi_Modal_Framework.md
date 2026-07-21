@@ -6,9 +6,14 @@
 
 ## Official DOI
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
-This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+This release is permanently archived on Zenodo and Figshare.
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
 
 ---
 
@@ -68,19 +73,17 @@ Digital environment analysis captures persistent organizational habits:
 
 ### 2.1 Fusion Strategies
 
-| Strategy | Description | Characteristics |
-|---|---|---|
-| Score-Level Fusion | Combine similarity scores before LR transformation | Simplest, most robust |
-| Feature-Level Fusion | Concatenate feature vectors via HOSVD | Captures cross-modal interactions |
-| Decision-Level Fusion | Combine independent modality decisions | Preserves independence |
+The framework supports multiple fusion strategies operating at different levels of the processing hierarchy:
+
+| Strategy | Description |
+|---|---|
+| Score-Level Fusion | Combine similarity scores before LR transformation |
+| Feature-Level Fusion | Concatenate feature vectors via tensor factorization |
+| Decision-Level Fusion | Combine independent modality decisions |
 
 ### 2.2 Evidence Integration
 
-1. Each modality produces a similarity score
-2. Scores are calibrated to likelihood ratios
-3. LRs are weighted by quality, relevance, and recency
-4. Weighted LRs are fused using Dempster-Shafer Theory
-5. Combined LR supports the final attribution decision
+Each modality produces a similarity score. Scores are calibrated to likelihood ratios, weighted by quality, relevance, and recency, then fused using methods from evidence theory. The combined LR supports the final attribution decision.
 
 ---
 
@@ -95,6 +98,11 @@ Digital environment analysis captures persistent organizational habits:
 **Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
 
 **DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
@@ -102,5 +110,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

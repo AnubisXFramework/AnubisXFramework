@@ -24,8 +24,7 @@ preferred-citation:
   year: 2026
   version: "3.0.0"
   doi: "10.5281/zenodo.21446923"
-url: "https://github.com/AnubisXFramework/AnubisXFramework"
-contact: "anubisxframework@gmail.com"
+  url: "https://github.com/AnubisXFramework/AnubisXFramework"
   journal: "TBD (under review preparation)"
 
 keywords:
@@ -37,11 +36,8 @@ keywords:
   - likelihood ratio
   - identity intelligence
   - forensic science
-  - prototype validation
-  - faiss similarity search
   - cyber threat intelligence
   - open science
-  - arabic nlp
   - authorship attribution
   - behavioral biometrics
 
@@ -49,76 +45,17 @@ abstract: >
   The AnubisX Framework is a comprehensive scientific methodology
   for determining the identity of a human operator from their digital
   behavioral patterns. It defines a complete theoretical specification
-  including 16 formal axioms, 37+ algorithm specifications, 292
-  mathematical definitions, 50 equations, 38 experiment designs, 24
-  benchmarks with 30 baselines, 20 case studies, and a four-tier
-  validation framework with 33 quantified acceptance criteria. The
-  framework includes a validated prototype implementation (Anubis
-  Twitter v2.5) demonstrating stylometric fingerprinting with 372-dim
-  feature vectors and FAISS-based similarity search at 6-8 µs, supported
-  by 15 executed experiments on 31 Egyptian Twitter accounts. The
-  framework shifts digital attribution from transient technical
-  artifacts (IP addresses, device fingerprints) to persistent human
+  including formal axioms, algorithm specifications, mathematical
+  definitions, experiment designs, benchmarks, case studies, and a
+  multi-tier validation framework. The framework includes a validated
+  prototype demonstrating stylometric fingerprinting with feature
+  vectors and similarity search, supported by proof-of-concept
+  experiments on real-world data. The framework shifts digital
+  attribution from transient technical artifacts
+  (IP addresses, device fingerprints) to persistent human
   cognitive signatures rooted in stable cognitive processing habits.
-  This v2.0 Journal Revision expands the foundational release with
-  50 references (62% external), enhanced related work, practical
-  implications, and comprehensive publication readiness documentation.
 
 references:
   - type: document
     title: "AnubisX Framework Foundational Paper v2.0"
     url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Journal/AnubisX_Framework_Foundational_Paper_v2.0.md"
-
-  - type: document
-    title: "Documentation/Overview.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Overview.md"
-
-  - type: document
-    title: "Documentation/Framework_Guide.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Framework_Guide.md"
-
-  - type: document
-    title: "Documentation/Theory_Guide.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Theory_Guide.md"
-
-  - type: document
-    title: "Documentation/Algorithms.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Algorithms.md"
-
-  - type: document
-    title: "Documentation/Validation.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Validation.md"
-
-  - type: document
-    title: "Documentation/Architecture.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Documentation/Architecture.md"
-
-  - type: document
-    title: "RELEASE_NOTES_v2.0.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/RELEASE_NOTES_v2.0.md"
-
-  - type: document
-    title: "RESEARCH_STATUS.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/RESEARCH_STATUS.md"
-
-  - type: document
-    title: "ROADMAP_v2.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/ROADMAP_v2.md"
-
-  - type: document
-    title: "PUBLICATION_STATUS.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/PUBLICATION_STATUS.md"
-
-  - type: document
-    title: "OPEN_SCIENCE.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/OPEN_SCIENCE.md"
-
-  - type: document
-    title: "Research_Artifacts.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Research_Artifacts.md"
-
-  - type: document
-    title: "REPOSITORY_AUDIT_REPORT.md"
-    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/REPOSITORY_AUDIT_REPORT.md"
-
-

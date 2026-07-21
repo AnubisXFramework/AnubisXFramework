@@ -17,9 +17,14 @@
 
 ## Official DOI
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)  
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)  
+**Contact**: anubisxframework@gmail.com
 
 ---
 
@@ -38,7 +43,7 @@ The AnubisX Framework introduces a fundamental shift: **from tracking what adver
 
 ## The Framework
 
-Built on 31 formal axioms, the framework defines a complete scientific methodology for behavioral identity attribution:
+Built on formal axioms, the framework defines a complete scientific methodology for behavioral identity attribution:
 
 - **Five tracking modalities**: Stylometry, chrono-profiling, terminal profiling, network analysis, media forensics
 - **Multi-modal fusion**: Combining independent signals via tensor mathematics and evidence theory
@@ -47,20 +52,11 @@ Built on 31 formal axioms, the framework defines a complete scientific methodolo
 
 ## Current Status
 
-The AnubisX Framework has advanced from theoretical specification to validated prototype. The Anubis Twitter Intelligence Prototype v2.5 has been implemented and tested with 15 executed experiments on 31 Egyptian Twitter accounts. Of 10 core scientific claims, 6 are confirmed publication-ready, with the remainder blocked by data availability or model authentication dependencies.
+The AnubisX Framework has advanced from theoretical specification to validated prototype. The Anubis Twitter Intelligence Prototype v2.5 has been implemented and tested with multiple executed experiments on a sample of accounts from a specific demographic population. Of the core scientific claims, a majority are confirmed publication-ready, with the remainder blocked by data availability or model authentication dependencies.
 
 ### Prototype Validation
 
-| Metric | Result |
-|--------|--------|
-| 372-dim stylometric fingerprints | Verified — pipeline produces consistent vectors |
-| FAISS similarity search | Verified at ~16μs per query (after dimension mismatch fix) |
-| Demographic filtering (Egyptian) | Verified — 200+ cultural indicators operational |
-| SQLite storage + versioning | Verified — 4 schema variants catalogued |
-| Dashboard / visualization | Verified — 10 Django views operational |
-| Document / report generation | Verified — Excel, HTML, Markdown output working |
-| Executed experiments | 15 completed across 6 claim categories |
-| Claims publication-ready | 6 of 10 (60%) — confirmed by evidence register |
+The prototype demonstrates verified capabilities in multi-dimensional stylometric fingerprinting, efficient similarity search, demographic filtering, versioned storage, dashboard visualization, and report generation. Executed experiments across multiple claim categories confirm functional feasibility of the framework's core concepts.
 
 ## Applications
 
@@ -78,7 +74,7 @@ The AnubisX Framework has advanced from theoretical specification to validated p
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
 **DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
 
@@ -88,5 +84,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

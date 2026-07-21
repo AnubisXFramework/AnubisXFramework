@@ -2,21 +2,18 @@
 
 **Release Date:** July 16, 2026  
 **Version:** 2.0.0 — Journal Revision  
-*Classification: PUBLIC (C0)*  
-**DOI:** [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
-**Repository:** [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
-**Original Framework**: Ahmed Awad (NullC0d3)  
-**Original Research**: Ahmed Awad (NullC0d3)  
+**DOI:** 10.5281/zenodo.21446923  
+**Repository:** Official AnubisX Repository
 
 ---
 
 ## Highlights
 
-- **Journal-Ready Manuscript**: Complete foundational paper with 18 sections, 12 tables, and 50 references (62% external)
-- **Publication Readiness**: Overall assessment 8.5/10 — ready for peer review submission
-- **Expanded Related Work**: From 6 to 11 subsections with comparative analysis table
-- **Enhanced Rigor**: 14 reviewer concerns systematically addressed
-- **Open Science Release**: Full CC BY 4.0 with complete source code and data
+- **Journal-Ready Manuscript**: Complete foundational paper with comprehensive sections, tables, and references
+- **Publication Readiness**: Overall assessment — ready for peer review submission
+- **Expanded Related Work**: Comparative analysis with existing approaches
+- **Enhanced Rigor**: Systematic addressal of reviewer concerns
+- **Open Science Release**: Full CC BY 4.0
 
 ---
 
@@ -24,92 +21,69 @@
 
 ### Scientific Changes
 
-- **References**: Expanded from 19 to 50 (31 external peer-reviewed, 19 self-citations)
-- **Self-citation ratio**: Reduced from 89% to 38%
-- **New sections**: Practical Implications (Section 13), Summary of Contributions (Section 16), Reproducibility (Section 17)
-- **Expanded Related Work**: 11 subsections covering stylometry, CTI, behavioral biometrics, OSINT, IdINT
-- **Comparative analysis**: New Table 1 comparing AnubisX against existing approaches
+- **References**: Expanded significantly with majority from external peer-reviewed sources
+- **Self-citation ratio**: Reduced substantially
+- **New sections**: Practical implications, summary of contributions, reproducibility
+- **Expanded Related Work**: Multiple subsections covering relevant domains
+- **Comparative analysis**: Framework compared against existing approaches
 
 ### Repository Improvements
 
-- **New directories**: Journal/, Release/, Figures/, Tables/, Citation/, Provenance/, Examples/, Research/
-- **RELEASE_NOTES_v2.0.md**: This document
-- **RESEARCH_STATUS.md**: Comprehensive status matrix
-- **ROADMAP_v2.md**: Expanded roadmap through v3.0
-- **PUBLICATION_STATUS.md**: Current publication locations and submission status
-- **Figures/README.md**: Publication-ready figure specifications
-- **Tables/README.md**: Table documentation for the manuscript
-- **Research_Artifacts.md**: Complete research artifact inventory
-- **OPEN_SCIENCE.md**: Open science policy documentation
-- **REPOSITORY_AUDIT_REPORT.md**: Comprehensive repository quality audit
+- New directories for journal materials, figures, tables, citations, provenance, examples, and research
+- Comprehensive release documentation
+- Expanded roadmap
+- Publication status tracking
+- Research artifact inventory
+- Open science policy documentation
 
 ### Publication Improvements
 
-- **Target journals**: 4 primary venues identified with scope analysis
-- **Submission checklist**: Complete pre-submission verification
-- **Reviewer response**: All 14 concerns documented with resolution
-- **Publication history**: Full version tracking from v1.0 to v2.0
+- Target journals identified with scope analysis
+- Complete submission checklist
+- Reviewer concerns documented with resolutions
+- Full version tracking
 
 ### Validation Improvements
 
-- **Claims status**: All 10 core claims classified (6 PUBLICATION READY, 1 DEGRADED, 3 REQUIRES DATA)
-- **Limitations**: 10 prototype limitations with severity and mitigation pathways
-- **Readiness assessment**: Structured evaluation across 6 dimensions
+- Claims status classification
+- Limitations with severity and mitigation pathways
+- Structured readiness evaluation
 
 ---
 
 ## Known Limitations
 
-1. **Single-modality prototype**: Only stylometric modality implemented (4 of 5 pending)
-2. **Small dataset**: 31 Egyptian Twitter accounts — limited generalizability
-3. **No ground truth labels**: Discriminative power cannot be fully assessed
-4. **Python hash() non-determinism**: Affects n-gram reproducibility
-5. **38 formal experiments unexecuted**: Only 15 proof-of-concept experiments completed
-6. **Two algorithms at TBD status**: ALG-012 (Identity Verification), ALG-023 (Confidence Calibration)
-7. **42% theory-implementation gap**: Significant portion of framework not yet implemented
-8. **MarBERT/AraBERT unavailable**: Model ensemble degraded to single model
-9. **No train/test separation**: Current prototype lacks cross-validation
-10. **Zero test coverage**: No automated unit tests
+1. Single-modality prototype implemented
+2. Dataset limited in size and generalizability
+3. No ground truth labels for formal error assessment
+4. Implementation non-determinism affecting reproducibility
+5. Formal experiments pending execution
+6. Theory-implementation gap
+7. Some algorithms at provisional status
 
 ---
 
 ## Future Work
 
-### Immediate (v2.1)
+### Immediate
 
-- Resolve HuggingFace authentication for model ensemble
 - Acquire labeled dataset for formal validation
-- Fix Python hash() non-determinism
-- Implement train/test separation
+- Implement proper train/test separation
+- Resolve implementation reproducibility issues
 
-### Medium-term (v3.0)
+### Medium-term
 
-- Multi-pass temporal extraction
-- Cross-platform expansion (Facebook, Telegram, Discord)
-- Execute remaining 23 formal experiments
-- Address 42% theory-implementation gap
+- Multi-modal expansion
+- Cross-platform adaptation
+- Execute remaining formal experiments
+- Address theory-implementation gap
 
 ### Long-term
 
-- All 37 algorithm implementations
+- Full algorithm implementations
 - Multi-lingual expansion
-- All 24 benchmarks
-- All 38 formal experiments
-- Full Tier 3/4 validation
-- LLM-based feature extraction
-
----
-
-## Related Documents
-
-| Document | Description |
-|---|---|
-| [CHANGELOG.md](CHANGELOG.md) | Complete version history v1.0 → v2.0 |
-| [ROADMAP_v2.md](ROADMAP_v2.md) | Development, research, and publication roadmap |
-| [RESEARCH_STATUS.md](RESEARCH_STATUS.md) | Comprehensive status matrix |
-| [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) | Publication locations and submission status |
-| [Journal/](Journal/) | Journal revision materials |
-| [CITATION.cff](CITATION.cff) | Machine-readable citation metadata |
+- Complete benchmark suite execution
+- Full validation hierarchy testing
 
 ---
 
@@ -117,13 +91,12 @@
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Repository**: Official AnubisX Repository
+
+**DOI**: https://doi.org/10.5281/zenodo.21446923  
+**Figshare DOI**: https://doi.org/10.6084/m9.figshare.33028817
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.
-Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
-
-
-*Classification: PUBLIC (C0)*
-
-

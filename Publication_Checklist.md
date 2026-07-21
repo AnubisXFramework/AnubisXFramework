@@ -13,10 +13,10 @@ Each document or component to be published must pass this checklist before relea
 | # | Item | Status | Notes |
 |---|---|---|---|
 | 1.1 | Content is complete and accurate | ☐ | |
-| 1.2 | No confidential information (C3/C4) is included | ☐ | |
-| 1.3 | No trade secret details (IP-TRS) are disclosed | ☐ | |
-| 1.4 | No know-how (IP-KNW) is disclosed | ☐ | |
-| 1.5 | No patent claim language (IP-PAT) is included | ☐ | |
+| 1.2 | No confidential information is included | ☐ | |
+| 1.3 | No trade secret details are disclosed | ☐ | |
+| 1.4 | No know-how is disclosed | ☐ | |
+| 1.5 | No patent claim language is included | ☐ | |
 | 1.6 | All claims are supported by the framework's axioms | ☐ | |
 | 1.7 | Limitations and uncertainties are acknowledged | ☐ | |
 | 1.8 | Ethical considerations are documented | ☐ | |
@@ -35,7 +35,7 @@ Each document or component to be published must pass this checklist before relea
 | # | Item | Status | Notes |
 |---|---|---|---|
 | 3.1 | All links reference PUBLIC documents only | ☐ | |
-| 3.2 | No links to C3/C4 classified content | ☐ | |
+| 3.2 | No links to restricted content | ☐ | |
 | 3.3 | Version numbers are consistent | ☐ | |
 | 3.4 | All references to framework components are accurate | ☐ | |
 
@@ -44,8 +44,8 @@ Each document or component to be published must pass this checklist before relea
 | # | Item | Status | Notes |
 |---|---|---|---|
 | 4.1 | Content has passed internal review | ☐ | |
-| 4.2 | IP clearance obtained (Publication Flow Step 3) | ☐ | |
-| 4.3 | Platform selected (GitHub, journal, website, etc.) | ☐ | |
+| 4.2 | IP clearance obtained | ☐ | |
+| 4.3 | Platform selected | ☐ | |
 | 4.4 | Content sanitized for the target platform | ☐ | |
 | 4.5 | Final verification completed | ☐ | |
 
@@ -80,15 +80,15 @@ Each document or component to be published must pass this checklist before relea
 | W-1 | Content is optimized for web reading | ☐ |
 | W-2 | Navigation structure is clear | ☐ |
 | W-3 | Links are functional | ☐ |
-| W-4 | Brand assets (logos, taglines) are consistent | ☐ |
+| W-4 | Brand assets are consistent | ☐ |
 | W-5 | Contact information is accurate | ☐ |
 
 ## 3. Post-Publication
 
 | # | Item | Status |
 |---|---|---|
-| 5.1 | Publication archived in 10_PUBLIC/ | ☐ |
-| 5.2 | Publication recorded in Publication Register | ☐ |
+| 5.1 | Publication archived | ☐ |
+| 5.2 | Publication recorded in register | ☐ |
 | 5.3 | DOI or persistent identifier assigned (if applicable) | ☐ |
 | 5.4 | Announcement prepared for relevant channels | ☐ |
 | 5.5 | Feedback mechanism established | ☐ |
@@ -97,11 +97,11 @@ Each document or component to be published must pass this checklist before relea
 
 Before any publication, verify:
 
-- ☐ No IP-TRS (trade secret) content is included
-- ☐ No IP-KNW (know-how) content is included
-- ☐ No IP-PAT patent claim language is included
-- ☐ No C3 (RESTRICTED) classified content is included
-- ☐ No references to 00_SOURCE/ directory contents
+- ☐ No trade secret content is included
+- ☐ No know-how content is included
+- ☐ No patent claim language is included
+- ☐ No restricted classified content is included
+- ☐ No references to internal-only directory contents
 - ☐ No personal data or PII
 - ☐ No operational deployment details
 
@@ -116,6 +116,16 @@ Before any publication, verify:
 
 ---
 
-*Classification: PUBLIC (C0)*
+**Project**: AnubisX Framework  
+**Primary Author**: Ahmed Awad (NullC0d3)  
+**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Repository**: Official AnubisX Repository
 
+**DOI**: https://doi.org/10.5281/zenodo.21446923  
+**Figshare DOI**: https://doi.org/10.6084/m9.figshare.33028817
 
+**Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.

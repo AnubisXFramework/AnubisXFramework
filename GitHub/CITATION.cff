@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use the AnubisX Framework in your research, please cite this repository."
+title: "AnubisX Framework: A Scientific Methodology for Behavioral Identity Attribution"
+type: software
+version: 1.0.0
+date-released: 2026-07-15
+url: "https://github.com/AnubisXFramework/AnubisXFramework"
+
+authors:
+  - name: "Ahmed Awad (NullC0d3)"
+    orcid: "https://orcid.org/0009-0005-0654-3393"
+
+repository-code: "https://github.com/AnubisXFramework/AnubisXFramework"
+
+doi: "10.5281/zenodo.21446923"
+
+license: "CC-BY-4.0"
+
+keywords:
+  - behavioral identity attribution
+  - digital forensics
+  - stylometry
+  - cognitive fingerprinting
+  - multi-modal fusion
+  - likelihood ratio
+  - identity intelligence
+  - forensic science
+  - prototype validation
+  - similarity search
+
+abstract: >
+  The AnubisX Framework is a comprehensive scientific methodology
+  for determining the identity of a human operator from their digital
+  behavioral patterns. It defines a complete theoretical specification
+  including formal axioms, algorithm specifications, mathematical
+  definitions, experiment designs, benchmarks, case studies, and a
+  multi-tier validation framework with quantified acceptance criteria.
+  The framework includes a validated prototype demonstrating
+  stylometric fingerprinting with multi-dimensional feature vectors
+  and similarity search at low latency, supported by proof-of-concept
+  experiments on real-world data. The framework shifts digital
+  attribution from transient technical artifacts (IP addresses,
+  device fingerprints) to persistent human cognitive signatures
+  rooted in stable cognitive processing habits.
+
+references:
+  - type: article
+    title: "AnubisX Framework Foundational Paper v2.0"
+    url: "https://github.com/AnubisXFramework/AnubisXFramework/blob/main/Journal/AnubisX_Framework_Foundational_Paper_v2.0.md"

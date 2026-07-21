@@ -17,9 +17,14 @@
 
 ## Official DOI
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)  
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)  
+**Contact**: anubisxframework@gmail.com
 
 ---
 
@@ -29,7 +34,7 @@ Digital forensics faces a critical gap: when technical indicators are masked, at
 
 ### 1.1 Current Practice
 
-Traditional digital attribution relies on:
+Traditional digital attribution relies on indicators that are increasingly unreliable under adversarial conditions:
 
 | Indicator | Evasion Method | Reliability Under Attack |
 |---|---|---|
@@ -60,13 +65,7 @@ Technical indicators change because they are properties of tools, not people. Th
 
 ## 4. Prototype Evidence
 
-The Anubis Twitter Intelligence Prototype v2.5 provides initial empirical support for the framework's approach. Using 15 experiments on 31 Egyptian Twitter accounts, the prototype demonstrates:
-
-- **Stylometric fingerprints are computable**: 372-dimension vectors produced via a 3-model ensemble, stored in versioned SQLite databases, and searchable via FAISS at ~16μs per query.
-- **Demographic filtering is operational**: Egyptian cultural indicators (200+ entries) enable automated demographic verification with 3-layer scoring.
-- **6 of 10 core claims are empirically supported**: The experimental evidence register confirms partial support for stylometric identification, multi-model ensemble utility, demographic filtering, temporal feature extraction, network analysis, and versioned fingerprinting.
-
-See [Prototype.md](Prototype.md) for implementation details and [Experimental_Validation.md](Experimental_Validation.md) for complete experimental results.
+The Anubis Twitter Intelligence Prototype v2.5 provides initial empirical support for the framework's approach. Using experiments on a sample of accounts from a specific demographic population, the prototype demonstrates that multi-dimensional stylometric fingerprints are computable, demographic filtering is operational, and a majority of core claims are empirically supported for feasibility.
 
 ---
 
@@ -76,7 +75,7 @@ See [Prototype.md](Prototype.md) for implementation details and [Experimental_Va
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
 **DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
 
@@ -86,5 +85,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

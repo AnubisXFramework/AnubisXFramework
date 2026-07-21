@@ -2,8 +2,7 @@
 
 **Date:** July 16, 2026  
 **Version:** 2.0.0 — Journal Research Edition  
-*Classification: PUBLIC (C0)*  
-**DOI:** [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI:** 10.5281/zenodo.21446923
 
 ---
 
@@ -11,10 +10,11 @@
 
 | Platform | Type | Identifier | Status |
 |---|---|---|---|
-| **GitHub** | Source code repository | [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework) | Published |
-**Original Framework**: Ahmed Awad (NullC0d3)  
-**Original Research**: Ahmed Awad (NullC0d3)  
-| **Zenodo** | DOI archive | [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923) | Published |
+| **GitHub** | Source code repository | Official AnubisX Repository | Published |
+| **Zenodo** | DOI archive | 10.5281/zenodo.21446923 | Published |
+| **Figshare** | Research data repository | 10.6084/m9.figshare.33028817 | Published |
+| **Website** | Project site | https://anubisxframework.github.io | Published |
+| **Mirror** | Alternative access | https://anubisxframework.nullc0d3.workers.dev | Published |
 | **ORCID** | Author identifier | https://orcid.org/0009-0005-0654-3393 | Registered |
 | **OpenAIRE** | Research output aggregation | Post-registration | Planned |
 
@@ -24,8 +24,8 @@
 
 | Platform | URL | Status |
 |---|---|---|
-| **LinkedIn** | [https://www.linkedin.com/in/nullc0d3/](https://www.linkedin.com/in/nullc0d3/) | Published |
-| **GitHub** | [https://github.com/nullc0d30](https://github.com/nullc0d30) | Published |
+| **LinkedIn** | https://www.linkedin.com/in/nullc0d3/ | Published |
+| **GitHub** | https://github.com/nullc0d30 | Published |
 | **ORCID** | https://orcid.org/0009-0005-0654-3393 | Registered |
 
 ## Supplementary Dissemination
@@ -33,7 +33,6 @@
 | Platform | Type | Status |
 |---|---|---|
 | **Medium** | Technical blog posts | Planned |
-| **Facebook** | Research community updates | Published (author page) |
 | **LinkedIn** | Professional announcements | Published |
 
 ---
@@ -45,8 +44,7 @@
 | DOI Registration (Zenodo) | Published | 2026-07-15 |
 | GitHub Repository (v1.0) | Published | 2026-07-15 |
 | GitHub Repository (v2.0) | Published | 2026-07-16 |
-| Foundational Paper (DOCX) | Published | 2026-07-16 |
-| Foundational Paper (Markdown) | Published | 2026-07-16 |
+| Foundational Paper | Published | 2026-07-16 |
 | Publication Readiness Report | Published | 2026-07-16 |
 | Reviewer Response Document | Published | 2026-07-16 |
 | Submission Checklist | Published | 2026-07-16 |
@@ -65,19 +63,7 @@
 | **Submission** | Submit to primary target journal | Q3 2026 |
 | **Review** | Respond to reviewer feedback | Q4 2026 – Q1 2027 |
 | **Publication** | Accepted manuscript published | 2027 |
-| **Post-publication** | OpenAIRE integration | Post-acceptance |
 | **Dissemination** | Social media announcements, blog posts | Post-publication |
-
----
-
-## Target Submission Venues
-
-| Venue | Type | Priority | Status |
-|---|---|---|---|
-| Journal of Cybersecurity and Privacy (MDPI) | Open access journal | High | Planned (Q3 2026) |
-| Electronics (MDPI) | Open access journal | High | Fallback |
-| SN Computer Science (Springer) | Journal | Medium | Fallback |
-| Frontiers in Computer Science | Open access journal | Medium | Fallback |
 
 ---
 
@@ -85,13 +71,11 @@
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Repository**: Official AnubisX Repository  
+**DOI**: https://doi.org/10.5281/zenodo.21446923  
+**Figshare DOI**: https://doi.org/10.6084/m9.figshare.33028817
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.
-Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
-
-
-*Classification: PUBLIC (C0)*
-
-

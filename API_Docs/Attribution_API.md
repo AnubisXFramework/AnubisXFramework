@@ -4,79 +4,17 @@
 
 ---
 
-## Official DOI
+## Overview
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+The Attribution API provides programmatic access to likelihood ratio computation and attribution decision-making based on the framework's evidence evaluation methodology.
 
-This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+### Attribution Interface
 
----
+Computes the Likelihood Ratio for a questioned sample against a reference profile. Accepts profile identifiers, questioned sample data, modality selection, and configuration options. Returns the computed LR with modality-level contributions and confidence metrics.
 
-## `POST /attribution/lr`
+### Decision Interface
 
-Computes the Likelihood Ratio for a questioned sample against a reference profile.
-
-### Request Body
-
-```json
-{
-  "reference_profile_id": "profile-xxx",
-  "questioned_sample": { ... },
-  "modalities": ["stylometry", "chrono", "terminal", "network", "media"],
-  "options": {
-    "calibration": "pav" | "logistic",
-    "prior": { "same_source": 0.5 }
-  }
-}
-```
-
-### Response
-
-```json
-{
-  "status": "success",
-  "data": {
-    "lr": 150.0,
-    "log_lr": 2.176,
-    "modality_contributions": {
-      "stylometry": { "lr": 45.0, "weight": 0.3 },
-      "chrono": { "lr": 12.0, "weight": 0.2 },
-      "terminal": { "lr": 8.0, "weight": 0.2 },
-      "network": { "lr": 3.0, "weight": 0.15 },
-      "media": { "lr": 2.0, "weight": 0.15 }
-    },
-    "ece": 0.12,
-    "confidence_interval": [120.0, 187.5]
-  }
-}
-```
-
-## `POST /attribution/decision`
-
-Produces a binary or categorical decision based on the LR.
-
-### Request Body
-
-```json
-{
-  "lr": 150.0,
-  "threshold_same_source": 100.0,
-  "threshold_different_source": 0.01
-}
-```
-
-### Response
-
-```json
-{
-  "status": "success",
-  "data": {
-    "decision": "same_source",
-    "strength": "very_strong",
-    "lr": 150.0
-  }
-}
-```
+Produces attribution decisions based on the LR value. Accepts LR and threshold parameters. Returns the attribution conclusion (same-source, different-source, or inconclusive) with strength assessment.
 
 ---
 
@@ -84,11 +22,15 @@ Produces a binary or categorical decision based on the LR.
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
@@ -96,5 +38,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

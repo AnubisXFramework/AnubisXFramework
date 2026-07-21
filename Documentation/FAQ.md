@@ -1,14 +1,19 @@
 # Frequently Asked Questions
 
-**AnubisX Framework v2.0**
+**AnubisX Framework**
 
 ---
 
 ## Official DOI
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
-This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+This release is permanently archived on Zenodo and Figshare.
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
 
 ---
 
@@ -32,7 +37,7 @@ Traditional attribution tracks what adversaries use (IPs, devices, accounts). An
 
 ### Is it implemented?
 
-The framework has a validated prototype — Anubis Twitter Intelligence v2.5. This prototype implements the stylometric modality for the Twitter/X platform, with 31 Egyptian Twitter accounts fingerprinted at 372 dimensions and FAISS search verified at 16 microseconds.
+The framework has a validated prototype implementing the stylometric modality for the Twitter/X platform, demonstrating the feasibility of the theoretical framework through empirical testing.
 
 ### What is Identity Intelligence (IdINT)?
 
@@ -40,11 +45,11 @@ A proposed formal forensic discipline for behavioral identity attribution, along
 
 ### Is it peer reviewed?
 
-The framework follows a formal publication pipeline with 6 planned papers covering framework, theory, mathematics, algorithms, validation, and case studies. Current validation is internal but follows rigorous scientific standards with 31 acceptance criteria and 23 metrics.
+The framework follows a formal publication pipeline. Current validation is internal but follows rigorous scientific standards with a defined acceptance criteria framework.
 
 ### How is confidence quantified?
 
-Attribution strength is expressed as a Likelihood Ratio — the probability of the observed evidence under the same-source hypothesis divided by the probability under the different-source hypothesis. LR values range from <0.01 (very strong support for different-source) to >100 (very strong support for same-source).
+Attribution strength is expressed as a Likelihood Ratio — the probability of the observed evidence under the same-source hypothesis divided by the probability under the different-source hypothesis. Values range from very strong support for different-source to very strong support for same-source.
 
 ### What about privacy?
 
@@ -60,24 +65,21 @@ Forensic investigators, cybersecurity analysts, academic researchers, legal prof
 
 ### How is the framework structured?
 
-Six layers: Data Layer (acquisition) → Feature Layer (extraction) → Profile Layer (construction) → Comparison Layer (matching) → Evidence Layer (fusion) → Decision Layer (output). Six processing stages: Extract → Construct → Compare → Calibrate → Fuse → Decide.
+Multiple layers: Data acquisition, feature extraction, profile construction, comparison, evidence evaluation, and decision. Multiple processing stages with multiple behavioral modalities.
 
 ### What are the three primary workflows?
 
-1. **Identification**: Who is this? (1:N matching against database)
-2. **Verification**: Is this who they claim to be? (1:1 matching)
+1. **Identification**: Who is this? (one-to-many matching)
+2. **Verification**: Is this who they claim to be? (one-to-one matching)
 3. **Forensic Comparison**: Source attribution of questioned material (LR quantification)
 
 ### How does multi-modal fusion work?
 
-Three fusion strategies:
-- **Score-level**: Combine similarity scores before LR transformation (simplest, most robust)
-- **Feature-level**: Concatenate feature vectors via HOSVD (captures cross-modal interactions)
-- **Decision-level**: Combine independent modality decisions (preserves independence)
+Multiple fusion strategies exist, operating at the score, feature, and decision levels. Each modality produces evidence that is calibrated, weighted, and combined using evidence theory.
 
 ### What validation does the framework have?
 
-A four-tier hierarchy (Unit, Component, System, Operational) with 31 acceptance criteria, 13 accuracy metrics, 10 performance metrics, 24 benchmarks, and 30 baselines. 15 experiments have been executed on the prototype.
+A multi-tier hierarchy with acceptance criteria, accuracy metrics, performance metrics, benchmarks, and baselines. Multiple experiments have been executed on the prototype.
 
 ---
 
@@ -85,28 +87,15 @@ A four-tier hierarchy (Unit, Component, System, Operational) with 31 acceptance 
 
 ### What does the prototype do?
 
-The Anubis Twitter Intelligence v2.5 prototype implements stylometric fingerprinting for Twitter/X accounts. It can extract 372-dimensional behavioral fingerprints from tweet text, search for similar accounts using FAISS, verify Egyptian demographic affiliation, and visualize data through a Django dashboard.
-
-### How many accounts have been fingerprinted?
-
-31 Egyptian Twitter accounts have been fingerprinted, producing 372-dimensional stylometric feature vectors.
-
-### How fast is the similarity search?
-
-FAISS IndexFlatIP search runs at approximately 16 microseconds per query against the indexed database.
-
-### What is the mean cross-user similarity?
-
-The mean cosine similarity between different users is approximately 0.26, indicating good discriminability.
+The prototype implements stylometric fingerprinting for Twitter/X accounts. It can extract behavioral fingerprints from tweet text, search for similar accounts, verify demographic affiliation, and visualize data.
 
 ### What are the prototype limitations?
 
-- **MarBERT/AraBERT unavailable**: HuggingFace authentication errors prevent loading these models; ensemble may silently degrade to single MPNet model
-- **No timestamps**: Twitter scraper sets all timestamps to datetime.now(), making temporal features invalid
-- **No interactions**: No reply, retweet, or like data collected
-- **FAISS dimension mismatch**: 734-dim legacy scripts incompatible with 372-dim pipeline
-- **Only stylometry implemented**: 4 of 5 modalities not operational
-- **Facebook/cross-platform**: Not implemented
+- Selected embedding models may be unavailable due to third-party authentication issues
+- Temporal features require valid timestamp data not yet available
+- Interaction data collection remains pending
+- Only stylometric modality is currently implemented
+- Cross-platform pipelines are not yet operational
 
 ---
 
@@ -114,24 +103,15 @@ The mean cosine similarity between different users is approximately 0.26, indica
 
 ### What experiments have been executed?
 
-15 experiments covering:
-- Stylometric fingerprint extraction from 31 users
-- Ensemble embedding validation (3-model weighted ensemble)
-- Lexical feature extraction (TTR, word length, punctuation, emoji)
-- TF-IDF topic vector extraction
-- FAISS index construction and similarity search
-- Cross-user similarity distribution analysis
-- Egyptian account verification (3-layer scoring)
-- Publication readiness assessment
-- Prototype capability catalog
+Multiple experiments covering stylometric fingerprint extraction, embedding validation, lexical feature extraction, topic vector extraction, similarity search, cross-user similarity analysis, demographic filtering, and publication readiness assessment.
 
 ### What metrics are available?
 
-7 of 13 accuracy metrics are computable from current data: similarity distributions, feature statistics, search latency. Formal accuracy metrics (FAR, FRR, AUC, EER, Cllr, d-prime) require ground-truth verification data not yet available.
+Accuracy metrics are partially computable from current data. Formal accuracy metrics (FAR, FRR, AUC) require ground-truth verification data not yet available.
 
 ### Is the framework scientifically validated?
 
-Partially. The theoretical framework (axioms, assumptions, algorithms, mathematics) is fully specified and internally consistent. The prototype demonstrates functional capability for stylometric fingerprinting. However, formal validation against acceptance criteria (33 total) requires additional data collection (timestamps, interactions, cross-platform) and ground-truth verification.
+Partially. The theoretical framework is fully specified and internally consistent. The prototype demonstrates functional capability. Formal validation against acceptance criteria requires additional data collection and ground-truth verification.
 
 ---
 
@@ -139,21 +119,16 @@ Partially. The theoretical framework (axioms, assumptions, algorithms, mathemati
 
 ### Can I reproduce the results?
 
-The prototype code and documentation are available. Reproducibility requires:
-- Python 3.11 with sentence-transformers, torch, numpy, pandas, sklearn, faiss
-- HuggingFace access for model downloads (~2GB)
-- Twitter/X data (can be collected via scraping or API)
-- Manual login for Twitter scraping
-- Note: MarBERT/AraBERT auth errors may prevent exact reproduction
+The prototype code and documentation are available. Reproduction requires appropriate data collection and third-party model access.
 
 ### What dataset is used?
 
-31 Egyptian Twitter accounts were analyzed. The dataset limitations include: no ground-truth identity labels, no timestamps, no interaction data, small sample size (single demographic, single platform).
+A sample of Twitter accounts was analyzed. The dataset has limitations including lack of ground-truth identity labels, limited temporal and interaction data, and a single-platform focus.
 
 ### What are the main research gaps?
 
-1. **Empirical validation**: 31 acceptance criteria untested against real data
-2. **Cross-platform validation**: Facebook and cross-platform pipelines not operational
+1. **Empirical validation**: Acceptance criteria untested against real data
+2. **Cross-platform validation**: Cross-platform pipelines not operational
 3. **Multi-modal validation**: Only stylometry implemented
 4. **Accuracy measurement**: No formal FAR/FRR/AUC estimates
 5. **Dataset limitations**: Small, single-demographic, single-platform
@@ -164,11 +139,11 @@ The prototype code and documentation are available. Reproducibility requires:
 
 ### How can I contribute?
 
-See the governance documentation for contribution guidelines, peer review process, and quality assurance standards. Contributions in the following areas are especially welcome: cross-platform implementation, temporal feature extraction, interaction data collection, formal validation studies, and additional demographic testing.
+Contributions in the following areas are especially welcome: cross-platform implementation, temporal feature extraction, interaction data collection, formal validation studies, and additional demographic testing.
 
 ### How do I cite AnubisX?
 
-Citation format will be established with the first publication release. For now, reference the framework by name and version (AnubisX Framework v2.0), with a link to the repository.
+Citation format will be established with the first publication release. For now, reference the framework by name and version, with a link to the repository.
 
 ### What is the license?
 
@@ -187,6 +162,11 @@ CC BY 4.0 (Creative Commons Attribution 4.0 International).
 **Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
 
 **DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
@@ -194,6 +174,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-*Version: 1.0*
-
-

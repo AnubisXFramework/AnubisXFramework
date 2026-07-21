@@ -10,20 +10,18 @@ We are releasing the **AnubisX Framework** — a complete theoretical specificat
 
 **What it is**: A scientific methodology for determining the identity of a human operator from their digital behavioral patterns. Instead of tracking technical artifacts that adversaries can change — IP addresses, device fingerprints, account credentials — the framework measures persistent human cognitive signatures rooted in stable cognitive processing habits.
 
-**Source**: Documentation/Overview.md §1, Documentation/Framework_Guide.md §1
-
 **What it includes**:
-- 31 formal axioms across 6 groups defining the logical structure of behavioral identity. **Source**: Axioms/Axiom_Catalog.md
-- 37+ algorithm specifications across 9 domains. **Source**: Algorithms/Algorithm_Catalog.md
-- 292 mathematical objects with consistent notation across 10 framework-specific spaces. **Source**: Mathematics/Mathematical_Foundation.md
-- A four-tier validation hierarchy with 33 quantified acceptance criteria. **Source**: Validation/Acceptance_Criteria.md (VLD-010)
-- 24 benchmarks with 30 baselines across 15 operational scenarios. **Source**: Benchmarks/Benchmark_Catalog.md
-- 38 experiment designs across 6 domains. **Source**: Experiments/Experiment_Catalog.md
-- 20 case studies across 4 domains. **Source**: Case_Studies/Case_Study_Catalog.md
+- A formal axiomatic system defining the logical structure of behavioral identity
+- Algorithm specifications across multiple domains
+- A comprehensive mathematical framework with consistent notation
+- A multi-tier validation hierarchy with quantified acceptance criteria
+- Benchmarks and baselines across operational scenarios
+- Experiment designs across multiple domains
+- Case studies across multiple application areas
 
-**What it is not**: This is not a software product. It is not a service. It is a complete theoretical specification — a blueprint for building scientifically rigorous behavioral attribution systems. All components are fully documented and cross-referenced with stable identifiers. Implementation and empirical validation are the next phase.
+**What it is not**: This is not a software product. It is not a service. It is a complete theoretical specification — a blueprint for building scientifically rigorous behavioral attribution systems. All components are fully documented and cross-referenced. Implementation and empirical validation are the next phase.
 
-**Current status**: Theoretical specification complete. No implementation code has been written. No empirical validation has been performed. All 38 experiments are at DEFINED status. All acceptance criteria are provisional pending empirical calibration. **Source**: PROJECT_STATUS.md, Research/Research_Limitations.md (RSR-003)
+**Current status**: Theoretical specification complete. No implementation code has been written. No empirical validation has been performed. All experiments are at design status. All acceptance criteria are provisional pending empirical calibration.
 
 **License**: CC BY 4.0 — open for academic and research use.
 
@@ -31,8 +29,16 @@ We invite the forensic science, cybersecurity, and research communities to exami
 
 ---
 
-**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
+**Project**: AnubisX Framework  
+**Primary Author**: Ahmed Awad (NullC0d3)  
+**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Repository**: Official AnubisX Repository
+
+**DOI**: https://doi.org/10.5281/zenodo.21446923  
+**Figshare DOI**: https://doi.org/10.6084/m9.figshare.33028817
 
 #AnubisX #DigitalForensics #BehavioralBiometrics #IdentityIntelligence #CyberSecurity
-
-

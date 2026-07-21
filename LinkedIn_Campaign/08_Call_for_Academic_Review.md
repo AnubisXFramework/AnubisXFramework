@@ -8,23 +8,23 @@
 
 We are inviting academic peer review of the AnubisX Framework — a complete theoretical specification for behavioral identity attribution.
 
-**Why we are seeking review before formal submission**: The framework is substantial — ~750 documents, ~88 files of mathematics, 37 algorithm specifications, 31 axioms, and a four-tier validation framework. We want to identify foundational issues early, before submission to peer-reviewed venues. We have already conducted an internal independent peer review (reports available in 00_REVIEW/), which identified significant issues. We are publishing this review alongside the framework.
+**Why we are seeking review before formal submission**: The framework is substantial — with extensive documentation, mathematics, algorithm specifications, axioms, and a multi-tier validation framework. We want to identify foundational issues early, before submission to peer-reviewed venues. We have already conducted an internal independent peer review, which identified significant issues. We are publishing this review alongside the framework.
 
 **Areas where we particularly need expert review:**
 
-**Axiomatic foundation**: The 5 core axioms and 26 supporting axioms across 6 groups define the logical structure. Are they properly scoped? Are there hidden assumptions? Are the validation strategies appropriate for axiomatic claims? **Source**: Axioms/Core_Axioms.md, Axioms/Axiom_Catalog.md
+**Axiomatic foundation**: Core axioms and supporting axioms define the logical structure. Are they properly scoped? Are there hidden assumptions? Are the validation strategies appropriate for axiomatic claims?
 
-**Mathematical framework**: The 292 objects and 50 equations across 10 framework-specific spaces. Notation consistency. Domain definitions. Convergence claims. The behavioral signal decomposition model (EQ-005). **Source**: Mathematics/Mathematical_Foundation.md (MTH-001), Mathematics/Equations/
+**Mathematical framework**: Objects and equations across multiple framework-specific spaces. Notation consistency. Domain definitions. Convergence claims. The behavioral signal decomposition model.
 
-**Validation methodology**: The four-tier hierarchy with 33 quantified acceptance criteria (AC-001—004). Error decomposition into 5 components. Are the thresholds appropriate? Are the metrics comprehensive? **Source**: Validation/Validation_Framework.md (VLD-001), Validation/Acceptance_Criteria.md (VLD-010)
+**Validation methodology**: The multi-tier hierarchy with quantified acceptance criteria. Error decomposition into components. Are the thresholds appropriate? Are the metrics comprehensive?
 
-**Multi-modal fusion approach**: Comparison of three fusion strategies (score-level, feature-level via HOSVD, decision-level via Dempster-Shafer). Conditional independence assumptions. Fusion under uncertainty. **Source**: Algorithms/Fusion_Algorithms.md (ALG-029—032)
+**Multi-modal fusion approach**: Comparison of multiple fusion strategies (score-level, feature-level, decision-level). Conditional independence assumptions. Fusion under uncertainty.
 
-**Likelihood Ratio framework**: Application of LR to behavioral evidence. Calibration methodology (PAV, logistic regression). Independence assumptions across modalities. **Source**: Theory/Behavioral_Attribution_Theory.md (THY-003), Algorithms/Attribution_Algorithms.md (ALG-017)
+**Likelihood Ratio framework**: Application of likelihood ratios to behavioral evidence. Calibration methodology. Independence assumptions across modalities.
 
 **Fields we would particularly value review from:**
 - Cognitive psychology (the theoretical claims about cognitive processing habits and involuntary signals)
-- Forensic statistics (the LR framework and validation methodology)
+- Forensic statistics (the likelihood ratio framework and validation methodology)
 - Computational stylometry (the linguistic feature extraction approach)
 - Behavioral biometrics (the multi-modal fusion architecture)
 - Philosophy of science (the axiomatic approach and falsifiability conditions)
@@ -41,10 +41,16 @@ We believe addressing these issues requires input from the broader research comm
 
 ---
 
-**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
-**Internal peer review**: 00_REVIEW/ (8 reports available)
-**Framework overview**: Documentation/Overview.md
+**Project**: AnubisX Framework  
+**Primary Author**: Ahmed Awad (NullC0d3)  
+**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Repository**: Official AnubisX Repository
+
+**DOI**: https://doi.org/10.5281/zenodo.21446923  
+**Figshare DOI**: https://doi.org/10.6084/m9.figshare.33028817
 
 #AnubisX #AcademicReview #PeerReview #ForensicScience #Research
-
-

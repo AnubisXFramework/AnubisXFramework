@@ -28,7 +28,7 @@ Identity Intelligence is the proposed formal forensic discipline for behavioral 
 
 ### Is this framework implemented in software?
 
-The AnubisX Framework is currently a complete theoretical specification: 31 axioms, 37+ algorithms, 292 mathematical definitions, 38 experiment designs, 24 benchmarks, 20 case studies, and a full validation framework. Software implementation is a planned next phase.
+The AnubisX Framework is currently a complete theoretical specification. Software implementation is a planned next phase.
 
 ## Technical
 
@@ -42,7 +42,7 @@ The AnubisX Framework is currently a complete theoretical specification: 31 axio
 
 ### How is attribution confidence quantified?
 
-Attribution strength is expressed as a Likelihood Ratio (LR): the probability of observing the evidence if the samples come from the same source divided by the probability if they come from different sources. An LR of 100 means the evidence is 100 times more likely under the same-source hypothesis.
+Attribution strength is expressed as a Likelihood Ratio (LR): the probability of observing the evidence if the samples come from the same source divided by the probability if they come from different sources.
 
 ### What is the Cognitive Centroid?
 
@@ -50,13 +50,13 @@ The Cognitive Centroid is the theoretical fixed point in behavioral feature spac
 
 ### What mathematical methods are used?
 
-The framework uses Higher-Order Singular Value Decomposition (HOSVD) for feature-level fusion, Dempster-Shafer Theory for evidence combination, Likelihood Ratio calibration via pool-adjacent-violators (PAV) or logistic regression, and empirical cross-entropy for validation.
+The framework uses tensor decomposition for feature-level fusion, evidence theory for evidence combination, Likelihood Ratio calibration, and empirical cross-entropy for validation.
 
 ## Scientific Rigor
 
 ### Is the framework validated?
 
-The framework includes 38 experiment designs, 24 benchmarks with 30 baselines, 20 case studies across 4 domains, and a four-tier validation hierarchy with quantified acceptance criteria. Empirical validation is the planned next phase following implementation.
+The framework includes a comprehensive set of experiment designs, benchmarks, baselines, case studies across multiple domains, and a multi-tier validation hierarchy with quantified acceptance criteria. Empirical validation is the planned next phase following implementation.
 
 ### Is it peer reviewed?
 
@@ -70,11 +70,11 @@ The framework is designed for Daubert compliance: testable hypotheses (all axiom
 
 ### What about privacy?
 
-The framework embeds the Proportionality and Privacy Protection Protocol (P³) as a core architectural constraint. Attribution methods are proportional to investigative need; data collection follows the minimum necessary principle; and dual-use safeguards are documented.
+The framework embeds privacy protection as a core architectural constraint. Attribution methods are proportional to investigative need; data collection follows the minimum necessary principle; and dual-use safeguards are documented.
 
 ### Could this be used for mass surveillance?
 
-The framework is designed for forensic investigation contexts with legal oversight. The P³ Protocol explicitly constrains proportionality, and the framework's transparency requirements prevent covert deployment without detection.
+The framework is designed for forensic investigation contexts with legal oversight. Its protocols explicitly constrain proportionality, and transparency requirements prevent covert deployment without detection.
 
 ## Usage
 
@@ -88,11 +88,11 @@ The framework is designed for forensic investigation contexts with legal oversig
 
 ### How do I get started?
 
-See the [Getting Started Guide](../Getting_Started/) for a step-by-step introduction.
+See the Getting Started guide for a step-by-step introduction.
 
 ### Can I use this commercially?
 
-The framework is available under CC BY 4.0 for academic and research use. Commercial use requires a separate license. See the [LICENSE](../LICENSE.md).
+The framework is available under CC BY 4.0 for academic and research use. Commercial use requires a separate license. See the LICENSE file.
 
 ## Development
 
@@ -102,11 +102,11 @@ The framework has completed all theoretical specifications: axioms, conceptual m
 
 ### How can I contribute?
 
-See [CONTRIBUTING](../CONTRIBUTING.md) for contribution guidelines. We welcome contributions from researchers, practitioners, and collaborators aligned with the framework's scientific and ethical standards.
+See CONTRIBUTING for contribution guidelines. We welcome contributions from researchers, practitioners, and collaborators aligned with the framework's scientific and ethical standards.
 
 ### Is the reference book available?
 
-The document "You Can Hide Your Name... Not Your Mind" is included in the repository as a reference work on Identity Intelligence.
+A reference work on Identity Intelligence is included in the repository.
 
 ---
 
@@ -114,11 +114,14 @@ The document "You Can Hide Your Name... Not Your Mind" is included in the reposi
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
-
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
@@ -126,5 +129,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

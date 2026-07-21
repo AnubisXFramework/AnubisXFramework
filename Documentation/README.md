@@ -4,29 +4,28 @@
 
 ---
 
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
+
+---
+
 ## Documentation Structure
 
 | Section | Description |
 |---|---|
-| [Architecture Overview](Architecture_Overview.md) | Framework architecture and component model |
-| [Axiomatic System](Axiomatic_System.md) | 16 formal axioms, 20 hypotheses, 18 design principles |
-| [Multi-Modal Framework](Multi_Modal_Framework.md) | Five tracking modalities and fusion architecture |
-| [Attribution Framework](Attribution_Framework.md) | LR-based attribution and evidence integration |
-| [Validation Methodology](Validation_Methodology.md) | Scientific validation standards and protocols |
-| [Benchmarking Guide](Benchmarking_Guide.md) | Benchmark framework and evaluation scenarios |
-| [Glossary](Glossary.md) | Standardized terminology |
-
-## Related Resources
-
-- [Whitepaper](../Whitepaper/AnubisX_Whitepaper.md)
-- [API Documentation](../API_Docs/)
-- [Getting Started Guide](../Getting_Started/)
-- [FAQ](../FAQ/)
-- [Reference Book: You Can Hide Your Name... Not Your Mind](https://www.amazon.com/dp/B0H8LCTTWW)
+| Architecture Overview | Framework architecture and component model |
+| Axiomatic System | Formal axioms, hypotheses, design principles |
+| Multi-Modal Framework | Five tracking modalities and fusion architecture |
+| Attribution Framework | LR-based attribution and evidence integration |
+| Validation Methodology | Scientific validation standards and protocols |
+| Benchmarking Guide | Benchmark framework and evaluation scenarios |
+| Glossary | Standardized terminology |
 
 ---
-
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
 
 ---
 
@@ -44,5 +43,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

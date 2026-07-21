@@ -6,7 +6,7 @@
 
 ## Summary
 
-The AnubisX Framework v2.0 Journal Revision is assessed as **ready for submission** to peer-reviewed venues (targeting MDPI Journal of Cybersecurity and Privacy, MDPI Electronics, Springer SN Computer Science, or Frontiers in Computer Science). The manuscript has been significantly strengthened from v1.0 with the addition of 50 external references, expanded related work, new sections, and enhanced academic rigor.
+The AnubisX Framework v2.0 Journal Revision is assessed as **ready for submission** to peer-reviewed venues (targeting MDPI Journal of Cybersecurity and Privacy, MDPI Electronics, Springer SN Computer Science, or Frontiers in Computer Science). The manuscript has been significantly strengthened from v1.0 with the addition of external references, expanded related work, new sections, and enhanced academic rigor.
 
 ## Detailed Assessment
 
@@ -14,7 +14,7 @@ The AnubisX Framework v2.0 Journal Revision is assessed as **ready for submissio
 - **v1.0:** 19 references (17 self-citations to repository docs, 2 external)
 - **v2.0:** 50 references (31 external peer-reviewed, 19 repository self-citations)
 - **Ratio:** 62% external / 38% self-citations — acceptable for a foundational methodology paper
-- **Venues:** IEEE (3), ACM (4), Elsevier (6), Springer (5), ACL (5), CEUR-WS (3), arXiv (4), Books (3)
+- **Venues:** IEEE, ACM, Elsevier, Springer, ACL, CEUR-WS, arXiv, Books
 - **Assessment:** PASS — sufficient external anchoring for submission
 
 ### 2. Structural Completeness
@@ -34,7 +34,7 @@ The AnubisX Framework v2.0 Journal Revision is assessed as **ready for submissio
 | 11. Experimental Results | Complete with corrected data |
 | 12. Discussion (expanded) | Complete — cybersecurity, forensics, OSINT implications |
 | 13. Practical Implications (NEW) | Complete — 4 operational domains |
-| 14. Limitations (expanded) | Complete — 10 items with mitigation pathways |
+| 14. Limitations (expanded) | Complete — items with mitigation pathways |
 | 15. Future Work | Complete |
 | 16. Summary of Contributions (NEW) | Complete |
 | 17. Reproducibility | Complete |
@@ -49,11 +49,11 @@ The AnubisX Framework v2.0 Journal Revision is assessed as **ready for submissio
 
 ### 4. Scientific Honesty
 - All experiment values from raw JSON output (no fabricated metrics)
-- Framework limitations explicitly documented (Table 12 with severity/impact/mitigation)
-- Validation status clearly distinguished (10 claims: 6 PUBLICATION READY, 1 DEGRADED, 3 REQUIRES DATA)
+- Framework limitations explicitly documented with severity/impact/mitigation
+- Validation status clearly distinguished across claims
 - Formal experiments acknowledged as DEFINED/unexecuted
-- Theory-implementation gap (42%) transparently disclosed
-- Corrected values: cross-user similarity 0.697, keyword matches 144, FAISS latency 6-8 µs
+- Theory-implementation gap transparently disclosed
+- Corrected values documented with validated measurements
 - **Assessment:** PASS — no fabricated claims, transparent limitations
 
 ### 5. Language and Formatting
@@ -65,20 +65,20 @@ The AnubisX Framework v2.0 Journal Revision is assessed as **ready for submissio
 
 ### 6. Reviewer Concern Resolution
 All 14 concerns from the initial reviewer response report have been addressed:
-1. Reference completeness (14→50)
-2. Claims validation (4→10 with status)
-3. Data provenance (verified to raw JSON)
-4. Self-citation ratio (89%→38%)
-5. Mathematical depth (expanded spaces/functions)
-6. Implementation availability (full code + data)
-7. Reproducibility (new dedicated section)
-8. Ethics dual-use (strengthened statement)
-9. Theory-empiricism gap (explicitly addressed)
-10. Related work depth (expanded with 11 subsections)
-11. Limitations structure (severity/impact/mitigation)
-12. Multi-modality status (clear table with validation status)
-13. Comparison to baselines (qualitative comparison table)
-14. Publication venue suitability (4 target venues identified)
+1. Reference completeness
+2. Claims validation
+3. Data provenance
+4. Self-citation ratio
+5. Mathematical depth
+6. Implementation availability
+7. Reproducibility
+8. Ethics dual-use
+9. Theory-empiricism gap
+10. Related work depth
+11. Limitations structure
+12. Multi-modality status
+13. Comparison to baselines
+14. Publication venue suitability
 
 ## Recommended Target Venues
 
@@ -89,7 +89,8 @@ All 14 concerns from the initial reviewer response report have been addressed:
 | SN Computer Science (Springer) | Journal | Computer science, security, AI | Medium |
 | Frontiers in Computer Science | Open access journal | AI, security, digital forensics | Medium |
 
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 ## Final Verdict
 
@@ -98,5 +99,3 @@ All 14 concerns from the initial reviewer response report have been addressed:
 The manuscript is ready for peer review submission. The two remaining areas for improvement before submission:
 1. Replace figure placeholders with actual figures
 2. Final proofreading pass for typographical errors
-
-

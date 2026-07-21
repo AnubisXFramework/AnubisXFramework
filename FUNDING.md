@@ -15,7 +15,6 @@ The AnubisX Framework is currently an independent research project. Information 
 ### Academic Collaboration
 
 We welcome collaboration with academic institutions and research groups working in:
-
 - Behavioral forensics and identity attribution
 - Stylometry and authorship analysis
 - Forensic science methodology
@@ -25,24 +24,21 @@ We welcome collaboration with academic institutions and research groups working 
 
 ### Research Grants
 
-If your institution or funding body is interested in supporting this research, please contact the project maintainers through GitHub.
+If your institution or funding body is interested in supporting this research, please contact the project maintainers at **anubisxframework@gmail.com**.
 
 ### In-Kind Contributions
 
 We welcome in-kind support including:
-
 - Access to behavioral datasets for validation research
 - Computational resources for benchmark execution
-- Expertise in relevant domains (forensic science, statistics, cognitive psychology)
+- Expertise in relevant domains
 - Algorithm implementation contributions
 
 ---
 
 ## Why Fund This Research?
 
-Behavioral identity attribution addresses a critical gap in digital forensics: traditional attribution methods rely on technical indicators that adversaries can change at will. The AnubisX Framework provides a scientifically rigorous foundation for attribution based on persistent cognitive signatures, as formalized in the framework's 31 axioms and supporting theoretical documents.
-
-**Source**: Documentation/Overview.md §1, Theory/Core_Theory.md (THY-001)
+Behavioral identity attribution addresses a critical gap in digital forensics: traditional attribution methods rely on technical indicators that adversaries can change at will. The AnubisX Framework provides a scientifically rigorous foundation for attribution based on persistent cognitive signatures.
 
 ### Research Impact
 
@@ -59,7 +55,7 @@ Behavioral identity attribution addresses a critical gap in digital forensics: t
 |---|---|
 | Software implementation | Algorithm implementation and integration |
 | Dataset acquisition | Behavioral data for validation |
-| Benchmark execution | Computational resources for 24 benchmarks |
+| Benchmark execution | Computational resources for benchmarks |
 | Third-party validation | Independent replication studies |
 | Conference participation | Dissemination at forensic science venues |
 
@@ -71,23 +67,25 @@ All funding sources will be acknowledged in project documentation and publicatio
 
 ---
 
-**See also**: [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md), Papers/Paper_Roadmap.md, Research/Future_Work.md (RSR-007)
+**See also**: [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)
 
 **Project**: AnubisX Framework  
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
 
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 ---
 
 *Classification: PUBLIC (C0)*
-
-

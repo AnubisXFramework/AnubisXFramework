@@ -8,13 +8,13 @@
 
 ## Executive Summary
 
-The AnubisX Framework is committed to the principles of open science: **transparency, reproducibility, accessibility, and collaboration**. This document serves as the formal open science statement, providing a comprehensive declaration of our research practices and commitments.
+The AnubisX Framework is committed to the principles of open science: **transparency, reproducibility, accessibility, and collaboration**. This document serves as the formal open science statement.
 
 ---
 
 ## Open Access
 
-The AnubisX Framework adheres to the **Creative Commons Attribution 4.0 International (CC BY 4.0)** open access license, ensuring barrier-free access to all research outputs.
+The AnubisX Framework adheres to the **Creative Commons Attribution 4.0 International (CC BY 4.0)** open access license.
 
 ### License Terms
 
@@ -28,26 +28,18 @@ The AnubisX Framework adheres to the **Creative Commons Attribution 4.0 Internat
 
 ### Open Access Compliance
 
-- ✅ **Plan S Compliant** — Meets cOAlition S requirements
-- ✅ **Institutional Repository Compatible** — Accepted by most academic institutions
-- ✅ **Funder Mandate Compliant** — Meets most open access funding requirements
-- ✅ **Wikimedia Compatible** — Compatible with Wikipedia redistribution
+- **Plan S Compliant** — Meets cOAlition S requirements
+- **Institutional Repository Compatible** — Accepted by most academic institutions
+- **Funder Mandate Compliant** — Meets most open access funding requirements
+- **Wikimedia Compatible** — Compatible with Wikipedia redistribution
 
 ---
 
 ## Data Availability
 
-### Current Data
-
-| Type | Availability | Location |
-|---|---|---|
-| Experimental results (15 experiments) | Public | Repository: Anubis Twitter/reports/experimental_results/ |
-| Twitter account data (31 accounts) | Public | Repository: Anubis Twitter/data/ |
-| Experiment JSON outputs (17 files) | Public | Repository: Anubis Twitter/reports/experimental_results/ |
-
 ### Data Principles
 
-1. **Public data only:** All experimental data is sourced from publicly available Twitter data
+1. **Public data only:** All experimental data is sourced from publicly available data
 2. **Minimum necessary:** Data collection follows the minimum necessary principle
 3. **Compliance:** All data collected in compliance with platform Terms of Service
 4. **Anonymization:** No personally identifiable information beyond what is publicly available
@@ -59,42 +51,13 @@ Additional datasets collected for future experiments will be released under the 
 
 ---
 
-## Code Availability
-
-| Component | License | Location |
-|---|---|---|
-| Anubis Twitter v2.5 prototype | MIT | Repository |
-| Feature extraction pipeline | MIT | Repository |
-| FAISS similarity search | MIT | Repository |
-| Experiment framework | MIT | Repository |
-
-### Code Principles
-
-1. All prototype code is open source
-2. Code is accompanied by documentation
-3. Dependencies are documented
-4. Known limitations are transparently disclosed
-5. Contributions are welcome via pull requests
-
----
-
 ## Reproducibility
 
 ### Current Reproducibility Status
 
-- **Fully reproducible:** Cross-user similarity distribution, FAISS performance metrics, lexical feature analysis
-- **Partially reproducible:** Fingerprint extraction (hash() non-determinism affects n-gram features)
-- **Not reproducible (no data):** Temporal feature analysis, coordination detection, multi-modality experiments
-
-### Reproducibility Requirements
-
-| Requirement | Details |
-|---|---|
-| Software | Python 3.10+, FAISS, sentence-transformers, NumPy, scikit-learn, pandas |
-| Hardware | CPU only (GPU optional) |
-| Data | 31 JSON account files included |
-| Time | ~5 minutes for full pipeline |
-| Known issues | Python hash() non-determinism documented |
+- **Fully reproducible:** Core experimental results
+- **Partially reproducible:** Some feature extraction components
+- **Not reproducible (no data):** Multi-modality experiments
 
 ### Reproducibility Documentation
 
@@ -149,48 +112,18 @@ When using the framework in academic work, provide:
 **Original Research**: Ahmed Awad (NullC0d3)  
 3. License notice: CC BY 4.0
 
-### Best Practices for Academic Reuse
-
-1. Cite the framework and its foundational paper
-2. Acknowledge limitations and uncertainties
-3. Distinguish between framework components and your extensions
-4. Share improvements and extensions with the community
-5. Report issues and contribute fixes
-
----
-
-## Licensing
-
-| Component | License | Notes |
-|---|---|---|
-| Framework specification | CC BY 4.0 | Theoretical documentation |
-| Prototype source code | MIT | Implementation code |
-| Experimental data | CC BY 4.0 | Results and analysis |
-| Figures and diagrams | CC BY 4.0 | Visual materials |
-| Third-party content | Original licenses | Respective owners |
-
-### License Compatibility
-
-CC BY 4.0 is compatible with:
-- Open access publication requirements
-- Most institutional repository policies
-- Funding body open access mandates (Plan S, etc.)
-- Wikipedia and Wikimedia projects
-
 ---
 
 ## Open Science Badges
 
-The framework supports the following open science practices eligible for badges:
-
-| Practice | Status | Evidence |
-|---|---|---|
-| Open access | Yes | CC BY 4.0 license |
-| Open data | Yes | Experimental data included |
-| Open code | Yes | Prototype code included |
-| Preregistration | Planned | Future experiments |
-| Registered report | Planned | Future submissions |
-| Reproducibility | Partial | Documented in Section 17 |
+| Practice | Status |
+|---|---|
+| Open access | Yes |
+| Open data | Yes |
+| Open code | Yes |
+| Preregistration | Planned |
+| Registered report | Planned |
+| Reproducibility | Partial |
 
 ---
 
@@ -205,7 +138,19 @@ The framework supports the following open science practices eligible for badges:
 
 ---
 
+**Project**: AnubisX Framework  
+**Primary Author**: Ahmed Awad (NullC0d3)  
+**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Original Framework**: Ahmed Awad (NullC0d3)  
+**Original Research**: Ahmed Awad (NullC0d3)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
+
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
+
 **© 2026 Ahmed Awad (NullC0d3). All rights reserved.**  
 *This document represents the official open science statement for the AnubisX Framework.*
-
-

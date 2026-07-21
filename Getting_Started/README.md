@@ -4,73 +4,45 @@
 
 ---
 
-## Official DOI
-
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
-
-This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
-
----
-
 ## Step 1: Understand the Core Concepts
 
 Begin with the conceptual foundation:
-
-- Read the [Whitepaper](../Whitepaper/AnubisX_Whitepaper.md) for an overview
-- Study the [Axiomatic System](../Documentation/Axiomatic_System.md) — the 31 axioms define the logical boundaries of valid inference
-- Review the [Glossary](../Documentation/Glossary.md) for terminology
+- Read the Whitepaper for an overview
+- Study the Axiomatic System
+- Review the Glossary for terminology
 
 ## Step 2: Explore the Architecture
 
 Understand how the framework is structured:
-
-- [Architecture Overview](../Documentation/Architecture_Overview.md) — the five-stage pipeline
-- [Multi-Modal Framework](../Documentation/Multi_Modal_Framework.md) — the five modalities and fusion architecture
-- [Attribution Framework](../Documentation/Attribution_Framework.md) — LR-based attribution
+- Architecture Overview
+- Multi-Modal Framework
+- Attribution Framework
 
 ## Step 3: Study the Case Studies
 
-The 20 case studies demonstrate how the framework applies to real-world scenarios:
-
-```
-Case_Studies/
-├── Twitter_Cases.md         # 5 Twitter-based cases
-├── Facebook_Cases.md        # 5 Facebook-based cases
-├── Cross_Platform_Cases.md  # 5 cross-platform cases
-└── Use_Cases.md             # 5 specialized use cases
-```
+The case studies demonstrate how the framework applies to real-world scenarios across multiple domains.
 
 ## Step 4: Review the Validation Standards
 
 Understand how the framework validates its claims:
-
-- [Validation Methodology](../Documentation/Validation_Methodology.md)
-- [Benchmarking Guide](../Documentation/Benchmarking_Guide.md)
+- Validation Methodology
+- Benchmarking Guide
 
 ## Step 5: For Researchers
 
 If you plan to use the framework in research:
-
-1. Review the formal axioms (Axioms/ directory)
-2. Study the mathematical foundations (Mathematics/ directory)
-3. Review algorithm specifications (Algorithms/ directory)
-4. Consult the publication roadmap (Papers/ directory)
-5. Follow citation guidelines in [LICENSE](../LICENSE.md)
+1. Review the formal axioms
+2. Study the mathematical foundations
+3. Review algorithm specifications
+4. Follow citation guidelines
 
 ## Step 6: For Developers
 
 If you plan to implement the framework:
-
 1. Review the algorithm catalog for specifications
 2. Follow the API documentation for integration patterns
 3. Use the benchmark framework for validation
 4. Ensure compliance with the validation criteria
-
-## Prerequisites
-
-- No software installation required for the theoretical framework
-- Background in statistics, forensic science, or behavioral analysis helpful but not required
-- The framework is language-agnostic; implementations can be in any programming language
 
 ---
 
@@ -78,11 +50,15 @@ If you plan to implement the framework:
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
@@ -90,5 +66,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

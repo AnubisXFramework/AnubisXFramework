@@ -33,7 +33,7 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 - Sexual attention or advances of any kind
 - Conduct that would be inappropriate in a professional scientific setting
 - Deliberate misrepresentation of qualifications, data, or results
-- Violating the ethical principles of the framework (P³ Protocol, proportionality, privacy)
+- Violating the ethical principles of the framework
 
 ---
 
@@ -43,45 +43,37 @@ Project maintainers are responsible for clarifying and enforcing this Code of Co
 
 ## Scope
 
-This Code of Conduct applies within all project spaces — including GitHub repository, issue tracker, discussions, pull requests, and project correspondence — and also applies when an individual is representing the project in public spaces.
+This Code of Conduct applies within all project spaces and when an individual is representing the project in public spaces.
 
 ## Reporting
 
-Report violations by contacting the project maintainers through the GitHub issue tracker (mark as confidential if appropriate) or through direct contact with any maintainer.
+Report violations by contacting the project maintainers at **anubisxframework@gmail.com** or through the GitHub issue tracker.
 
-All reports will be reviewed and investigated promptly and fairly. The project team is obligated to maintain confidentiality regarding the reporter of an incident.
+All reports will be reviewed and investigated promptly and fairly.
 
 ## Enforcement Guidelines
 
 ### 1. Correction
-
 **Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome.
-
-**Consequence**: A private, written warning providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
+**Consequence**: A private, written warning.
 
 ### 2. Warning
-
 **Community Impact**: A violation through a single incident or series of actions.
-
-**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved for a specified period, including unsolicited interaction with those enforcing the Code of Conduct.
+**Consequence**: A warning with consequences for continued behavior.
 
 ### 3. Temporary Ban
-
-**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.
-
-**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period.
+**Community Impact**: A serious violation of community standards.
+**Consequence**: A temporary ban from any sort of interaction.
 
 ### 4. Permanent Ban
-
-**Community Impact**: Demonstrating a pattern of violation of community standards, including harassment, aggression, or discrimination.
-
-**Consequence**: A permanent ban from any sort of public interaction within the community.
+**Community Impact**: Demonstrating a pattern of violation of community standards.
+**Consequence**: A permanent ban from any sort of public interaction.
 
 ---
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.
 
 ---
 
@@ -89,11 +81,15 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
@@ -101,5 +97,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

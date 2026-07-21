@@ -3,18 +3,21 @@
 **Ahmed Awad (NullC0d3)**  
 *Independent Cybersecurity Researcher*  
 ORCID: https://orcid.org/0009-0005-0654-3393  
-LinkedIn: https://www.linkedin.com/in/nullc0d3/  
+Website: https://anubisxframework.github.io  
+Mirror: https://anubisxframework.nullc0d3.workers.dev  
+Contact: anubisxframework@gmail.com  
 GitHub: https://github.com/AnubisXFramework/AnubisXFramework  
 Zenodo: https://doi.org/10.5281/zenodo.21446923  
+Figshare: https://doi.org/10.6084/m9.figshare.33028817
 
 **Version:** 2.0.0 — Journal Revision  
 **Date:** July 2026  
 *Classification: PUBLIC (C0)*  
-**License:** CC BY 4.0  
+**License:** CC BY 4.0
 
 **Reference Work:**  
 "You Can Hide Your Name... Not Your Mind: How Artificial Intelligence Reveals the Human Behind Digital Identities — Introducing the AnubisX Attribution Framework"  
-Amazon: https://www.amazon.com/dp/B0H8LCTTWW  
+Amazon: https://www.amazon.com/dp/B0H8LCTTWW
 
 ---
 
@@ -22,11 +25,11 @@ Amazon: https://www.amazon.com/dp/B0H8LCTTWW
 
 Digital attribution — linking digital actions and artifacts to their human source — is a foundational capability in cyber threat intelligence, digital forensics, and national security. Current methodologies rely primarily on technical artifacts (IP addresses, device fingerprints, network identifiers) that sophisticated adversaries can spoof or eliminate. Behavioral attribution offers an alternative paradigm: analyzing intrinsic patterns of human cognition observable through digital traces.
 
-This paper presents the AnubisX Framework, a scientific methodology for behavioral digital identity attribution. The framework comprises: (1) a formal theoretical foundation of 16 axioms, 20 research hypotheses, and 18 design principles organized around Cognitive Centroid theory; (2) a mathematical framework of 292 objects across 24 categories with a likelihood ratio evidence model; (3) 37 algorithms across 9 domains spanning five behavioral modalities (stylometric, temporal, terminal, network, media); and (4) a four-tier validation infrastructure with 38 defined experiments, 24 benchmarks, and 20 case studies.
+This paper presents the AnubisX Framework, a scientific methodology for behavioral digital identity attribution. The framework comprises: (1) a formal theoretical foundation of axioms, research hypotheses, and design principles organized around Cognitive Centroid theory; (2) a comprehensive mathematical framework with a likelihood ratio evidence model; (3) algorithms spanning multiple domains and behavioral modalities; and (4) a multi-tier validation infrastructure with defined experiments, benchmarks, and case studies.
 
-A prototype implementation, Anubis Twitter v2.5 (47 Python source files, ~2,800 LOC), validates the stylometric modality for Arabic Twitter data. Fifteen proof-of-concept experiments on 31 Egyptian Twitter accounts demonstrate: 372-dimensional fingerprint extraction with dimensional consistency verified across all accounts; FAISS-based similarity search at approximately 6–8 µs mean latency; cross-user similarity distributions with mean 0.697 (σ = 0.105) across 465 identity pairs from raw experimental data. Egyptian content analysis identified 144 keyword matches, 58 slang expressions, and 12 location mentions. Of ten core claims, six achieve publication-ready validation status.
+A prototype implementation validates the stylometric modality on real-world data. Proof-of-concept experiments demonstrate multi-dimensional fingerprint extraction with dimensional consistency, efficient similarity search, and measurable cross-user similarity distributions. Of several core claims, a subset achieve publication-ready validation status.
 
-All claims, limitations, and validation outcomes are transparently documented. The formal experiment catalog (38 experiments) and benchmark suite (24 benchmarks) are fully specified but unexecuted. The framework is released as open source under CC BY 4.0.
+All claims, limitations, and validation outcomes are transparently documented. The formal experiment catalog and benchmark suite are fully specified but unexecuted. The framework is released as open source under CC BY 4.0.
 
 **Keywords:** Behavioral Attribution; Digital Identity; Artificial Intelligence; Stylometry; Behavioral Fingerprinting; Cyber Threat Intelligence; Digital Forensics; OSINT; Authorship Attribution; Cognitive Centroid
 
@@ -42,17 +45,17 @@ Behavioral attribution addresses these limitations by shifting the analytical fo
 
 The AnubisX Framework formalizes this premise into a complete scientific methodology. Its contributions are:
 
-1. **A formal theoretical model** based on Cognitive Centroid theory, comprising 16 logically necessary axioms, 20 empirically testable hypotheses, and 18 design principles [10][11][12].
+1. **A formal theoretical model** based on Cognitive Centroid theory, comprising logically necessary axioms, empirically testable hypotheses, and design principles [10][11][12].
 
-2. **A comprehensive mathematical framework** with 292 objects across 24 categories, including a likelihood ratio evidence evaluation model for forensic attribution [13].
+2. **A comprehensive mathematical framework** with objects across multiple categories, including a likelihood ratio evidence evaluation model for forensic attribution [13].
 
-3. **An algorithmic catalog** of 37 algorithms across 9 domains, spanning five behavioral modalities: stylometric, chrono-profiling, terminal profiling, network analysis, and media forensics [14].
+3. **An algorithmic catalog** of algorithms across multiple domains, spanning five behavioral modalities: stylometric, chrono-profiling, terminal profiling, network analysis, and media forensics [14].
 
 4. **A six-layer architecture** with a six-stage pipeline supporting identification, verification, and forensic comparison workflows [15].
 
-5. **A multi-tier validation infrastructure** with 38 formal experiments, 24 benchmarks, 30 baselines, and 33 acceptance criteria across 4 tiers [16].
+5. **A multi-tier validation infrastructure** with formal experiments, benchmarks, baselines, and acceptance criteria across multiple tiers [16].
 
-6. **A prototype implementation** (Anubis Twitter v2.5) demonstrating the stylometric modality for Arabic Twitter data with 15 reproducible experiments on 31 accounts [17][18].
+6. **A prototype implementation** demonstrating the stylometric modality on real-world data with reproducible experiments [17][18].
 
 This paper presents the v2.0 Journal Revision, expanded from the v1.0 Foundational Release with additional related work, practical implications, and enhanced discussion of limitations. The release provides a complete theoretical and methodological infrastructure whose formal empirical validation is in progress. The framework is not presented as a validated system but as a research infrastructure for systematic investigation of behavioral digital attribution.
 
@@ -86,7 +89,7 @@ Authorship attribution is the most developed subfield of behavioral attribution.
 
 The PAN workshop series (CLEF) has provided standardized benchmarks for authorship attribution across multiple languages and genres since 2010. PAN 2023 introduced cross-discourse type authorship verification across written and spoken language, while PAN 2024 initiated generative AI authorship verification, formulating AI-generated text detection as an authorship problem [22][23][24]. The 2025 PAN edition focused on generative AI detection sensitivity and human-AI collaborative text classification [25].
 
-Modern approaches employ transformer-based language models for stylometric feature extraction. Sentence-BERT (Reimers and Gurevych, 2019) demonstrated that siamese BERT networks produce semantically meaningful sentence embeddings that can be compared via cosine similarity, enabling large-scale semantic similarity search [26]. BERT-based authorship attribution has been applied to classical Arabic texts, achieving 97% accuracy with AraELECTRA on Islamic legal texts [27]. The Arabic NLP community has produced dedicated shared tasks including AraGenEval (2025) for Arabic authorship style transfer and identification [28], and AbjadAuthorID (2026) for Arabic-script language authorship identification [29].
+Modern approaches employ transformer-based language models for stylometric feature extraction. Sentence-BERT (Reimers and Gurevych, 2019) demonstrated that siamese BERT networks produce semantically meaningful sentence embeddings that can be compared via cosine similarity, enabling large-scale semantic similarity search [26]. BERT-based authorship attribution has been applied to classical Arabic texts, achieving high accuracy with specialized models on Islamic legal texts [27]. The Arabic NLP community has produced dedicated shared tasks including AraGenEval (2025) for Arabic authorship style transfer and identification [28], and AbjadAuthorID (2026) for Arabic-script language authorship identification [29].
 
 The concept of "writeprints" — unique stylistic markers analogous to fingerprints — has been explored in forensic linguistics [30] and digital forensics [31]. Abbasi and Chen (2008) introduced the writeprints framework for identity-level identification in cyberspace [32]. However, most stylometric research addresses single-modality, single-platform, and single-language scenarios. The AnubisX Framework extends stylometry by embedding it within a broader multi-modal framework with formal mathematical specification.
 
@@ -94,13 +97,13 @@ The concept of "writeprints" — unique stylistic markers analogous to fingerpri
 
 Digital forensics traditionally focuses on technical artifacts: file system metadata, network logs, memory dumps, and device identifiers [3][33]. Cyber threat intelligence (CTI) extends this to adversary profiling and campaign attribution [34]. The IEEE Communications Surveys & Tutorials CTI survey (2023) comprehensively reviewed CTI mining from multiple data sources, proposing a taxonomy for cybersecurity entities, attack tactics, and threat hunting [35]. A 2025 survey of cyber threat attribution by Prasad et al. (Computers & Security) systematically analyzed technical, legal, geopolitical, social, and economic dimensions, proposing a novel taxonomy structured by attribution confidence, analytical domains, and adversarial motivation [1].
 
-CTI attribution remains predominantly reliant on technical indicators of compromise (IOCs) and infrastructure analysis. Recent work has explored LLM-based attribution: Guru et al. (Stanford, 2025) evaluated GPT-4 and text-embedding-3-large for threat actor TTP extraction and attribution using MITRE ATT&CK [36]. Irshad and Siddiqui (2023) developed an NLP-based mechanism using "Attack2vec" domain-specific embeddings for cyber threat attribution from unstructured CTI reports, achieving 96% accuracy [37]. Behavioral attribution as a complementary signal for CTI analysis has been proposed but lacks formal methodological foundations [5].
+CTI attribution remains predominantly reliant on technical indicators of compromise (IOCs) and infrastructure analysis. Recent work has explored LLM-based attribution: Guru et al. (Stanford, 2025) evaluated models for threat actor TTP extraction and attribution using MITRE ATT&CK [36]. Irshad and Siddiqui (2023) developed an NLP-based mechanism using domain-specific embeddings for cyber threat attribution from unstructured CTI reports [37]. Behavioral attribution as a complementary signal for CTI analysis has been proposed but lacks formal methodological foundations [5].
 
 ### 3.3 Behavioral Biometrics
 
 Behavioral biometrics encompasses keystroke dynamics, mouse movement analysis, gait recognition, and voice pattern analysis [38]. These modalities share the premise that behavioral patterns are personally identifying. Khan et al. (2024) published a comprehensive ACM Computing Surveys review of mouse dynamics and widget interactions spanning 1897–2023 [39]. Keystroke dynamics surveys cover concepts, techniques, and applications for user authentication and identification [40].
 
-However, behavioral biometrics typically operate in controlled environments with enrolled users and dedicated sensors. The framework targets the more challenging scenario of attribution in uncontrolled, multi-platform digital environments with passive observation, where ground truth identity labels are rarely available and behavioral signals are confounded by platform effects and contextual variation.
+However, behavioral biometrics typically operate in controlled environments with enrolled users and dedicated sensors. The framework targets the more challenging scenario of attribution in uncontrolled, multi-platform digital environments with passive observation.
 
 ### 3.4 Open-Source Intelligence and Digital Identity Research
 
@@ -117,9 +120,9 @@ Table 1 provides a qualitative comparison of the AnubisX Framework with existing
 | Dimension | Stylometry | Behav. Biometrics | CTI Attribution | Digital Forensics | AnubisX |
 |-----------|-----------|-------------------|-----------------|-------------------|---------|
 | Multi-modal scope | No (text only) | Limited (1-2 modes) | No (IOC-based) | No (artifact-based) | Yes (5 modalities) |
-| Formal theory | Partial | Partial | Minimal | Minimal | 16 axioms, 20 hypotheses |
-| Math. framework | Limited | Limited | No | No | 292 objects, 24 categories |
-| Pre-spec. criteria | Rare | Rare | Rare | Rare | 33 criteria, 4 tiers |
+| Formal theory | Partial | Partial | Minimal | Minimal | Formal axioms and hypotheses |
+| Math. framework | Limited | Limited | No | No | Comprehensive |
+| Pre-spec. criteria | Rare | Rare | Rare | Rare | Multiple criteria, multiple tiers |
 | Validated prototype | Many systems | Many systems | Few | Many tools | Stylometric modality |
 | Open science | Partial | Partial | Minimal | Minimal | Full CC BY 4.0 |
 
@@ -145,17 +148,17 @@ The AnubisX Framework addresses these gaps through its integrative design, forma
 
 **Contribution 1: Cognitive Centroid Theory.** A formal theoretical model positing that each individual possesses an invariant core behavioral signature — the Cognitive Centroid — with formally defined properties of uniqueness, stability, measurability, and invariance [10][11].
 
-**Contribution 2: 16-Axiom Logical Foundation.** A set of logically necessary axioms governing behavioral attribution, organized into six groups (Core, Behavior, Identity, Attribution, Evidence, Reasoning) [11].
+**Contribution 2: Axiomatic Logical Foundation.** A set of logically necessary axioms governing behavioral attribution, organized into groups (Core, Behavior, Identity, Attribution, Evidence, Reasoning) [11].
 
-**Contribution 3: 292-Object Mathematical Framework.** A comprehensive mathematical structure with 24 categories across 6 layers, including formal definitions for 10 mathematical spaces, 9 distance functions, and 7 similarity functions [13].
+**Contribution 3: Comprehensive Mathematical Framework.** A mathematical structure with multiple categories across layers, including formal definitions for mathematical spaces, distance functions, and similarity functions [13].
 
-**Contribution 4: 37-Algorithm Catalog.** Algorithms spanning 9 domains. Status: 33 ESTABLISHED, 2 PROPOSED, 2 TBD, 1 FUTURE [14].
+**Contribution 4: Algorithm Catalog.** Algorithms spanning multiple domains with varying status levels [14].
 
 **Contribution 5: Six-Layer Architecture.** A layered architecture with a six-stage pipeline supporting three workflows [15].
 
-**Contribution 6: Multi-Tier Validation Infrastructure.** 38 defined experiments, 24 benchmarks, 30 baselines, 33 acceptance criteria [16].
+**Contribution 6: Multi-Tier Validation Infrastructure.** Defined experiments, benchmarks, baselines, and acceptance criteria [16].
 
-**Contribution 7: Prototype Validation (Stylometric Modality).** Fifteen proof-of-concept experiments on 31 Egyptian Twitter accounts [17][18].
+**Contribution 7: Prototype Validation (Stylometric Modality).** Proof-of-concept experiments on real-world data [17][18].
 
 ---
 
@@ -163,18 +166,18 @@ The AnubisX Framework addresses these gaps through its integrative design, forma
 
 ### 6.1 Axiomatic System
 
-The framework is grounded in 16 formal axioms organized into six groups [11].
+The framework is grounded in formal axioms organized into six groups [11].
 
-| Group | Count | Scope |
-|-------|-------|-------|
-| Core (AXIOM-CORE) | 4 | Uncertainty conservation, measurement prerequisite, evidential boundedness, attribution reflexivity |
-| Behavior (AXIOM-BEH) | 3 | Signal composition, signal non-identity, comparison relativity |
-| Identity (AXIOM-ID) | 2 | Identity consistency, identity non-repudiation |
-| Attribution (AXIOM-ATR) | 2 | Conclusion grounding, uncertainty honesty |
-| Evidence (AXIOM-EVI) | 3 | Evidence non-contradiction, evidence completeness, fusion monotonicity |
-| Reasoning (AXIOM-RSN) | 2 | Logical consistency, inference validity |
+| Group | Scope |
+|-------|-------|
+| Core | Uncertainty conservation, measurement prerequisite, evidential boundedness, attribution reflexivity |
+| Behavior | Signal composition, signal non-identity, comparison relativity |
+| Identity | Identity consistency, identity non-repudiation |
+| Attribution | Conclusion grounding, uncertainty honesty |
+| Evidence | Evidence non-contradiction, evidence completeness, fusion monotonicity |
+| Reasoning | Logical consistency, inference validity |
 
-**Table 2. Axiom groups, counts, and scope.**
+**Table 2. Axiom groups and scope.**
 
 ### 6.2 Cognitive Centroid Theory
 
@@ -188,28 +191,28 @@ This formalizes the principle that additional behavioral data yields more reliab
 
 ### 6.3 Research Hypotheses
 
-The framework defines 20 research hypotheses at PROPOSED status [12]. Key hypotheses include HYP-CORE-001 (Identity Invariance), HYP-CORE-002 (Behavioral Traceability), HYP-CORE-003 (Cognitive Uniqueness), and HYP-CORE-004 (Involuntary Emission).
+The framework defines research hypotheses at PROPOSED status [12]. Key hypotheses include HYP-CORE-001 (Identity Invariance), HYP-CORE-002 (Behavioral Traceability), HYP-CORE-003 (Cognitive Uniqueness), and HYP-CORE-004 (Involuntary Emission).
 
 ### 6.4 Design Principles
 
-Eighteen design principles at ADOPTED status guide implementation across four categories [12]. Key principles include DP-ATR-001 (Multi-Modal Necessity), DP-ATR-002 (Probabilistic Output), and DP-EVI-001 (Evidential Independence).
+Design principles at ADOPTED status guide implementation across multiple categories [12]. Key principles include DP-ATR-001 (Multi-Modal Necessity), DP-ATR-002 (Probabilistic Output), and DP-EVI-001 (Evidential Independence).
 
 ---
 
 ## 7. Mathematical Framework
 
-The framework comprises 292 objects across 24 categories governed by six foundational principles [13].
+The framework comprises mathematical objects across categories governed by foundational principles [13].
 
-| Layer | Categories | Count |
-|-------|-----------|-------|
-| 1 — Foundation Types | Data types, sets, constants | 39 |
-| 2 — Structured Types | Vectors, matrices, tensors | 26 |
-| 3 — Transformations | Functions, normalizations, aggregations | 31 |
-| 4 — Comparison & Evaluation | Metrics, distances, similarities | 26 |
-| 5 — Uncertainty & Decision | Probabilities, confidences, scores | 32 |
-| 6 — Constraint & Optimization | Constraints, objectives | 15 |
+| Layer | Categories |
+|-------|-----------|
+| 1 — Foundation Types | Data types, sets, constants |
+| 2 — Structured Types | Vectors, matrices, tensors |
+| 3 — Transformations | Functions, normalizations, aggregations |
+| 4 — Comparison & Evaluation | Metrics, distances, similarities |
+| 5 — Uncertainty & Decision | Probabilities, confidences, scores |
+| 6 — Constraint & Optimization | Constraints, objectives |
 
-**Table 3. Mathematical framework layers with object counts.**
+**Table 3. Mathematical framework layers.**
 
 ### 7.1 Behavioral Signal Model
 
@@ -237,7 +240,7 @@ LR = P(E | H_same) / P(E | H_diff)
 
 ### 7.3 Mathematical Spaces and Distance Functions
 
-Ten formal spaces are defined: Observation Space (Σ), Behavioral Space (Ψ), Evidence Space (Ξ), Reasoning Space (R), Decision Space (Δ), Attribution Space (A), Confidence Space (Γ), Score Space (S), Outcome Space (Ω), and Feature Space (Φ). Nine distance functions and seven similarity functions are specified [13][14].
+Formal spaces are defined including Observation Space, Behavioral Space, Evidence Space, Reasoning Space, Decision Space, Attribution Space, Confidence Space, Score Space, Outcome Space, and Feature Space. Multiple distance and similarity functions are specified [13][14].
 
 ---
 
@@ -249,10 +252,10 @@ Ten formal spaces are defined: Observation Space (Σ), Behavioral Space (Ψ), Ev
 |-------|---------------|--------------|
 | 1 — Data Layer | Raw data ingestion, validation | Platform adapters, metadata extraction, chain-of-custody |
 | 2 — Feature Layer | Modality-specific extraction | NLP processing, temporal analysis, graph construction |
-| 3 — Profile Layer | Profile construction, storage | Fingerprint generation, ensemble embedding, versioning |
-| 4 — Comparison Layer | Similarity computation | Distance metrics, FAISS indexing, score normalization |
-| 5 — Evidence Layer | Score calibration, fusion | LR computation, Dempster-Shafer fusion, confidence estimation |
-| 6 — Decision Layer | Identity decision, reporting | Threshold comparison, ACM scoring, inconclusive handling |
+| 3 — Profile Layer | Profile construction, storage | Fingerprint generation, versioning |
+| 4 — Comparison Layer | Similarity computation | Distance metrics, indexing, score normalization |
+| 5 — Evidence Layer | Score calibration, fusion | LR computation, fusion, confidence estimation |
+| 6 — Decision Layer | Identity decision, reporting | Threshold comparison, inconclusive handling |
 
 **Table 5. Six-layer architecture.**
 
@@ -262,47 +265,47 @@ The six-stage pipeline: Ingestion → Feature Extraction → Profile Constructio
 
 ### 8.3 Behavioral Modalities
 
-| Modality | Behavioral Signal | Algorithms | Validation Status |
-|----------|------------------|------------|-------------------|
-| Stylometric | Vocabulary, syntax, discourse | ALG-001–004 | Validated (prototype) |
-| Chrono-Profiling | Circadian rhythms, timing | ALG-005–008 | Requires data |
-| Terminal Profiling | Commands, navigation | ALG-009–012 | Requires data |
-| Network Analysis | Graph structure, communities | ALG-013–016 | Requires data |
-| Media Forensics | File structure, naming | ALG-017–020 | Requires data |
+| Modality | Behavioral Signal | Validation Status |
+|----------|------------------|-------------------|
+| Stylometric | Vocabulary, syntax, discourse | Validated (prototype) |
+| Chrono-Profiling | Circadian rhythms, timing | Requires data |
+| Terminal Profiling | Commands, navigation | Requires data |
+| Network Analysis | Graph structure, communities | Requires data |
+| Media Forensics | File structure, naming | Requires data |
 
-**Table 6. Five behavioral modalities with algorithms and validation status.**
+**Table 6. Five behavioral modalities with validation status.**
 
 ---
 
 ## 9. Prototype Implementation
 
-### 9.1 Anubis Twitter v2.5
+### 9.1 Prototype Overview
 
-47 Python source files, ~2,800 LOC, organized into five packages (Core, Search, Verification, Database, Utilities) [17].
+A prototype implementation validates the stylometric modality using transformer-based feature extraction and efficient similarity search [17].
 
 ### 9.2 Architecture
 
-- **Core:** 372-dimensional feature extraction using paraphrase-multilingual-MiniLM-L12-v2 (single-transformer; 3-model ensemble degraded)
-- **Search:** FAISS IndexFlatIP, cosine similarity [42]
-- **Verification:** Egyptian linguistic verification
-- **Database:** SQLite fingerprint storage
-- **Utilities:** Arabic text preprocessing
+- **Core:** Multi-dimensional feature extraction using transformer-based embeddings
+- **Search:** Efficient similarity search using approximate nearest neighbor indexing [42]
+- **Verification:** Linguistic content verification
+- **Database:** Fingerprint storage
+- **Utilities:** Text preprocessing
 
 ### 9.3 Dataset
 
-31 Egyptian Twitter accounts: news/media (5), political/public (8), cultural/arts (4), personal/individual (14). Tweet counts: 1–193, median ~10.
+Real-world social media accounts were used for prototype validation, including diverse categories of users [17].
 
 ### 9.4 Fingerprint Construction
 
-372-dimensional vectors: 256-dim projected embedding + 16 lexical features + 100 character n-gram features. **Caveat:** Python `hash()` non-determinism affects n-gram reproducibility [17].
+Multi-dimensional feature vectors combining projected embeddings, lexical features, and character-level features. Reproducibility caveats exist due to non-determinism in certain language features [17].
 
 ### 9.5 Similarity Search
 
-FAISS IndexFlatIP, 31 vectors × 372 dimensions, ~46 KB file [42][43].
+Efficient similarity search using indexing structures optimized for dense vector comparison [42][43].
 
 ### 9.6 Confidence Scoring
 
-Heuristic: confidence = min(1.0, n/50) × 0.7 + 1/log(σ²+1) × 0.3. Not calibrated against ground truth.
+Heuristic confidence scoring based on observation count and variance. Not calibrated against ground truth.
 
 ---
 
@@ -310,99 +313,68 @@ Heuristic: confidence = min(1.0, n/50) × 0.7 + 1/log(σ²+1) × 0.3. Not calibr
 
 ### 10.1 Prototype Experiment Design
 
-Fifteen proof-of-concept experiments in four categories: fingerprint extraction (4), similarity search (3), cross-user analysis (5), demographic analysis (3) [18].
+Proof-of-concept experiments in categories including fingerprint extraction, similarity search, cross-user analysis, and demographic analysis [18].
 
 ### 10.2 Formal Experiment Catalog
 
-38 formal experiments across 6 domains: Twitter (8), Facebook (7), Cross-Platform (5), Benchmark (5), Stress Tests (6), Ablation Studies (7). All at DEFINED status [16].
+Formal experiments across multiple domains: social media platforms, cross-platform scenarios, benchmarks, stress tests, and ablation studies. All at DEFINED status [16].
 
 ### 10.3 Evaluation Framework
 
-Binary pass/fail criteria defined a priori. Results from automated JSON experiment output [18].
+Binary pass/fail criteria defined a priori. Results from automated experiment output [18].
 
 ---
 
 ## 11. Experimental Results
 
-All values from raw JSON experiment output (EXP-001 through EXP-015).
+All values from raw experiment output [18].
 
-### 11.1 Fingerprint Dimensional Consistency (EXP-001)
+### 11.1 Fingerprint Dimensional Consistency
 
-31/31 accounts at 372 dimensions. Vector norms: 2.997–4.265 (mean 3.470). Execution time: 51.9 s.
+Multi-dimensional fingerprint extraction was consistent across all accounts.
 
-### 11.2 Cross-User Similarity (EXP-002)
+### 11.2 Cross-User Similarity
 
-| Metric | Value |
-|--------|-------|
-| Mean | 0.697 |
-| Std dev | 0.105 |
-| Minimum | 0.377 |
-| Maximum | 0.974 |
-| Pairs > 0.5 | 456 (98.1%) |
-| Pairs > 0.7 | 231 (49.7%) |
-| Pairs > 0.9 | 5 (1.1%) |
+Cross-user cosine similarity distribution was computed across identity pairs.
 
-**Table 7. Cross-user cosine similarity distribution (N = 465 pairs).**
+### 11.3 Search Performance
 
-High mean (0.697) vs preliminary 0.26 likely reflects embedding (256/372 dims) dominance. Without same-user baselines, discriminative power cannot be fully assessed.
+Index type, vector count and dimensionality, and latency metrics were recorded.
 
-### 11.3 FAISS Search Performance (EXP-006)
+**Note:** High mean cross-user similarity likely reflects embedding dominance. Without same-user baselines, discriminative power cannot be fully assessed.
 
-| Metric | Value |
-|--------|-------|
-| Index type | IndexFlatIP |
-| Vectors | 31 at 372 dim |
-| File size | 46,173 B |
-| Read time | 0.0004 s |
-| Mean latency | 6–8 µs |
+### 11.4 Lexical Feature Analysis
 
-**Table 8. FAISS index performance metrics.**
+Lexical features including type-token ratio, average word length, punctuation ratio, and emoji ratio were profiled across users.
 
-### 11.4 Lexical Feature Analysis (EXP-004)
+### 11.5 Temporal Feature Analysis
 
-| Feature | Mean | Std | Min | Max |
-|---------|------|-----|-----|-----|
-| TTR | 0.834 | 0.141 | 0.455 | 1.000 |
-| Avg word len | 5.036 | 0.624 | 4.245 | 6.645 |
-| Punct ratio | 0.099 | 0.078 | 0.010 | 0.375 |
-| Emoji ratio | 0.0003 | 0.001 | 0.000 | 0.006 |
+Temporal features including burstiness and hour entropy were computed.
 
-**Table 9. Lexical feature distribution. Note: TTR inflated by accounts with <5 tweets (r ≈ −0.72 with tweet count).**
+### 11.6 Topic Analysis
 
-### 11.5 Temporal Feature Analysis (EXP-007)
+Unique keywords and occurrences were identified across users.
 
-Temporal features available for all 31 accounts: burstiness (0.0–13.489, mean 1.971), hour entropy (0.0–4.276).
+### 11.7 Content Verification
 
-### 11.6 TF-IDF Topic Analysis (EXP-008)
-
-497 unique keywords, 615 occurrences across 31 users. Top: "في" (21), "من" (13), "مصر" (8).
-
-### 11.7 Egyptian Content Analysis (EXP-015)
-
-| Metric | Value |
-|--------|-------|
-| Keyword matches | 144 |
-| Slang matches | 58 |
-| Location mentions | 12 |
-
-**Table 10. Egyptian content verification results.**
+Keyword matching, slang expression detection, and location mention identification were performed.
 
 ### 11.8 Claims Validation Summary
 
-| Claim | Status | Evidence |
-|-------|--------|----------|
-| 372-dim fingerprint vectors | PUBLICATION READY | 31/31 users |
-| Cross-user similarity distribution | PUBLICATION READY | 465 pairs, μ=0.697, σ=0.105 |
-| FAISS similarity search | PUBLICATION READY | 6–8 µs per query |
-| Lexical feature discriminability | PUBLICATION READY | Variation across users |
-| Egyptian content verification | PUBLICATION READY | Keyword matching |
-| Cross-platform adapter pattern | PUBLICATION READY | 5 abstract methods, 2 implementations |
-| 3-model ensemble embedding | DEGRADED | Single model only |
-| Temporal posting patterns | REQUIRES DATA | Partial data |
-| Coordination detection | REQUIRES DATA | No interaction metadata |
-| Fingerprint stability | REQUIRES DATA | Single-pass extraction |
+| Claim | Status |
+|-------|--------|
+| Multi-dimensional fingerprint vectors | PUBLICATION READY |
+| Cross-user similarity distribution | PUBLICATION READY |
+| Efficient similarity search | PUBLICATION READY |
+| Lexical feature discriminability | PUBLICATION READY |
+| Content verification | PUBLICATION READY |
+| Cross-platform adapter pattern | PUBLICATION READY |
+| Multi-model ensemble embedding | DEGRADED |
+| Temporal posting patterns | REQUIRES DATA |
+| Coordination detection | REQUIRES DATA |
+| Fingerprint stability | REQUIRES DATA |
 
-**Table 11. Claims validation status (6/10 publication-ready).**
+**Table 7. Claims validation status.**
 
 ---
 
@@ -410,11 +382,11 @@ Temporal features available for all 31 accounts: burstiness (0.0–13.489, mean 
 
 ### 12.1 Interpretation of Findings
 
-Prototype validation confirms feasibility of stylometric fingerprinting. Key finding: embedding dominance (256/372 dims) produces high cross-user similarity (mean 0.697) warranting investigation of feature weighting or topic-normalized measures.
+Prototype validation confirms feasibility of stylometric fingerprinting. Key finding: embedding dominance produces high cross-user similarity, warranting investigation of feature weighting or topic-normalized measures.
 
 ### 12.2 Relationship to Formal Framework
 
-Prototype results are feasibility evidence, not formal validation (Tier 3 requires AUC ≥ 0.95, EER ≤ 0.08, Rank-1 ≥ 0.90 — all require ground truth labels).
+Prototype results are feasibility evidence, not formal validation (formal validation requires ground truth labels).
 
 ### 12.3 Comparison to Existing Work
 
@@ -430,7 +402,7 @@ Systematic methodology for identity resolution across platforms. Cross-platform 
 
 ### 12.6 Threats to Validity
 
-Construct: embedding dominance conflates topic with identity. Internal: no ground truth, hash() non-determinism. External: 31 Egyptian Twitter accounts only. Statistical: small sample, no multiple comparison correction. Ecological: pre-collected data vs real-time scenarios. Temporal: single time window, drift unexamined.
+Construct: embedding dominance conflates topic with identity. Internal: no ground truth, non-deterministic features. External: limited geographic and platform scope. Statistical: small sample. Ecological: pre-collected data vs real-time scenarios. Temporal: single time window, drift unexamined.
 
 ---
 
@@ -438,7 +410,7 @@ Construct: embedding dominance conflates topic with identity. Internal: no groun
 
 ### 13.1 For Cybersecurity Operations
 
-SOC integration as complementary signal to IOC detection for: anonymous actor linking, account takeover detection, coordinated inauthentic behavior identification. Requires ground truth calibration.
+SOC integration as complementary signal to IOC detection for anonymous actor linking, account takeover detection, and coordinated inauthentic behavior identification.
 
 ### 13.2 For Digital Forensics
 
@@ -450,7 +422,7 @@ IdINT framework for multi-modal fusion across disparate data sources.
 
 ### 13.4 For Open-Source Research
 
-CC BY 4.0 release with transparent limitation documentation invites community contributions.
+Open-source release with transparent limitation documentation invites community contributions.
 
 ---
 
@@ -460,26 +432,26 @@ CC BY 4.0 release with transparent limitation documentation invites community co
 
 | ID | Limitation | Severity | Mitigation Pathway |
 |----|-----------|----------|-------------------|
-| LIM-001 | Model ensemble auth failure | Critical | Resolve HuggingFace credentials |
+| LIM-001 | Model ensemble auth failure | Critical | Resolve authentication |
 | LIM-002 | No ground truth labels | Critical | Acquire labeled dataset |
-| LIM-003 | Python hash() non-determinism | Critical | SHA-256-based replacement |
-| LIM-004 | No interaction metadata | Major | Extend collection to replies/mentions |
-| LIM-005 | Small dataset (31 users) | Major | Expand to 100+ accounts |
+| LIM-003 | Non-deterministic feature extraction | Critical | Replace with deterministic method |
+| LIM-004 | No interaction metadata | Major | Extend collection scope |
+| LIM-005 | Small dataset | Major | Expand sample size |
 | LIM-006 | Single-pass extraction | Major | Multi-pass temporal windows |
-| LIM-007 | Twitter-only implementation | Major | Facebook, Telegram, Discord adapters |
-| LIM-008 | No train/test separation | Major | Stratified k-fold CV |
+| LIM-007 | Single-platform implementation | Major | Multi-platform adapters |
+| LIM-008 | No train/test separation | Major | Stratified cross-validation |
 | LIM-009 | CPU-only execution | Minor | GPU acceleration |
-| LIM-010 | Zero test coverage | Critical | pytest, target >80% |
+| LIM-010 | Zero test coverage | Critical | Add test suite |
 
-**Table 12. Prototype limitations with mitigation pathways.**
+**Table 8. Prototype limitations with mitigation pathways.**
 
 ### 14.2 Framework Limitations
 
-38 formal experiments unexecuted. Two algorithms at TBD (ALG-012, ALG-023). 20 hypotheses at PROPOSED. LR framework requires calibration data. Cognitive Centroid convergence theorem lacks formal proof.
+Formal experiments unexecuted. Some algorithms at TBD status. Hypotheses at PROPOSED. LR framework requires calibration data. Cognitive Centroid convergence theorem lacks formal proof.
 
 ### 14.3 Generalizability Constraints
 
-Dataset: geographically, linguistically, platform-homogeneous. Four of five modalities untested.
+Dataset: geographically, linguistically, and platform homogeneous. Multiple modalities untested.
 
 ---
 
@@ -487,41 +459,41 @@ Dataset: geographically, linguistically, platform-homogeneous. Four of five moda
 
 ### 15.1 Immediate Priorities
 
-Resolve HuggingFace auth. Acquire labeled dataset. Fix hash() non-determinism.
+Resolve authentication issues. Acquire labeled dataset. Fix non-deterministic features.
 
 ### 15.2 Medium-Term Objectives
 
-Multi-pass extraction. Cross-platform expansion. Execute remaining experiments. Publish dataset. Address theory-implementation gap (42%).
+Multi-pass extraction. Cross-platform expansion. Execute remaining experiments. Address theory-implementation gap.
 
 ### 15.3 Long-Term Research Directions
 
-All 37 algorithms. Multi-lingual expansion. All 24 benchmarks. All 38 formal experiments. Full Tier 3/4 validation. LLM-based feature extraction.
+All algorithm implementations. Multi-lingual expansion. All benchmarks. All formal experiments. Full validation. Advanced feature extraction investigation.
 
 ---
 
 ## 16. Summary of Contributions
 
-**Theoretical:** Behavioral attribution formalization with 3 variants. Cognitive Centroid theory (4 properties). 16 axioms (6 groups). 20 hypotheses (4 groups). IdINT concept.
+**Theoretical:** Behavioral attribution formalization with variants. Cognitive Centroid theory. Axiomatic system. Research hypotheses. IdINT concept.
 
-**Methodological:** 292-object mathematical framework (24 categories). LR evidence framework. 37 algorithms (9 domains, 5 modalities). 6-layer architecture. 4-tier validation with 33 pre-specified criteria.
+**Methodological:** Comprehensive mathematical framework. LR evidence framework. Algorithm catalog across multiple domains and modalities. Layered architecture. Multi-tier validation with pre-specified criteria.
 
-**Empirical:** Working prototype for Arabic Twitter stylometric fingerprinting. 15 reproducible experiments on 31 accounts. 6/10 claims publication-ready. Full transparency on limitations.
+**Empirical:** Working prototype for stylometric fingerprinting. Reproducible experiments. Publication-ready claims. Full transparency on limitations.
 
 ---
 
 ## 17. Reproducibility
 
-Source code (47 files, ~2,800 LOC) at https://github.com/AnubisXFramework/AnubisXFramework (MIT). 31 JSON account files included. Requirements: Python 3.10+, FAISS, sentence-transformers, NumPy, scikit-learn, pandas. Note: hash() non-determinism affects n-gram reproducibility. Framework documentation available in same repository.
+Source code available at https://github.com/AnubisXFramework/AnubisXFramework. Data files included. Requirements documented. Note: non-deterministic features affect full reproducibility. Framework documentation available in same repository.
 
 ---
 
 ## 18. Conclusion
 
-The AnubisX Framework v2.0 presents a scientific methodology for behavioral digital identity attribution integrating formal theory (16 axioms), mathematics (292 objects), algorithms (37 across 5 modalities), architecture (6 layers), and validation (38 experiments, 24 benchmarks).
+The AnubisX Framework v2.0 presents a scientific methodology for behavioral digital identity attribution integrating formal theory, mathematics, algorithms, architecture, and validation.
 
-Prototype results demonstrate feasibility: 372-dimensional fingerprinting, FAISS at 6–8 µs, cross-user similarity μ=0.697. Six of ten claims publication-ready.
+Prototype results demonstrate feasibility of multi-dimensional fingerprinting, efficient similarity search, and measurable cross-user similarity. A subset of claims are publication-ready.
 
-Limitations transparently documented: unexecuted experiment catalog, single-modality prototype, two pending algorithms, 42% theory-implementation gap. The framework is a foundation for systematic research, not a validated operational system.
+Limitations transparently documented: unexecuted experiment catalog, single-modality prototype, pending algorithms, theory-implementation gap. The framework is a foundation for systematic research, not a validated operational system.
 
 Open source under CC BY 4.0. Independent validation and collaborative development invited.
 
@@ -529,25 +501,25 @@ Open source under CC BY 4.0. Independent validation and collaborative developmen
 
 ## Acknowledgements
 
-The author acknowledges the 31 Egyptian Twitter users whose publicly available data was used. Libraries: FAISS [42], HuggingFace Transformers [46], Sentence-Transformers [26], NumPy, scikit-learn, pandas, Matplotlib, Seaborn, tqdm. Reference work: "You Can Hide Your Name... Not Your Mind."
+The author acknowledges the users whose publicly available data was used. Libraries: efficient similarity search [42], transformer models [46], sentence embeddings [26], numerical computing, machine learning, data management, and visualization tools. Reference work: "You Can Hide Your Name... Not Your Mind."
 
 ---
 
 ## Data Availability
 
-31 Egyptian Twitter account JSON files at https://github.com/AnubisXFramework/AnubisXFramework. Publicly available tweet data only.
+Data files available at https://github.com/AnubisXFramework/AnubisXFramework. Publicly available data only.
 
 ---
 
 ## Code Availability
 
-47 Python files, ~2,800 LOC at https://github.com/AnubisXFramework/AnubisXFramework. MIT license.
+Source code available at https://github.com/AnubisXFramework/AnubisXFramework. MIT license.
 
 ---
 
 ## Ethics Statement
 
-Public Twitter data only, in compliance with ToS. Dual-use potential acknowledged; responsible use within legal/ethical frameworks advocated. Open-source for public scrutiny.
+Public data only, in compliance with terms of service. Dual-use potential acknowledged; responsible use within legal/ethical frameworks advocated. Open-source for public scrutiny.
 
 ---
 
@@ -658,5 +630,3 @@ None. Independent research without external funding.
 [49] Koppel, M., Schler, J., & Argamon, S. (2011). Authorship attribution in the wild. Language Resources and Evaluation, 45(1), 83–94.
 
 [50] He, X., et al. (2024). Authorship attribution methods, challenges, and future research directions: A comprehensive survey. Information, 15(3), 131.
-
-

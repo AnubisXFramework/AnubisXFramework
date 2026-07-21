@@ -163,8 +163,8 @@ ER  -
 |---------|-----|------|
 | Framework Repository | [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923) | Software |
 | Foundational Paper | [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923) | Article |
+| Supplementary Materials | [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817) | Supplementary |
 | Reference Book | Pending | Book |
-| Supplementary Materials | Pending | Supplementary |
 | Dataset Releases | Pending | Dataset |
 
 ---
@@ -197,4 +197,3 @@ When citing the AnubisX Framework, please include:
 
 **© 2026 Ahmed Awad (NullC0d3). All rights reserved.**  
 *This document provides citation examples for academic and professional use.*
-

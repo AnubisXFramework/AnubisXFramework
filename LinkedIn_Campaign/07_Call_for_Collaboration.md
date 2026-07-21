@@ -10,38 +10,36 @@ The AnubisX Framework is published as a complete theoretical specification. The 
 
 **We need collaborators in these areas:**
 
-**Algorithm implementation** — Translating the 37 algorithm specifications into working software. The specifications are detailed with inputs, outputs, equations, and dependencies but need implementation in a reference codebase. Any programming language. **Source**: Algorithms/ — 12 documents
+**Algorithm implementation** — Translating algorithm specifications into working software. The specifications are detailed with inputs, outputs, equations, and dependencies but need implementation in a reference codebase.
 
-**Dataset acquisition** — Behavioral data for validation experiments. We need text, timestamp, and interaction data from known individuals across platforms. All data collection requires ethical approval and privacy protection per the P³ Protocol. **Source**: Experiments/ — 11 documents
+**Dataset acquisition** — Behavioral data for validation experiments. We need text, timestamp, and interaction data from known individuals across platforms. All data collection requires ethical approval and privacy protection per the P³ Protocol.
 
-**Benchmark execution** — Running the 24 benchmarks (BENCH-0001—0024) against the 30 baselines (BASE-001—030). This requires computational resources and implementation infrastructure. **Source**: Benchmarks/ — 8 documents
+**Benchmark execution** — Running benchmarks against established baselines. This requires computational resources and implementation infrastructure.
 
-**Validation studies** — Independent validation of framework claims through the 38 designed experiments. We welcome both in-house and third-party validation. **Source**: Validation/ — 21 documents
+**Validation studies** — Independent validation of framework claims through designed experiments. We welcome both in-house and third-party validation.
 
-**Peer review** — Critical evaluation of the axioms, mathematics, algorithms, and methodology before formal publication. The framework has undergone internal independent review (available in 00_REVIEW/). External perspectives are needed. **Source**: Papers/Paper_Roadmap.md
+**Peer review** — Critical evaluation of the axioms, mathematics, algorithms, and methodology before formal publication. The framework has undergone internal independent review. External perspectives are needed.
 
 **What we offer collaborators:**
 - Complete, documented specifications — no guesswork about what to build
-- Defined success criteria — all 31 acceptance thresholds are specified. **Source**: Validation/Acceptance_Criteria.md (VLD-010)
-- Publication pathway — 5 planned papers with identified target venues. **Source**: Papers/Paper_Roadmap.md
+- Defined success criteria — acceptance thresholds are specified
+- Publication pathway — planned papers with identified target venues
 - CC BY 4.0 licensing for research and implementation use
-- Classification system enabling clear boundaries between public, internal, and protected content
-
-**Current needs, specific:**
-
-| Need | Source Documents | Estimated Effort |
-|---|---|---|
-| Core algorithm implementation (ALG-001—004, 006, 024—028) | Algorithms/Core_Algorithms.md, Specifications/ | 6 months (team of 2) |
-| Evidence pipeline implementation (ALG-017, 029—032, 019—022, 033—036) | Algorithms/Attribution_Algorithms.md, Fusion_Algorithms.md, Decision_Algorithms.md | 4 months (team of 2) |
-| Benchmark execution (24 benchmarks, 30 baselines) | Benchmarks/Benchmark_Catalog.md, Baseline_Comparison.md | 8 months (team of 1) |
-| Cross-platform validation experiments (EXP-CP-001—005) | Experiments/Cross_Platform_Experiments.md | 6 months (team of 2) |
 
 We are particularly interested in partnerships with forensic science institutes, university research groups in computational linguistics and behavioral analysis, and cybersecurity organizations with access to appropriate data.
 
 ---
 
-**Repository**: https://github.com/AnubisXFramework/AnubisXFramework
+**Project**: AnubisX Framework  
+**Primary Author**: Ahmed Awad (NullC0d3)  
+**Author Profile**: https://www.linkedin.com/in/nullc0d3/  
+**ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
+**Repository**: Official AnubisX Repository
+
+**DOI**: https://doi.org/10.5281/zenodo.21446923  
+**Figshare DOI**: https://doi.org/10.6084/m9.figshare.33028817
 
 #AnubisX #ResearchCollaboration #AcademicResearch #ForensicScience #OpenSource
-
-

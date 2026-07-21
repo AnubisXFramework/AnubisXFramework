@@ -8,7 +8,7 @@
 **Version**: 1.0  
 **Project**: AnubisX Framework  
 **Status**: ESTABLISHED  
-**Dependencies**: FWK-001—005  
+**Dependencies**: Framework architecture documents  
 **Referenced Documents**: AnubisX_Whitepaper.md  
 **Confidentiality**: PUBLIC (C0)  
 **Last Review**: 2026-07-14
@@ -17,15 +17,20 @@
 
 ## Official DOI
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)  
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)  
+**Contact**: anubisxframework@gmail.com
 
 ---
 
 ## 1. Architecture
 
-The framework implements a five-stage pipeline:
+The framework implements a multi-stage pipeline:
 
 ```
 Raw Data → Feature Extraction → Profile Construction → Profile Comparison → Evidence Integration → Decision
@@ -51,7 +56,7 @@ Profiles are compared using modality-specific similarity functions producing sim
 
 ### 1.4 Evidence Integration
 
-Scores are calibrated to Likelihood Ratios and fused across modalities using Dempster-Shafer Theory, producing a combined LR with uncertainty bounds.
+Scores are calibrated to Likelihood Ratios and fused across modalities using established evidence theory, producing a combined LR with uncertainty bounds.
 
 ### 1.5 Decision
 
@@ -59,37 +64,21 @@ The combined LR supports an attribution decision: identification, exclusion, or 
 
 ## 2. Scientific Standards
 
-The framework meets Daubert criteria for scientific evidence:
-- Testable hypotheses
-- Quantified error rates
-- Peer-reviewed methodology
-- Standardized protocols
-- General acceptance in scientific community
+The framework meets Daubert criteria for scientific evidence: testable hypotheses, quantified error rates, peer-reviewed methodology, standardized protocols, and general acceptance in the scientific community.
 
-## 6. Prototype Implementation
+## 3. Prototype Implementation
 
-### 6.1 Anubis Twitter Intelligence v2.5
+### 3.1 Anubis Twitter Intelligence v2.5
 
-The framework has been implemented as a working prototype targeting Twitter/X platform data:
+The framework has been implemented as a working prototype targeting Twitter/X platform data. The prototype implements a stylometric fingerprinting engine using an ensemble of language models, approximate nearest neighbor similarity search, demographic verification, and visualization components.
 
-| Component | Implementation | Status |
-|-----------|---------------|--------|
-| StylometryEngine | `stylometry_core.py` — 3-model ensemble (MarBERT, AraBERT, MPNet) producing 372-dim fingerprints | **Verified** |
-| FAISS Search | `pipeline.py` — IndexFlatIP with cosine similarity, ~16μs per query | **Verified** |
-| EgyptianAccountVerifier | `egyptian_verifier.py` — 3-layer scoring with 200+ cultural indicators | **Verified** |
-| GraphEngine | `graph_engine.py` — Directed graph, centrality metrics, coordination detection | **Implemented (untested)** |
-| Dashboard | Django UI with 10 views, AnubisBackend service bridge | **Verified** |
+### 3.2 Validated Capabilities
 
-### 6.2 Validated Capabilities
+The prototype demonstrates multi-dimensional stylometric fingerprinting combining multilingual embeddings with lexical and hash-based features, demographic filtering through multi-layer scoring, efficient similarity search with versioned fingerprint storage, and an end-to-end data processing pipeline.
 
-- **Stylometric fingerprinting**: 372-dimension vectors combining multilingual embeddings (256-dim), lexical features (16-dim), and character hash features (100-dim)
-- **Demographic filtering**: 3-layer Egyptian verification (bio 60%, posts 40%) with bonus mechanisms
-- **Vector search**: FAISS-based similarity search with versioned fingerprint database
-- **Data pipeline**: End-to-end ingestion, fingerprinting, indexing, and reporting
+### 3.3 Experimental Validation
 
-### 6.3 Experimental Validation
-
-15 experiments executed on 31 real Egyptian Twitter accounts. The prototype demonstrates functional feasibility of the framework's core claims while identifying specific areas requiring further development. See [Prototype.md](Prototype.md) and [Experimental_Validation.md](Experimental_Validation.md) for complete results.
+Experiments were executed on a sample of accounts from a specific demographic population. The prototype demonstrates functional feasibility of the framework's core claims while identifying specific areas requiring further development.
 
 ---
 
@@ -99,7 +88,7 @@ The framework has been implemented as a working prototype targeting Twitter/X pl
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
 **DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
 
@@ -109,5 +98,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

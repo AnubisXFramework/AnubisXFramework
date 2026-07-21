@@ -1,530 +1,128 @@
 # Examples
 
-**AnubisX Framework v2.0 — Code Examples and Walkthroughs**
+**AnubisX Framework — Usage Walkthroughs**
 
 ---
 
 ## Official DOI
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
-This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+This release is permanently archived on Zenodo and Figshare.
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
 
 ---
 
 ## 1. Introduction
 
-This document provides concrete code examples for working with the AnubisX Framework's stylometric fingerprinting capabilities. Examples are based on the Anubis Twitter Intelligence v2.5 prototype.
+This document provides conceptual walkthroughs for working with the AnubisX Framework's stylometric fingerprinting capabilities. For concrete implementation, refer to the prototype source code repository.
 
 ---
 
 ## 2. Extracting a Stylometric Fingerprint
 
-### 2.1 Using the StylometryEngine
+### 2.1 Fingerprint Extraction Concept
 
-```python
-import numpy as np
-from AnubisX.shared.stylometry_core import StylometryEngine
+The framework processes text content through a multi-stage transformation: raw text is tokenized, linguistic features are extracted, and these features are projected into a high-dimensional behavioral feature vector. The resulting vector encodes the author's involuntary linguistic patterns and can be used for similarity comparison and attribution.
 
-# Initialize engine (loads models on first use)
-engine = StylometryEngine()
+### 2.2 Feature Vector Composition
 
-# Sample tweets from an Egyptian Twitter account
-tweets = [
-    "الحمد لله على كل حال ربنا يبارك فيكم جميعاً",
-    "صباح الخير يا جماعة النهاردة يوم جديد",
-    "شغال على المشروع الجديد ومحتاج دعواتكم",
-    "القاهرة النهاردة حر جداً بجد مش طبيعي",
-    "كورة النهاردة ماتش مهم اوي محدش ينسى يشوفه",
-    "بفكر في السفر بره مصر بس الظروف صعبة",
-    "القهوة الصباحية مشوار مشوار في اليوم",
-    "قرأت كتاب جميل النهاردة أنصح الجميع بقراءته",
-    "العيد اهو قرب الكل بيسأل على الفلوس",
-    "التكنولوجيا بتتقدم بسرعة رهيبة كل يوم حاجة جديدة",
-]
+The stylometric fingerprint is composed of multiple components:
+- **Embedding component**: A dense vector representation derived from the semantic content of the text
+- **Statistical component**: Lexical diversity metrics, word length distributions, punctuation and emoji usage patterns, character-level n-gram coverage, and frequent word usage statistics
+- **Topic component**: A term frequency-based representation of topical content
 
-# Extract fingerprint
-fingerprint = engine.build_user_vector(tweets)
+### 2.3 Lexical Feature Types
 
-print(f"Fingerprint shape: {fingerprint.shape}")
-print(f"Fingerprint dtype: {fingerprint.dtype}")
-print(f"Feature range: [{fingerprint.min():.4f}, {fingerprint.max():.4f}]")
-print(f"Feature mean: {fingerprint.mean():.4f}")
-print(f"Feature std: {fingerprint.std():.4f}")
-```
-
-**Output**:
-```
-Fingerprint shape: (372,)
-Fingerprint dtype: float64
-Feature range: [-0.8342, 1.2156]
-Feature mean: 0.0032
-Feature std: 0.1847
-```
-
-### 2.2 Fingerprint Structure
-
-The 372-dim fingerprint consists of three segments:
-
-```python
-# The fingerprint structure
-emb_dim = 256    # Ensemble embedding (projected to 256-dim)
-stats_dim = 16   # Lexical and temporal statistics
-cvec_dim = 100   # TF-IDF topic keyword vector
-
-embedding = fingerprint[:emb_dim]        # [0:256]
-stats = fingerprint[emb_dim:emb_dim+stats_dim]  # [256:272]
-cvec = fingerprint[emb_dim+stats_dim:]   # [272:372]
-
-print(f"Embedding segment: {embedding.shape}, "
-      f"mean={embedding.mean():.4f}, std={embedding.std():.4f}")
-print(f"Statistics segment: {stats.shape}, "
-      f"mean={stats.mean():.4f}, std={stats.std():.4f}")
-print(f"Topic vector segment: {cvec.shape}, "
-      f"mean={cvec.mean():.4f}, std={cvec.std():.4f}")
-```
-
-**Output**:
-```
-Embedding segment: (256,), mean=0.0018, std=0.1952
-Statistics segment: (16,), mean=0.0245, std=0.0876
-Topic vector segment: (100,), mean=0.0061, std=0.1243
-```
-
-### 2.3 Lexical Feature Extraction
-
-```python
-from AnubisX.shared.stylometry_core import StylometryEngine
-
-engine = StylometryEngine()
-
-# Extract lexical features directly
-lexical = engine.lexical_features(tweets)
-
-print("Lexical Features:")
-print(f"  Type-Token Ratio (TTR):          {lexical['ttr']:.4f}")
-print(f"  Average Word Length:              {lexical['avg_word_len']:.4f}")
-print(f"  Punctuation Ratio:                {lexical['punct_ratio']:.4f}")
-print(f"  Emoji Ratio:                      {lexical['emoji_ratio']:.4f}")
-print(f"  Top 100 3-grams coverage:         {lexical['char_3grams_top100']:.2f}%")
-print(f"  Top 50 most words coverage:       {lexical['most_words_top50']:.2f}%")
-print(f"  Burstiness:                       {lexical.get('burstiness', 'N/A')}")
-print(f"  Hour Entropy:                     {lexical.get('hour_entropy', 'N/A')}")
-```
-
-**Output**:
-```
-Lexical Features:
-  Type-Token Ratio (TTR):          0.8947
-  Average Word Length:              4.2315
-  Punctuation Ratio:                0.0421
-  Emoji Ratio:                      0.0032
-  Top 100 3-grams coverage:        62.45%
-  Top 50 most words coverage:      38.21%
-  Burstiness:                       N/A (no valid timestamps)
-  Hour Entropy:                     N/A (no valid timestamps)
-```
+Lexical features extracted include lexical diversity (type-token ratio), average word length, punctuation usage ratio, emoji usage ratio, character n-gram coverage, and frequent word coverage. Temporal features such as burstiness and hourly activity entropy require timestamp metadata.
 
 ---
 
-## 3. Searching with FAISS
+## 3. Similarity Search
 
-### 3.1 Building a FAISS Index
+### 3.1 Index Construction
 
-```python
-import faiss
-import numpy as np
-import sqlite3
+The framework employs vector indexing methods to enable efficient similarity search across a database of reference fingerprints. Fingerprints are normalized and indexed, allowing rapid retrieval of the most similar profiles to a given query.
 
-# Load fingerprints from database
-conn = sqlite3.connect("twitter_egypt.db")
-cursor = conn.cursor()
+### 3.2 Search Procedure
 
-cursor.execute("SELECT user_id, fingerprint FROM users WHERE fingerprint IS NOT NULL")
-rows = cursor.fetchall()
+A query fingerprint is compared against the indexed database, returning a ranked list of the most similar reference profiles with associated similarity scores. The self-match score and the ratio between the top and second match provide indicators of discriminability.
 
-user_ids = []
-fingerprints = []
+### 3.3 Performance Considerations
 
-for user_id, fp_blob in rows:
-    fp = np.frombuffer(fp_blob, dtype=np.float64)
-    user_ids.append(user_id)
-    fingerprints.append(fp)
-
-fingerprints = np.array(fingerprints).astype(np.float32)
-print(f"Loaded {len(user_ids)} users, each with {fingerprints.shape[1]}-dim vectors")
-
-# Build FAISS index (Inner Product = cosine if vectors are normalized)
-dim = fingerprints.shape[1]
-index = faiss.IndexFlatIP(dim)
-index.add(fingerprints)
-
-print(f"Index size: {index.ntotal} vectors")
-print(f"Index dimension: {d}")
-```
-
-**Output**:
-```
-Loaded 31 users, each with 372-dim vectors
-Index size: 31 vectors
-Index dimension: 372
-```
-
-### 3.2 Searching the Index
-
-```python
-import numpy as np
-import faiss
-
-# Search for the most similar users to a query fingerprint
-query_fp = fingerprint.astype(np.float32).reshape(1, -1)
-
-k = 5  # Return top 5 matches
-scores, indices = index.search(query_fp, k)
-
-print("Top 5 Similar Users:")
-print("-" * 50)
-for i, (score, idx) in enumerate(zip(scores[0], indices[0])):
-    print(f"  {i+1}. User {user_ids[idx]:>8}  |  Cosine Similarity: {score:.4f}")
-
-# The self-match should have the highest score
-print(f"\nSelf-match score: {scores[0][0]:.4f}")
-print(f"Second match score: {scores[0][1]:.4f}")
-print(f"Score ratio (1st/2nd): {scores[0][0] / scores[0][1]:.2f}x")
-```
-
-**Output**:
-```
-Top 5 Similar Users:
---------------------------------------------------
-  1. User     user_003  |  Cosine Similarity: 0.8472
-  2. User     user_017  |  Cosine Similarity: 0.4215
-  3. User     user_009  |  Cosine Similarity: 0.3987
-  4. User     user_025  |  Cosine Similarity: 0.3741
-  5. User     user_011  |  Cosine Similarity: 0.3512
-
-Self-match score: 0.8472
-Second match score: 0.4215
-Score ratio (1st/2nd): 2.01x
-```
-
-### 3.3 Benchmarking Search Performance
-
-```python
-import time
-import numpy as np
-import faiss
-
-# Benchmark search latency
-n_queries = 1000
-dummy_queries = np.random.randn(n_queries, dim).astype(np.float32)
-
-# Normalize for cosine
-faiss.normalize_L2(dummy_queries)
-
-# Warmup
-_ = index.search(dummy_queries[:10], 5)
-
-# Timed search
-start = time.perf_counter()
-all_scores, all_indices = index.search(dummy_queries, 5)
-elapsed = time.perf_counter() - start
-
-avg_time = elapsed / n_queries * 1e6  # microseconds
-
-print(f"Search benchmark ({n_queries} queries):")
-print(f"  Total time: {elapsed*1000:.2f} ms")
-print(f"  Avg per query: {avg_time:.1f} us")
-print(f"  Throughput: {n_queries/elapsed:.0f} queries/second")
-```
-
-**Output**:
-```
-Search benchmark (1000 queries):
-  Total time: 16.34 ms
-  Avg per query: 16.3 us
-  Throughput: 61199 queries/second
-```
+Search latency depends on the indexing method, database size, and feature dimensionality. The framework supports multiple indexing strategies optimized for different scale requirements.
 
 ---
 
-## 4. Verifying an Egyptian Account
+## 4. Demographic Analysis
 
-### 4.1 Single Account Verification
+### 4.1 Single Account Assessment
 
-```python
-from AnubisX.shared.egyptian_verifier import EgyptianAccountVerifier
+The framework provides methodology for assessing demographic characteristics based on linguistic and cultural indicators in user-generated content. The assessment considers multiple signal layers including biographical information, content analysis, and cultural keyword detection.
 
-verifier = EgyptianAccountVerifier()
+### 4.2 Batch Assessment
 
-# Sample account bio and posts
-account_data = {
-    "bio": "مهندس مصري من القاهرة | عاشق للتكنولوجيا والبرمجة",
-    "posts": [
-        "صباح الخير يا باشا النهاردة يوم جديد",
-        "القهوة والبرمجة أحلى صحبة",
-        "حد عنده فكرة عن أحسن لابتوب للبرمجة؟",
-        "مستني الإفطار النهاردة بفارغ الصبر",
-        "الثورة التكنولوجية في مصر بدأت بجد",
-    ]
-}
-
-score, details = verifier.calculate_egypt_score(
-    bio=account_data["bio"],
-    posts=account_data["posts"]
-)
-
-print(f"Egyptian Score: {score:.2f}")
-print(f"Verification: {'PASS' if score >= 0.7 else 'FAIL'}")
-print(f"\nScore Breakdown:")
-print(f"  Bio Layer: {details.get('bio_score', 0):.2f}")
-print(f"  Posts Layer: {details.get('posts_score', 0):.2f}")
-print(f"  Slang Density: {details.get('slang_density', 0):.3f}")
-print(f"  Location Indicators: {details.get('location_count', 0)}")
-print(f"  Cultural Keywords: {details.get('keyword_count', 0)}")
-print(f"  Bonuses Applied: {details.get('bonuses', [])}")
-```
-
-**Output**:
-```
-Egyptian Score: 0.87
-Verification: PASS
-
-Score Breakdown:
-  Bio Layer: 0.60
-  Posts Layer: 0.21
-  Slang Density: 0.142
-  Location Indicators: 3
-  Cultural Keywords: 7
-  Bonuses Applied: ['fast_pass_location', 'multi_layer_agreement']
-```
-
-### 4.2 Batch Account Verification
-
-```python
-from AnubisX.shared.egyptian_verifier import EgyptianAccountVerifier
-
-verifier = EgyptianAccountVerifier()
-
-accounts = [
-    {"id": "user_001", "bio": "محاسب مصري", "posts": ["كده كده احنا في خير", "ربنا معاك"]},
-    {"id": "user_002", "bio": "Software engineer | Coffee lover", "posts": ["Hello world", "Just another day"]},
-    {"id": "user_003", "bio": "طالب في كلية الهندسة", "posts": ["امتحانات finally", "كليه صعبه بس نتعلم"]},
-]
-
-for account in accounts:
-    score, details = verifier.calculate_egypt_score(
-        bio=account["bio"],
-        posts=account["posts"]
-    )
-    status = "EGYPTIAN" if score >= 0.7 else "NON_EGYPTIAN"
-    print(f"  {account['id']}: Score={score:.2f} -> {status}")
-```
-
-**Output**:
-```
-  user_001: Score=0.85 -> EGYPTIAN
-  user_002: Score=0.12 -> NON_EGYPTIAN
-  user_003: Score=0.78 -> EGYPTIAN
-```
+Multiple accounts can be assessed programmatically, with each account receiving a demographic affinity score based on the convergence of independent cultural and linguistic indicators.
 
 ---
 
-## 5. Running the Full Pipeline
+## 5. Full Processing Pipeline
 
-### 5.1 End-to-End Pipeline
+### 5.1 End-to-End Pipeline Concept
 
-```python
-# Full pipeline execution (pseudocode)
-# Assumes raw Twitter JSON data is available
+The complete processing pipeline involves:
+1. Data ingestion from platform-specific sources
+2. Fingerprint extraction from raw behavioral data
+3. Index construction for similarity search
+4. Query processing and similarity retrieval
 
-from AnubisX.twitter.vector.pipeline import TwitterPipeline
+### 5.2 Pipeline Output
 
-pipeline = TwitterPipeline()
-
-# Step 1: Ingest raw data and generate fingerprints
-pipeline.ingest_and_fingerprint()
-
-# Step 2: Build FAISS index
-pipeline.build_index()
-
-# Step 3: Search for similar users
-query_user = "user_003"
-results = pipeline.search(query_user, k=10)
-
-print(f"Search results for {query_user}:")
-for match in results:
-    print(f"  {match['user_id']}: similarity={match['score']:.4f}")
-```
-
-### 5.2 Pipeline Output Example
-
-```
-Ingesting raw data... 31 users found
-Processing user_001... fingerprint ready (372-dim)
-Processing user_002... fingerprint ready (372-dim)
-...
-Processing user_031... fingerprint ready (372-dim)
-All fingerprints stored in database
-
-Building FAISS index... done (31 vectors, 372 dimensions)
-
-Search results for user_003:
-  user_003: similarity=1.0000 (self-match)
-  user_017: similarity=0.4215
-  user_009: similarity=0.3987
-  user_025: similarity=0.3741
-  user_011: similarity=0.3512
-```
+The pipeline produces similarity rankings, enabling identification of the most behaviorally similar accounts in the reference database.
 
 ---
 
-## 6. Example Outputs with Real Data
+## 6. Statistical Properties
 
 ### 6.1 Cross-User Similarity Distribution
 
-Based on the 31 Egyptian Twitter accounts:
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Histogram of pairwise cross-user cosine similarities
-# Actual data from the 31-user experiment
-np.random.seed(42)
-
-# Simulated distribution matching observed statistics
-n_users = 31
-n_pairs = n_users * (n_users - 1) // 2
-cross_sims = np.random.normal(0.26, 0.12, n_pairs)
-cross_sims = np.clip(cross_sims, -0.2, 0.8)
-
-print(f"Cross-user similarity statistics:")
-print(f"  Mean:     {cross_sims.mean():.3f}")
-print(f"  Median:   {np.median(cross_sims):.3f}")
-print(f"  Std:      {cross_sims.std():.3f}")
-print(f"  Min:      {cross_sims.min():.3f}")
-print(f"  Max:      {cross_sims.max():.3f}")
-print(f"  95th percentile: {np.percentile(cross_sims, 95):.3f}")
-```
-
-**Output**:
-```
-Cross-user similarity statistics:
-  Mean:     0.262
-  Median:   0.258
-  Std:      0.120
-  Min:     -0.152
-  Max:      0.784
-  95th percentile: 0.487
-```
+Analysis of pairwise similarity scores across a population reveals the baseline discriminability of the feature space. The distribution characteristics (mean, spread, range) inform confidence calibration and threshold selection.
 
 ### 6.2 Feature Vector Statistics
 
-```python
-# Statistics from the actual 372-dim fingerprint
-fingerprint_stats = {
-    "dimension": 372,
-    "embedding_component": 256,
-    "stats_component": 16,
-    "topic_component": 100,
-    "mean_value": 0.0032,
-    "std_value": 0.1847,
-    "nonzero_ratio": 0.987,
-}
-
-print("Fingerprint Component Statistics:")
-print(f"  Total dimensions:  {fingerprint_stats['dimension']}")
-print(f"  Embedding:         {fingerprint_stats['embedding_component']} dim")
-print(f"  Statistics:         {fingerprint_stats['stats_component']} dim")
-print(f"  Topic vector:      {fingerprint_stats['topic_component']} dim")
-print(f"  Mean feature value: {fingerprint_stats['mean_value']:.4f}")
-print(f"  Feature std:        {fingerprint_stats['std_value']:.4f}")
-print(f"  Nonzero ratio:      {fingerprint_stats['nonzero_ratio']:.1%}")
-```
+Feature vector statistics such as component-wise means, standard deviations, and sparsity provide insight into the information content and stability of the fingerprint representation.
 
 ---
 
 ## 7. Case Study Walkthroughs
 
-### 7.1 Cross-Account Linking via Stylometry (Case Study CASE-TW-001)
+### 7.1 Cross-Account Linking via Stylometry
 
-**Scenario**: An investigator suspects that two Twitter accounts (@account_a and @account_b) are operated by the same individual.
+**Scenario**: An investigator suspects that two accounts are operated by the same individual based on behavioral evidence.
 
 **Approach**:
-1. Collect tweets from both accounts
-2. Extract 372-dim stylometric fingerprints
-3. Compute cosine similarity
-4. Compare against cross-user baseline distribution
+1. Collect samples from both accounts
+2. Extract behavioral fingerprints
+3. Compute similarity between fingerprints
+4. Compare against the population baseline distribution
 
-```python
-# Walkthrough of CASE-TW-001
-engine = StylometryEngine()
+**Interpretation**: A similarity score significantly above the population mean provides evidence supporting the same-operator hypothesis. The strength of evidence is quantified using the likelihood ratio framework.
 
-tweets_a = [...]  # 50+ tweets from account A
-tweets_b = [...]  # 50+ tweets from account B
+### 7.2 Style-Shift Detection
 
-fp_a = engine.build_user_vector(tweets_a)
-fp_b = engine.build_user_vector(tweets_b)
+**Scenario**: An account suddenly exhibits a change in behavioral patterns. Potential explanations include account takeover, deliberate obfuscation, or natural topic/context variation.
 
-# Compute cosine similarity
-cos_sim = np.dot(fp_a, fp_b) / (np.linalg.norm(fp_a) * np.linalg.norm(fp_b))
+**Approach**:
+1. Split the account history into temporal segments
+2. Extract fingerprints for each segment
+3. Compute within-account temporal similarity
+4. Assess whether the change exceeds expected variation
 
-print(f"Cross-account cosine similarity: {cos_sim:.4f}")
-print(f"Mean cross-user similarity: 0.262")
-print(f"Difference from mean: {cos_sim - 0.262:+.4f}")
-
-# Interpretation
-if cos_sim > 0.5:
-    print("Conclusion: Strong evidence for same-operator hypothesis")
-elif cos_sim > 0.35:
-    print("Conclusion: Moderate evidence — further analysis recommended")
-else:
-    print("Conclusion: Insufficient evidence for linking")
-```
-
-**Expected output**:
-```
-Cross-account cosine similarity: 0.6831
-Mean cross-user similarity: 0.262
-Difference from mean: +0.4211
-Conclusion: Strong evidence for same-operator hypothesis
-```
-
-### 7.2 Style-Shift Detection (Case Study CASE-TW-004)
-
-**Scenario**: An account suddenly changes its writing style. Is this intentional obfuscation or a different user?
-
-```python
-engine = StylometryEngine()
-
-# Split account history into two periods
-early_tweets = [...]   # First 30 tweets
-recent_tweets = [...]  # Last 30 tweets
-
-fp_early = engine.build_user_vector(early_tweets)
-fp_recent = engine.build_user_vector(recent_tweets)
-
-# Compute within-account similarity across time
-style_sim = np.dot(fp_early, fp_recent) / (
-    np.linalg.norm(fp_early) * np.linalg.norm(fp_recent)
-)
-
-print(f"Temporal within-account similarity: {style_sim:.4f}")
-
-# Typical within-account similarity should be 0.7-0.9
-if style_sim < 0.5:
-    print("SIGNIFICANT STYLE SHIFT DETECTED")
-    print("Possible explanations:")
-    print("  1. Account takeover by different operator")
-    print("  2. Deliberate obfuscation (style-shifting)")
-    print("  3. Significant topic/context change")
-elif style_sim < 0.7:
-    print("MODERATE STYLE VARIATION")
-    print("Monitor for further changes")
-else:
-    print("Style consistent — expected temporal variation")
-```
+**Interpretation**: A significant drop in temporal similarity may indicate a change in operator. However, topic shifts, learning effects, and deliberate obfuscation must be distinguished through multi-modal analysis.
 
 ---
 
@@ -532,48 +130,14 @@ else:
 
 ### 8.1 Minimum Requirements
 
-To extract a stylometric fingerprint, you need:
-- **Minimum 10 tweets** (50+ recommended)
-- **Text content** in Arabic, English, or mixed
-- **UTF-8 encoding** for non-Latin scripts
+For stylometric fingerprinting, the framework requires:
+- Sufficient text content for reliable feature extraction
+- UTF-8 encoded text data
+- Metadata (timestamps, interaction data) for temporal and network modalities
 
 ### 8.2 Quick Start
 
-```python
-from AnubisX.shared.stylometry_core import StylometryEngine
-import json
-
-# Load your data
-with open("my_data.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
-
-# Extract text content
-tweets = [item["text"] for item in data if item.get("text")]
-
-print(f"Loaded {len(tweets)} tweets")
-
-# Create fingerprint
-engine = StylometryEngine()
-fingerprint = engine.build_user_vector(tweets)
-
-print(f"Fingerprint created: {fingerprint.shape[0]} dimensions")
-
-# Save fingerprint for later use
-np.save("my_fingerprint.npy", fingerprint)
-print("Fingerprint saved to my_fingerprint.npy")
-```
-
----
-
-## 9. Cross-References
-
-| Document | Path |
-|---|---|
-| Framework Guide | [Framework_Guide.md](Framework_Guide.md) |
-| Architecture | [Architecture.md](Architecture.md) |
-| Algorithms | [Algorithms.md](Algorithms.md) |
-| Theory Guide | [Theory_Guide.md](Theory_Guide.md) |
-| Case Studies | [Papers/Paper_06_Case_Studies.md](../../Papers/Paper_06_Case_Studies.md) |
+The prototype provides methods for loading data, extracting fingerprints, and saving results for later analysis. Refer to the source code repository for detailed API documentation and usage examples.
 
 ---
 
@@ -588,6 +152,11 @@ print("Fingerprint saved to my_fingerprint.npy")
 **Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
 
 **DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
@@ -595,6 +164,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-*Version: 1.0*
-
-

@@ -6,9 +6,14 @@
 
 ## Official DOI
 
-DOI: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
-This release is permanently archived on Zenodo under DOI: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+This release is permanently archived on Zenodo and Figshare.
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
 
 ---
 
@@ -27,33 +32,23 @@ Where:
 
 ### Interpretation
 
-| LR Range | Evidence Strength |
-|---|---|
-| LR > 100 | Very strong support for same-source |
-| 10 < LR ≤ 100 | Strong support for same-source |
-| 3 < LR ≤ 10 | Moderate support for same-source |
-| 1 < LR ≤ 3 | Limited support for same-source |
-| LR = 1 | No support for either hypothesis |
-| 0.33 < LR < 1 | Limited support for different-source |
-| 0.1 < LR ≤ 0.33 | Moderate support for different-source |
-| 0.01 < LR ≤ 0.1 | Strong support for different-source |
-| LR ≤ 0.01 | Very strong support for different-source |
+The LR framework provides a continuous scale of evidential strength. Values significantly greater than 1 support the same-source hypothesis; values significantly less than 1 support the different-source hypothesis. The exact verbal scale follows established forensic science conventions (Aitken & Taroni, 2004; Evett, 1998).
 
 ## 2. Evidence Weighting
 
-Each piece of evidence is weighted along three dimensions before fusion:
+Each piece of evidence is weighted along qualitative dimensions before fusion:
 
-- **Quality (Q)**: Intrinsic reliability of the evidence source
-- **Relevance (R)**: Contextual applicability to the attribution question
-- **Recency (T)**: Temporal degradation of evidence value
+- **Quality**: Intrinsic reliability of the evidence source
+- **Relevance**: Contextual applicability to the attribution question
+- **Recency**: Temporal degradation of evidence value
 
 ## 3. Multi-Modal Fusion
 
-Fused LR combines weighted LRs from all five modalities using Dempster-Shafer Theory, producing a combined LR that accounts for inter-modality dependencies and conflicts.
+Fused LR combines weighted LRs from all modalities, producing a combined LR that accounts for inter-modality dependencies and conflicts. The fusion methodology is grounded in Dempster-Shafer Theory.
 
 ## 4. Attribution Standards
 
-- **Inconclusive outcomes**: Where LR is close to 1 or data is insufficient, the conclusion is marked inconclusive (DP-ATR-004)
+- **Inconclusive outcomes**: Where the LR is close to unity or data is insufficient, the conclusion is marked inconclusive
 - **Sensitivity analysis**: Conclusions are tested against reasonable variations in prior assumptions
 - **Uncertainty bounds**: LR estimates include confidence intervals
 
@@ -70,6 +65,11 @@ Fused LR combines weighted LRs from all five modalities using Dempster-Shafer Th
 **Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
 
 **DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**Figshare**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
+
+**Website**: [https://anubisxframework.github.io](https://anubisxframework.github.io)
+**Contact**: anubisxframework@gmail.com
+**Mirror**: [https://anubisxframework.nullc0d3.workers.dev](https://anubisxframework.nullc0d3.workers.dev)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
@@ -77,5 +77,3 @@ Original documentation, framework design, algorithms, source code, diagrams, and
 ---
 
 *Classification: PUBLIC (C0)*
-
-

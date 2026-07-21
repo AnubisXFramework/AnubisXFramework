@@ -54,29 +54,11 @@ CC BY 4.0
 
 ### Attribution in Derivative Works
 
-If you create a derivative work (implementation, extension, adaptation), include:
-
+If you create a derivative work, include:
 1. A reference to the original AnubisX Framework
 2. A statement that your work is a derivative
 3. A description of changes made
 4. The CC BY 4.0 license notice
-
----
-
-## Classification System
-
-Documents in this repository are classified according to the C0—C4 system as defined in FILE_CLASSIFICATION_POLICY.md:
-
-| Level | Name | Access | Can Include in Derivative Works? |
-|---|---|---|---|
-| C0 | PUBLIC | Anyone | Yes, with attribution |
-| C1 | INTERNAL | Research team | Not for public distribution |
-| C3 | RESTRICTED | Named researchers | Not for public distribution |
-| C4 | IP_PROTECTED | Legal/IP review | Not for public distribution |
-
-**Important**: Only C0 (PUBLIC) documents are covered by the CC BY 4.0 license for redistribution. Other classifications contain internal or proprietary content.
-
-**Source**: FILE_CLASSIFICATION_POLICY.md
 
 ---
 
@@ -88,12 +70,11 @@ This repository may reference or incorporate third-party content. Such content r
 
 ## Commercial Use
 
-CC BY 4.0 permits commercial use. If you incorporate the framework into a commercial product or service, attribution is required. No additional permission is needed.
+CC BY 4.0 permits commercial use. If you incorporate the framework into a commercial product or service, attribution is required.
 
 ### Implementation License
 
-Implementations of the AnubisX Framework specifications (code, software libraries, tools) may be licensed under terms chosen by the implementer, as long as:
-
+Implementations of the AnubisX Framework specifications may be licensed under terms chosen by the implementer, as long as:
 1. Attribution to the original framework is maintained
 2. The implementation does not misrepresent itself as the original framework
 3. Any modifications or extensions are clearly documented
@@ -103,30 +84,19 @@ Implementations of the AnubisX Framework specifications (code, software librarie
 ## Frequently Asked Questions
 
 ### Can I use this in my research?
-
-Yes. CC BY 4.0 covers research use. Cite as specified above.
+Yes. CC BY 4.0 covers research use.
 
 ### Can I build commercial software based on this?
-
-Yes. CC BY 4.0 permits commercial use. Attribute the framework in your documentation.
+Yes. CC BY 4.0 permits commercial use.
 
 ### Can I incorporate parts into my own framework?
-
-Yes, with attribution. You must clearly indicate what is derived from the AnubisX Framework.
-
-### Do I need permission for patent applications?
-
-The framework specification itself is open. If your implementation contains novel inventions, standard patent law applies. The CC BY 4.0 license does not grant patent rights to the framework authors' own patents (see IP/ directory for registered IP assets).
-
-### What about the reference book "You Can Hide Your Name... Not Your Mind"?
-
-The reference book included in this repository has a separate copyright notice. Contact the repository maintainers for licensing inquiries regarding the book.
+Yes, with attribution.
 
 ---
 
 ## Contact
 
-For licensing questions not covered here, please open an issue on GitHub or contact the project maintainers.
+For licensing questions, please contact **anubisxframework@gmail.com** or open an issue on GitHub.
 
 ---
 
@@ -134,17 +104,19 @@ For licensing questions not covered here, please open an issue on GitHub or cont
 **Primary Author**: Ahmed Awad (NullC0d3)  
 **Author Profile**: https://www.linkedin.com/in/nullc0d3/  
 **ORCID**: https://orcid.org/0009-0005-0654-3393  
+**Website**: https://anubisxframework.github.io  
+**Mirror**: https://anubisxframework.nullc0d3.workers.dev  
+**Contact**: anubisxframework@gmail.com  
 **Original Framework**: Ahmed Awad (NullC0d3)  
 **Original Research**: Ahmed Awad (NullC0d3)  
-**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)  
+**Repository**: [https://github.com/AnubisXFramework/AnubisXFramework](https://github.com/AnubisXFramework/AnubisXFramework)
 
 **Copyright** © 2026 Ahmed Awad (NullC0d3). All rights reserved.  
 Original documentation, framework design, algorithms, source code, diagrams, and repository structure are the intellectual work of Ahmed Awad (NullC0d3), unless otherwise indicated. Third-party software, libraries, datasets, and referenced works remain the property of their respective owners and are governed by their own licenses.
 
-**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)
+**DOI**: [https://doi.org/10.5281/zenodo.21446923](https://doi.org/10.5281/zenodo.21446923)  
+**Figshare DOI**: [https://doi.org/10.6084/m9.figshare.33028817](https://doi.org/10.6084/m9.figshare.33028817)
 
 ---
 
 *Classification: PUBLIC (C0)*
-
-
